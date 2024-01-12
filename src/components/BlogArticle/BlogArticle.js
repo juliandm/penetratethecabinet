@@ -14,21 +14,30 @@ import {
   // SidebarNewsletter,
   SimilarStories,
 } from "./components";
+import { useLocation } from "react-router-dom";
+import companies from "../../data/companies.json";
+import people from "../../data/people.json";
 
 const BlogArticle = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true,
   });
-
+  // get path from router
+  const { pathname } = useLocation();
+  // extract id from path
+  const type = pathname.split("/")[1];
+  const id = pathname.split("/").pop();
+  const baseFile = type === "company" ? companies : people;
+  const data = baseFile.find((item) => item.id === id);
   return (
     <Main colorInvert={true}>
       <Box>
-        <Hero />
+        <Hero data={data} />
         <Container>
           <Grid container spacing={4}>
             <Grid item xs={12} md={8}>
-              <Content />
+              <Content data={data} />
             </Grid>
             <Grid item xs={12} md={4}>
               {isMd ? (

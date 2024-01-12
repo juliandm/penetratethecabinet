@@ -7,7 +7,7 @@ import Avatar from "@mui/material/Avatar";
 
 import Container from "../../../Container";
 
-const Hero = () => {
+const Hero = ({ data }) => {
   useEffect(() => {
     const jarallaxInit = async () => {
       const jarallaxElems = document.querySelectorAll(".jarallax");
@@ -28,7 +28,7 @@ const Hero = () => {
       data-jarallax
       data-speed="0.2"
       position={"relative"}
-      minHeight={{ xs: 400, sm: 500, md: 600 }}
+      minHeight={{ xs: 400, sm: 500, md: 500 }}
       display={"flex"}
       marginTop={-13}
       paddingTop={13}
@@ -77,13 +77,13 @@ const Hero = () => {
               marginBottom: 2,
             }}
           >
-            Remote work is the future, but should you go remote?
+            {data.name}
           </Typography>
           <Box display={"flex"} alignItems={"center"}>
-            <Avatar
+            {/* <Avatar
               sx={{ width: 60, height: 60, marginRight: 2 }}
               src={"https://assets.maccarianagency.com/avatars/img3.jpg"}
-            />
+            /> */}
             <ListItemText
               sx={{ margin: 0 }}
               primary={"Jhon Anderson"}

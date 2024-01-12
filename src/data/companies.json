@@ -1,4290 +1,5362 @@
 [
   {
     "name": "3YOURMIND",
-    "url": "/organizations/3yourmind/"
+    "url": "/organizations/3yourmind/",
+    "id": "3yourmind"
   },
   {
     "name": "A.P. M\u00f8ller-Maersk",
-    "url": "/organizations/a-p-moller-maersk-a-s/"
+    "url": "/organizations/a-p-moller-maersk-a-s/",
+    "id": "a.p.-m\u00f8ller-maersk"
   },
   {
     "name": "AAK",
-    "url": "/organizations/aak/"
+    "url": "/organizations/aak/",
+    "id": "aak"
   },
   {
     "name": "ABB",
-    "url": "/organizations/abb-ltd/"
+    "url": "/organizations/abb-ltd/",
+    "id": "abb"
   },
   {
     "name": "Abbott Laboratories",
-    "url": "/organizations/abbott-laboratories/"
+    "url": "/organizations/abbott-laboratories/",
+    "id": "abbott-laboratories"
   },
   {
     "name": "Abdul Latif Jameel",
-    "url": "/organizations/abdul-latif-jameel/"
+    "url": "/organizations/abdul-latif-jameel/",
+    "id": "abdul-latif-jameel"
   },
   {
     "name": "ABN AMRO",
-    "url": "/organizations/abn-amro-bank/"
+    "url": "/organizations/abn-amro-bank/",
+    "id": "abn-amro"
   },
   {
     "name": "Absa Group",
-    "url": "/organizations/barclays-africa-group-limited/"
+    "url": "/organizations/barclays-africa-group-limited/",
+    "id": "absa-group"
   },
   {
     "name": "Abu Dhabi National Energy Company (TAQA)",
-    "url": "/organizations/abu-dhabi-national-energy-company-taqa/"
+    "url": "/organizations/abu-dhabi-national-energy-company-taqa/",
+    "id": "abu-dhabi-national-energy-company-(taqa)"
   },
   {
     "name": "Abu Dhabi National Oil Company (ADNOC)",
-    "url": "/organizations/abu-dhabi-national-oil-company-adnoc/"
+    "url": "/organizations/abu-dhabi-national-oil-company-adnoc/",
+    "id": "abu-dhabi-national-oil-company-(adnoc)"
   },
   {
     "name": "Accenture",
-    "url": "/organizations/accenture/"
+    "url": "/organizations/accenture/",
+    "id": "accenture"
   },
   {
     "name": "Acciona",
-    "url": "/organizations/acciona-sa/"
+    "url": "/organizations/acciona-sa/",
+    "id": "acciona"
   },
   {
     "name": "Acea",
-    "url": "/organizations/acea/"
+    "url": "/organizations/acea/",
+    "id": "acea"
   },
   {
     "name": "Ackermans & van Haaren",
-    "url": "/organizations/ackermans-van-haaren/"
+    "url": "/organizations/ackermans-van-haaren/",
+    "id": "ackermans-&-van-haaren"
   },
   {
     "name": "ACWA Power",
-    "url": "/organizations/acwa-power/"
+    "url": "/organizations/acwa-power/",
+    "id": "acwa-power"
   },
   {
     "name": "Adani Group",
-    "url": "/organizations/adani-ports-and-special-economic-zone-limited-apsez/"
+    "url": "/organizations/adani-ports-and-special-economic-zone-limited-apsez/",
+    "id": "adani-group"
   },
   {
     "name": "Adecco Group",
-    "url": "/organizations/adecco-group/"
+    "url": "/organizations/adecco-group/",
+    "id": "adecco-group"
   },
   {
     "name": "Aditya Birla Group",
-    "url": "/organizations/aditya-birla-group/"
+    "url": "/organizations/aditya-birla-group/",
+    "id": "aditya-birla-group"
   },
   {
     "name": "Adobe",
-    "url": "/organizations/adobe-systems-inc/"
+    "url": "/organizations/adobe-systems-inc/",
+    "id": "adobe"
   },
   {
     "name": "ADQ",
-    "url": "/organizations/adq/"
+    "url": "/organizations/adq/",
+    "id": "adq"
   },
   {
     "name": "Advantage Partners",
-    "url": "/organizations/advantage-partners-inc/"
+    "url": "/organizations/advantage-partners-inc/",
+    "id": "advantage-partners"
   },
   {
     "name": "Aegea",
-    "url": "/organizations/aegea/"
+    "url": "/organizations/aegea/",
+    "id": "aegea"
   },
   {
     "name": "Aegon",
-    "url": "/organizations/aegon-nv/"
+    "url": "/organizations/aegon-nv/",
+    "id": "aegon"
   },
   {
     "name": "AES",
-    "url": "/organizations/aes-corporation/"
+    "url": "/organizations/aes-corporation/",
+    "id": "aes"
   },
   {
     "name": "Africa Finance Corporation - AFC",
-    "url": "/organizations/africa-finance-corporation-afc/"
+    "url": "/organizations/africa-finance-corporation-afc/",
+    "id": "africa-finance-corporation---afc"
   },
   {
     "name": "African Development Bank Group",
-    "url": "/organizations/african-development-bank-afdb/"
+    "url": "/organizations/african-development-bank-afdb/",
+    "id": "african-development-bank-group"
   },
   {
     "name": "African Rainbow Minerals",
-    "url": "/organizations/african-rainbow-minerals/"
+    "url": "/organizations/african-rainbow-minerals/",
+    "id": "african-rainbow-minerals"
   },
   {
     "name": "African Risk Capacity (ARC)",
-    "url": "/organizations/african-risk-capacity-arc/"
+    "url": "/organizations/african-risk-capacity-arc/",
+    "id": "african-risk-capacity-(arc)"
   },
   {
     "name": "Agilent",
-    "url": "/organizations/agilent/"
+    "url": "/organizations/agilent/",
+    "id": "agilent"
   },
   {
     "name": "Agility",
-    "url": "/organizations/agility/"
+    "url": "/organizations/agility/",
+    "id": "agility"
   },
   {
     "name": "Agricultural Bank of China",
-    "url": "/organizations/agricultural-bank-of-china/"
+    "url": "/organizations/agricultural-bank-of-china/",
+    "id": "agricultural-bank-of-china"
   },
   {
     "name": "AgroAmerica",
-    "url": "/organizations/agroamerica/"
+    "url": "/organizations/agroamerica/",
+    "id": "agroamerica"
   },
   {
     "name": "AIB Group",
-    "url": "/organizations/aib-group/"
+    "url": "/organizations/aib-group/",
+    "id": "aib-group"
   },
   {
     "name": "AIG",
-    "url": "/organizations/american-international-group-aig/"
+    "url": "/organizations/american-international-group-aig/",
+    "id": "aig"
   },
   {
     "name": "Air Liquide",
-    "url": "/organizations/air-liquide-sa/"
+    "url": "/organizations/air-liquide-sa/",
+    "id": "air-liquide"
   },
   {
     "name": "Airbus Group",
-    "url": "/organizations/airbus/"
+    "url": "/organizations/airbus/",
+    "id": "airbus-group"
   },
   {
     "name": "Airport Authority Hong Kong",
-    "url": "/organizations/airport-authority-hong-kong/"
+    "url": "/organizations/airport-authority-hong-kong/",
+    "id": "airport-authority-hong-kong"
   },
   {
     "name": "Aker",
-    "url": "/organizations/aker-asa/"
+    "url": "/organizations/aker-asa/",
+    "id": "aker"
   },
   {
     "name": "Akselos",
-    "url": "/organizations/akselos-sa/"
+    "url": "/organizations/akselos-sa/",
+    "id": "akselos"
   },
   {
     "name": "Al Fanar",
-    "url": "/organizations/al-fanar-company/"
+    "url": "/organizations/al-fanar-company/",
+    "id": "al-fanar"
   },
   {
     "name": "Al Futtaim Trading Group",
-    "url": "/organizations/al-futtaim-trading-group/"
+    "url": "/organizations/al-futtaim-trading-group/",
+    "id": "al-futtaim-trading-group"
   },
   {
     "name": "Al Nowais Investments",
-    "url": "/organizations/al-nowais-investments/"
+    "url": "/organizations/al-nowais-investments/",
+    "id": "al-nowais-investments"
   },
   {
     "name": "Al Sakr for Food Industries",
-    "url": "/organizations/sakr-group/"
+    "url": "/organizations/sakr-group/",
+    "id": "al-sakr-for-food-industries"
   },
   {
     "name": "Alberta Investment Management Corporation (AIMCo)",
-    "url": "/organizations/alberta-investment-management-corporation-aimco/"
+    "url": "/organizations/alberta-investment-management-corporation-aimco/",
+    "id": "alberta-investment-management-corporation-(aimco)"
   },
   {
     "name": "Aleph Farms",
-    "url": "/organizations/aleph-farms/"
+    "url": "/organizations/aleph-farms/",
+    "id": "aleph-farms"
   },
   {
     "name": "Alesca Life",
-    "url": "/organizations/alesca-life/"
+    "url": "/organizations/alesca-life/",
+    "id": "alesca-life"
   },
   {
     "name": "Algebris Investments",
-    "url": "/organizations/algebris-investments-uk-llp/"
+    "url": "/organizations/algebris-investments-uk-llp/",
+    "id": "algebris-investments"
   },
   {
     "name": "AlGihaz Holding",
-    "url": "/organizations/algihaz/"
+    "url": "/organizations/algihaz/",
+    "id": "algihaz-holding"
   },
   {
     "name": "Alibaba Group",
-    "url": "/organizations/alibaba-group-holding-limited/"
+    "url": "/organizations/alibaba-group-holding-limited/",
+    "id": "alibaba-group"
   },
   {
     "name": "AlixPartners",
-    "url": "/organizations/alixpartners-llp/"
+    "url": "/organizations/alixpartners-llp/",
+    "id": "alixpartners"
   },
   {
     "name": "Allianz",
-    "url": "/organizations/allianz-se/"
+    "url": "/organizations/allianz-se/",
+    "id": "allianz"
   },
   {
     "name": "Allied Bank",
-    "url": "/organizations/allied-bank/"
+    "url": "/organizations/allied-bank/",
+    "id": "allied-bank"
   },
   {
     "name": "Alsara Investment Group",
-    "url": "/organizations/alsara-investment-group/"
+    "url": "/organizations/alsara-investment-group/",
+    "id": "alsara-investment-group"
   },
   {
     "name": "Alshaya Group",
-    "url": "/organizations/alshaya-group/"
+    "url": "/organizations/alshaya-group/",
+    "id": "alshaya-group"
   },
   {
     "name": "Altana AI",
-    "url": "/organizations/altana-ai/"
+    "url": "/organizations/altana-ai/",
+    "id": "altana-ai"
   },
   {
     "name": "Amara Raja Group",
-    "url": "/organizations/amara-raja-group-of-companies/"
+    "url": "/organizations/amara-raja-group-of-companies/",
+    "id": "amara-raja-group"
   },
   {
     "name": "Amazon",
-    "url": "/organizations/amazon-com/"
+    "url": "/organizations/amazon-com/",
+    "id": "amazon"
   },
   {
     "name": "Am\u00e9rica M\u00f3vil",
-    "url": "/organizations/america-movil-sab-de-cv/"
+    "url": "/organizations/america-movil-sab-de-cv/",
+    "id": "am\u00e9rica-m\u00f3vil"
   },
   {
     "name": "American Express Global Business Travel",
-    "url": "/organizations/american-express-global-business-travel/"
+    "url": "/organizations/american-express-global-business-travel/",
+    "id": "american-express-global-business-travel"
   },
   {
     "name": "American Heart Association",
-    "url": "/organizations/american-heart-association/"
+    "url": "/organizations/american-heart-association/",
+    "id": "american-heart-association"
   },
   {
     "name": "American Tower",
-    "url": "/organizations/american-tower-corporation/"
+    "url": "/organizations/american-tower-corporation/",
+    "id": "american-tower"
   },
   {
     "name": "Amogy",
-    "url": "/organizations/amogy/"
+    "url": "/organizations/amogy/",
+    "id": "amogy"
   },
   {
     "name": "AMTD",
-    "url": "/organizations/amtd-group/"
+    "url": "/organizations/amtd-group/",
+    "id": "amtd"
   },
   {
     "name": "ANA Holdings",
-    "url": "/organizations/ana-holdings-inc/"
+    "url": "/organizations/ana-holdings-inc/",
+    "id": "ana-holdings"
   },
   {
     "name": "Analog Devices",
-    "url": "/organizations/analog-devices/"
+    "url": "/organizations/analog-devices/",
+    "id": "analog-devices"
   },
   {
     "name": "Anglo American",
-    "url": "/organizations/anglo-american-plc/"
+    "url": "/organizations/anglo-american-plc/",
+    "id": "anglo-american"
   },
   {
     "name": "Anglobal",
-    "url": "/organizations/anglobal/"
+    "url": "/organizations/anglobal/",
+    "id": "anglobal"
   },
   {
     "name": "Anheuser-Busch InBev",
-    "url": "/organizations/anheuser-busch-inbev-nv/"
+    "url": "/organizations/anheuser-busch-inbev-nv/",
+    "id": "anheuser-busch-inbev"
   },
   {
     "name": "Animoca Brands",
-    "url": "/organizations/animoca-brands/"
+    "url": "/organizations/animoca-brands/",
+    "id": "animoca-brands"
   },
   {
     "name": "Antin Infrastructure Partners",
-    "url": "/organizations/antin-infrastructure-partners-sas/"
+    "url": "/organizations/antin-infrastructure-partners-sas/",
+    "id": "antin-infrastructure-partners"
   },
   {
     "name": "Antora Energy",
-    "url": "/organizations/antora-energy/"
+    "url": "/organizations/antora-energy/",
+    "id": "antora-energy"
   },
   {
     "name": "Aparna Enterprises",
-    "url": "/organizations/aparna-enterprises/"
+    "url": "/organizations/aparna-enterprises/",
+    "id": "aparna-enterprises"
   },
   {
     "name": "APCO Worldwide",
-    "url": "/organizations/apco-worldwide/"
+    "url": "/organizations/apco-worldwide/",
+    "id": "apco-worldwide"
   },
   {
     "name": "Apex-Brasil (Brazilian Trade and Investment Promotion Agency)",
-    "url": "/organizations/apex-brasil-trade-and-investment-promotion-agency/"
+    "url": "/organizations/apex-brasil-trade-and-investment-promotion-agency/",
+    "id": "apex-brasil-(brazilian-trade-and-investment-promotion-agency)"
   },
   {
     "name": "APG Asset Management",
-    "url": "/organizations/apg-asset-management/"
+    "url": "/organizations/apg-asset-management/",
+    "id": "apg-asset-management"
   },
   {
     "name": "Apollo Hospitals Enterprise",
-    "url": "/organizations/apollo-hospitals-entreprise/"
+    "url": "/organizations/apollo-hospitals-entreprise/",
+    "id": "apollo-hospitals-enterprise"
   },
   {
     "name": "Apollo Tyres",
-    "url": "/organizations/apollo-tyres-ltd/"
+    "url": "/organizations/apollo-tyres-ltd/",
+    "id": "apollo-tyres"
   },
   {
     "name": "Apple",
-    "url": "/organizations/apple/"
+    "url": "/organizations/apple/",
+    "id": "apple"
   },
   {
     "name": "aPriori Technologies",
-    "url": "/organizations/apriori-technologies/"
+    "url": "/organizations/apriori-technologies/",
+    "id": "apriori-technologies"
   },
   {
     "name": "Aramco",
-    "url": "/organizations/saudi-aramco/"
+    "url": "/organizations/saudi-aramco/",
+    "id": "aramco"
   },
   {
     "name": "ArcelorMittal",
-    "url": "/organizations/arcelormittal/"
+    "url": "/organizations/arcelormittal/",
+    "id": "arcelormittal"
   },
   {
     "name": "Archer Materials",
-    "url": "/organizations/archer-materials/"
+    "url": "/organizations/archer-materials/",
+    "id": "archer-materials"
   },
   {
     "name": "Ariston Group",
-    "url": "/organizations/ariston-thermo-spa/"
+    "url": "/organizations/ariston-thermo-spa/",
+    "id": "ariston-group"
   },
   {
     "name": "Arup Group",
-    "url": "/organizations/arup-group-ltd/"
+    "url": "/organizations/arup-group-ltd/",
+    "id": "arup-group"
   },
   {
     "name": "Asia World Group",
-    "url": "/organizations/asia-world-group/"
+    "url": "/organizations/asia-world-group/",
+    "id": "asia-world-group"
   },
   {
     "name": "ASIMCO Technology",
-    "url": "/organizations/asimco-technology/"
+    "url": "/organizations/asimco-technology/",
+    "id": "asimco-technology"
   },
   {
     "name": "Asistensi",
-    "url": "/organizations/asistensi/"
+    "url": "/organizations/asistensi/",
+    "id": "asistensi"
   },
   {
     "name": "ASO Corporation",
-    "url": "/organizations/aso-corporation/"
+    "url": "/organizations/aso-corporation/",
+    "id": "aso-corporation"
   },
   {
     "name": "Aster DM Healthcare",
-    "url": "/organizations/aster-dm-healthcare/"
+    "url": "/organizations/aster-dm-healthcare/",
+    "id": "aster-dm-healthcare"
   },
   {
     "name": "Astra International",
-    "url": "/organizations/astra-international/"
+    "url": "/organizations/astra-international/",
+    "id": "astra-international"
   },
   {
     "name": "Astranis",
-    "url": "/organizations/astranis/"
+    "url": "/organizations/astranis/",
+    "id": "astranis"
   },
   {
     "name": "AstraZeneca",
-    "url": "/organizations/astrazeneca/"
+    "url": "/organizations/astrazeneca/",
+    "id": "astrazeneca"
   },
   {
     "name": "AtkinsR\u00e9alis",
-    "url": "/organizations/snc-lavalin-group-inc/"
+    "url": "/organizations/snc-lavalin-group-inc/",
+    "id": "atkinsr\u00e9alis"
   },
   {
     "name": "Augury",
-    "url": "/organizations/augury/"
+    "url": "/organizations/augury/",
+    "id": "augury"
   },
   {
     "name": "Aurec Capital Group",
-    "url": "/organizations/aurec-capital-group/"
+    "url": "/organizations/aurec-capital-group/",
+    "id": "aurec-capital-group"
   },
   {
     "name": "Aurobindo Pharma",
-    "url": "/organizations/aurobindo-pharma/"
+    "url": "/organizations/aurobindo-pharma/",
+    "id": "aurobindo-pharma"
   },
   {
     "name": "Automatic Data Processing (ADP)",
-    "url": "/organizations/automatic-data-processing-adp/"
+    "url": "/organizations/automatic-data-processing-adp/",
+    "id": "automatic-data-processing-(adp)"
   },
   {
     "name": "Automation Anywhere",
-    "url": "/organizations/automation-anywhere/"
+    "url": "/organizations/automation-anywhere/",
+    "id": "automation-anywhere"
   },
   {
     "name": "Ava Labs",
-    "url": "/organizations/ava-labs/"
+    "url": "/organizations/ava-labs/",
+    "id": "ava-labs"
   },
   {
     "name": "Avanci",
-    "url": "/organizations/avanci/"
+    "url": "/organizations/avanci/",
+    "id": "avanci"
   },
   {
     "name": "Avant",
-    "url": "/organizations/avant-meat/"
+    "url": "/organizations/avant-meat/",
+    "id": "avant"
   },
   {
     "name": "AVEVA Group",
-    "url": "/organizations/aveva-group/"
+    "url": "/organizations/aveva-group/",
+    "id": "aveva-group"
   },
   {
     "name": "Avison Young",
-    "url": "/organizations/avison-young/"
+    "url": "/organizations/avison-young/",
+    "id": "avison-young"
   },
   {
     "name": "AXA",
-    "url": "/organizations/axa/"
+    "url": "/organizations/axa/",
+    "id": "axa"
   },
   {
     "name": "Axis Bank",
-    "url": "/organizations/axis-bank/"
+    "url": "/organizations/axis-bank/",
+    "id": "axis-bank"
   },
   {
     "name": "Axtria",
-    "url": "/organizations/axtria/"
+    "url": "/organizations/axtria/",
+    "id": "axtria"
   },
   {
     "name": "Aydem Enerji",
-    "url": "/organizations/aydem-enerji/"
+    "url": "/organizations/aydem-enerji/",
+    "id": "aydem-enerji"
   },
   {
     "name": "Bacalia Group",
-    "url": "/organizations/bacalia-group/"
+    "url": "/organizations/bacalia-group/",
+    "id": "bacalia-group"
   },
   {
     "name": "Bahrain Economic Development Board",
-    "url": "/organizations/bahrain-economic-development-board/"
+    "url": "/organizations/bahrain-economic-development-board/",
+    "id": "bahrain-economic-development-board"
   },
   {
     "name": "Bahrain Petroleum",
-    "url": "/organizations/bahrain-petroleum-company/"
+    "url": "/organizations/bahrain-petroleum-company/",
+    "id": "bahrain-petroleum"
   },
   {
     "name": "Bain & Company",
-    "url": "/organizations/bain-company-inc/"
+    "url": "/organizations/bain-company-inc/",
+    "id": "bain-&-company"
   },
   {
     "name": "Bain Capital",
-    "url": "/organizations/bain-capital/"
+    "url": "/organizations/bain-capital/",
+    "id": "bain-capital"
   },
   {
     "name": "Bajaj Group",
-    "url": "/organizations/bajaj-group/"
+    "url": "/organizations/bajaj-group/",
+    "id": "bajaj-group"
   },
   {
     "name": "Baker Hughes",
-    "url": "/organizations/baker-hughes/"
+    "url": "/organizations/baker-hughes/",
+    "id": "baker-hughes"
   },
   {
     "name": "Baker McKenzie",
-    "url": "/organizations/baker-mckenzie/"
+    "url": "/organizations/baker-mckenzie/",
+    "id": "baker-mckenzie"
   },
   {
     "name": "Bakrie & Brothers",
-    "url": "/organizations/bakrie-brothers/"
+    "url": "/organizations/bakrie-brothers/",
+    "id": "bakrie-&-brothers"
   },
   {
     "name": "Ball",
-    "url": "/organizations/ball-corporation/"
+    "url": "/organizations/ball-corporation/",
+    "id": "ball"
   },
   {
     "name": "Banco Bradesco",
-    "url": "/organizations/banco-bradesco-sa/"
+    "url": "/organizations/banco-bradesco-sa/",
+    "id": "banco-bradesco"
   },
   {
     "name": "Banco BTG Pactual",
-    "url": "/organizations/banco-btg-pactual-sa/"
+    "url": "/organizations/banco-btg-pactual-sa/",
+    "id": "banco-btg-pactual"
   },
   {
     "name": "Banco Nacional de Panam\u00e1 (Banconal)",
-    "url": "/organizations/banco-nacional-de-panama-banconal/"
+    "url": "/organizations/banco-nacional-de-panama-banconal/",
+    "id": "banco-nacional-de-panam\u00e1-(banconal)"
   },
   {
     "name": "Banco Safra Brasil",
-    "url": "/organizations/banco-safra-brasil/"
+    "url": "/organizations/banco-safra-brasil/",
+    "id": "banco-safra-brasil"
   },
   {
     "name": "Banco Santander",
-    "url": "/organizations/banco-santander-sa/"
+    "url": "/organizations/banco-santander-sa/",
+    "id": "banco-santander"
   },
   {
     "name": "Bangchak",
-    "url": "/organizations/bangchak-petroleum/"
+    "url": "/organizations/bangchak-petroleum/",
+    "id": "bangchak"
   },
   {
     "name": "Bangkok Bank",
-    "url": "/organizations/bangkok-bank/"
+    "url": "/organizations/bangkok-bank/",
+    "id": "bangkok-bank"
   },
   {
     "name": "Bank Gospodarstwa Krajowego (BGK)",
-    "url": "/organizations/bgk/"
+    "url": "/organizations/bgk/",
+    "id": "bank-gospodarstwa-krajowego-(bgk)"
   },
   {
     "name": "Bank Julius Baer",
-    "url": "/organizations/bank-julius-baer-co-ltd/"
+    "url": "/organizations/bank-julius-baer-co-ltd/",
+    "id": "bank-julius-baer"
   },
   {
     "name": "Bank Leumi Le-Israel",
-    "url": "/organizations/bank-leumi-le-israel/"
+    "url": "/organizations/bank-leumi-le-israel/",
+    "id": "bank-leumi-le-israel"
   },
   {
     "name": "Bank Lombard Odier & Co.",
-    "url": "/organizations/bank-lombard-odier-co-ltd/"
+    "url": "/organizations/bank-lombard-odier-co-ltd/",
+    "id": "bank-lombard-odier-&-co."
   },
   {
     "name": "Bank Mandiri (Persero)",
-    "url": "/organizations/pt-bank-mandiri-persero-tbk/"
+    "url": "/organizations/pt-bank-mandiri-persero-tbk/",
+    "id": "bank-mandiri-(persero)"
   },
   {
     "name": "Bank of America",
-    "url": "/organizations/bank-of-america-corporation/"
+    "url": "/organizations/bank-of-america-corporation/",
+    "id": "bank-of-america"
   },
   {
     "name": "Bank of China",
-    "url": "/organizations/bank-of-china/"
+    "url": "/organizations/bank-of-china/",
+    "id": "bank-of-china"
   },
   {
     "name": "Bank of Industry",
-    "url": "/organizations/bank-of-industry/"
+    "url": "/organizations/bank-of-industry/",
+    "id": "bank-of-industry"
   },
   {
     "name": "Bank of Qingdao",
-    "url": "/organizations/bank-of-qingdao/"
+    "url": "/organizations/bank-of-qingdao/",
+    "id": "bank-of-qingdao"
   },
   {
     "name": "Bank Rakyat Indonesia (BRI)",
-    "url": "/organizations/bank-rakyat-indonesia-bri/"
+    "url": "/organizations/bank-rakyat-indonesia-bri/",
+    "id": "bank-rakyat-indonesia-(bri)"
   },
   {
     "name": "Banque Saudi Fransi (BSF)",
-    "url": "/organizations/banque-saudi-fransi-bsf/"
+    "url": "/organizations/banque-saudi-fransi-bsf/",
+    "id": "banque-saudi-fransi-(bsf)"
   },
   {
     "name": "Baofeng Group",
-    "url": "/organizations/baofeng-group/"
+    "url": "/organizations/baofeng-group/",
+    "id": "baofeng-group"
   },
   {
     "name": "Barclays",
-    "url": "/organizations/barclays/"
+    "url": "/organizations/barclays/",
+    "id": "barclays"
   },
   {
     "name": "BASF",
-    "url": "/organizations/basf-se/"
+    "url": "/organizations/basf-se/",
+    "id": "basf"
   },
   {
     "name": "Bayer",
-    "url": "/organizations/bayer-d57cbbcd2e/"
+    "url": "/organizations/bayer-d57cbbcd2e/",
+    "id": "bayer"
   },
   {
     "name": "BBVA",
-    "url": "/organizations/banco-bilbao-vizcaya-argentaria-sa/"
+    "url": "/organizations/banco-bilbao-vizcaya-argentaria-sa/",
+    "id": "bbva"
   },
   {
     "name": "BC Energy Investments",
-    "url": "/organizations/bc-energy-investments/"
+    "url": "/organizations/bc-energy-investments/",
+    "id": "bc-energy-investments"
   },
   {
     "name": "Be8",
-    "url": "/organizations/be8/"
+    "url": "/organizations/be8/",
+    "id": "be8"
   },
   {
     "name": "BetterUp",
-    "url": "/organizations/betterup/"
+    "url": "/organizations/betterup/",
+    "id": "betterup"
   },
   {
     "name": "Beximco Group",
-    "url": "/organizations/beximco-group/"
+    "url": "/organizations/beximco-group/",
+    "id": "beximco-group"
   },
   {
     "name": "Bharat Forge",
-    "url": "/organizations/bharat-forge-ltd/"
+    "url": "/organizations/bharat-forge-ltd/",
+    "id": "bharat-forge"
   },
   {
     "name": "Bharti Airtel",
-    "url": "/organizations/bharti-airtel/"
+    "url": "/organizations/bharti-airtel/",
+    "id": "bharti-airtel"
   },
   {
     "name": "BHP Group",
-    "url": "/organizations/bhp-group/"
+    "url": "/organizations/bhp-group/",
+    "id": "bhp-group"
   },
   {
     "name": "Bidvest Group",
-    "url": "/organizations/bidvest-group/"
+    "url": "/organizations/bidvest-group/",
+    "id": "bidvest-group"
   },
   {
     "name": "BigSpring",
-    "url": "/organizations/bigspring/"
+    "url": "/organizations/bigspring/",
+    "id": "bigspring"
   },
   {
     "name": "Bill & Melinda Gates Foundation",
-    "url": "/organizations/bill-melinda-gates-foundation/"
+    "url": "/organizations/bill-melinda-gates-foundation/",
+    "id": "bill-&-melinda-gates-foundation"
   },
   {
     "name": "Biomet",
-    "url": "/organizations/ankorgaz/"
+    "url": "/organizations/ankorgaz/",
+    "id": "biomet"
   },
   {
     "name": "Biotechnology Innovation Organization",
-    "url": "/organizations/biotechnology-innovation-organization/"
+    "url": "/organizations/biotechnology-innovation-organization/",
+    "id": "biotechnology-innovation-organization"
   },
   {
     "name": "Bitkub Capital Group Holdings",
-    "url": "/organizations/bitkub/"
+    "url": "/organizations/bitkub/",
+    "id": "bitkub-capital-group-holdings"
   },
   {
     "name": "Black Lake",
-    "url": "/organizations/black-lake/"
+    "url": "/organizations/black-lake/",
+    "id": "black-lake"
   },
   {
     "name": "BlackRock",
-    "url": "/organizations/blackrock-inc/"
+    "url": "/organizations/blackrock-inc/",
+    "id": "blackrock"
   },
   {
     "name": "Blackstone Group",
-    "url": "/organizations/the-blackstone-group/"
+    "url": "/organizations/the-blackstone-group/",
+    "id": "blackstone-group"
   },
   {
     "name": "Blendhub",
-    "url": "/organizations/blendhub/"
+    "url": "/organizations/blendhub/",
+    "id": "blendhub"
   },
   {
     "name": "Bloomage BioTechnology",
-    "url": "/organizations/bloomage-biotechnology/"
+    "url": "/organizations/bloomage-biotechnology/",
+    "id": "bloomage-biotechnology"
   },
   {
     "name": "Bloomberg",
-    "url": "/organizations/bloomberg-lp/"
+    "url": "/organizations/bloomberg-lp/",
+    "id": "bloomberg"
   },
   {
     "name": "Blue Horizon International",
-    "url": "/organizations/blue-horizon-international/"
+    "url": "/organizations/blue-horizon-international/",
+    "id": "blue-horizon-international"
   },
   {
     "name": "BMO Financial Group",
-    "url": "/organizations/bmo-financial-group/"
+    "url": "/organizations/bmo-financial-group/",
+    "id": "bmo-financial-group"
   },
   {
     "name": "BNY Mellon",
-    "url": "/organizations/bank-of-new-york-bny-mellon/"
+    "url": "/organizations/bank-of-new-york-bny-mellon/",
+    "id": "bny-mellon"
   },
   {
     "name": "BoodaiCorp",
-    "url": "/organizations/boodaicorp-company/"
+    "url": "/organizations/boodaicorp-company/",
+    "id": "boodaicorp"
   },
   {
     "name": "BorgWarner",
-    "url": "/organizations/borgwarner/"
+    "url": "/organizations/borgwarner/",
+    "id": "borgwarner"
   },
   {
     "name": "Boston Consulting Group (BCG)",
-    "url": "/organizations/the-boston-consulting-group/"
+    "url": "/organizations/the-boston-consulting-group/",
+    "id": "boston-consulting-group-(bcg)"
   },
   {
     "name": "BP",
-    "url": "/organizations/bp-plc/"
+    "url": "/organizations/bp-plc/",
+    "id": "bp"
   },
   {
     "name": "BrainBox AI",
-    "url": "/organizations/brainbox-ai/"
+    "url": "/organizations/brainbox-ai/",
+    "id": "brainbox-ai"
   },
   {
     "name": "Brand South Africa",
-    "url": "/organizations/brand-south-africa/"
+    "url": "/organizations/brand-south-africa/",
+    "id": "brand-south-africa"
   },
   {
     "name": "BRANDi and Companies",
-    "url": "/organizations/brandi/"
+    "url": "/organizations/brandi/",
+    "id": "brandi-and-companies"
   },
   {
     "name": "Breakthrough Energy",
-    "url": "/organizations/breakthrough-energy-llc/"
+    "url": "/organizations/breakthrough-energy-llc/",
+    "id": "breakthrough-energy"
   },
   {
     "name": "Brex",
-    "url": "/organizations/brex/"
+    "url": "/organizations/brex/",
+    "id": "brex"
   },
   {
     "name": "Breyer Capital",
-    "url": "/organizations/breyer-capital/"
+    "url": "/organizations/breyer-capital/",
+    "id": "breyer-capital"
   },
   {
     "name": "Bridgewater Associates",
-    "url": "/organizations/bridgewater-associates-lp/"
+    "url": "/organizations/bridgewater-associates-lp/",
+    "id": "bridgewater-associates"
   },
   {
     "name": "Brightseed",
-    "url": "/organizations/brightseed-bio/"
+    "url": "/organizations/brightseed-bio/",
+    "id": "brightseed"
   },
   {
     "name": "Brightstar Capital Partners",
-    "url": "/organizations/brightstar-capital-partners/"
+    "url": "/organizations/brightstar-capital-partners/",
+    "id": "brightstar-capital-partners"
   },
   {
     "name": "Broadridge Financial Solutions",
-    "url": "/organizations/broadridge-financial-solutions/"
+    "url": "/organizations/broadridge-financial-solutions/",
+    "id": "broadridge-financial-solutions"
   },
   {
     "name": "Brookfield",
-    "url": "/organizations/brookfield-asset-management/"
+    "url": "/organizations/brookfield-asset-management/",
+    "id": "brookfield"
   },
   {
     "name": "Brunswick Group",
-    "url": "/organizations/brunswick-group/"
+    "url": "/organizations/brunswick-group/",
+    "id": "brunswick-group"
   },
   {
     "name": "BSI",
-    "url": "/organizations/bsi/"
+    "url": "/organizations/bsi/",
+    "id": "bsi"
   },
   {
     "name": "BTS Group",
-    "url": "/organizations/bts-group/"
+    "url": "/organizations/bts-group/",
+    "id": "bts-group"
   },
   {
     "name": "BUA Group",
-    "url": "/organizations/bua-group/"
+    "url": "/organizations/bua-group/",
+    "id": "bua-group"
   },
   {
     "name": "Burjeel Holdings",
-    "url": "/organizations/burjeel-holdings/"
+    "url": "/organizations/burjeel-holdings/",
+    "id": "burjeel-holdings"
   },
   {
     "name": "Byco Petroleum Pakistan",
-    "url": "/organizations/byco-petroleum-pakistan/"
+    "url": "/organizations/byco-petroleum-pakistan/",
+    "id": "byco-petroleum-pakistan"
   },
   {
     "name": "BYJU'S",
-    "url": "/organizations/byjus/"
+    "url": "/organizations/byjus/",
+    "id": "byju's"
   },
   {
     "name": "C3.ai",
-    "url": "/organizations/c3-ai/"
+    "url": "/organizations/c3-ai/",
+    "id": "c3.ai"
   },
   {
     "name": "Cadence Design Systems",
-    "url": "/organizations/cadence-design-systems/"
+    "url": "/organizations/cadence-design-systems/",
+    "id": "cadence-design-systems"
   },
   {
     "name": "Caisse de d\u00e9p\u00f4t et placement du Qu\u00e9bec (CDPQ)",
-    "url": "/organizations/caisse-de-depot-et-placement-du-quebec/"
+    "url": "/organizations/caisse-de-depot-et-placement-du-quebec/",
+    "id": "caisse-de-d\u00e9p\u00f4t-et-placement-du-qu\u00e9bec-(cdpq)"
   },
   {
     "name": "Calypso AI Corp",
-    "url": "/organizations/calypso-ai-corp/"
+    "url": "/organizations/calypso-ai-corp/",
+    "id": "calypso-ai-corp"
   },
   {
     "name": "Canica Holding",
-    "url": "/organizations/canica-holding/"
+    "url": "/organizations/canica-holding/",
+    "id": "canica-holding"
   },
   {
     "name": "Cantor Fitzgerald",
-    "url": "/organizations/cantor-fitzgerald-lp/"
+    "url": "/organizations/cantor-fitzgerald-lp/",
+    "id": "cantor-fitzgerald"
   },
   {
     "name": "Canvass AI",
-    "url": "/organizations/canvass-ai/"
+    "url": "/organizations/canvass-ai/",
+    "id": "canvass-ai"
   },
   {
     "name": "Canyon Partners",
-    "url": "/organizations/canyon-partners-llc/"
+    "url": "/organizations/canyon-partners-llc/",
+    "id": "canyon-partners"
   },
   {
     "name": "Capgemini",
-    "url": "/organizations/capgemini/"
+    "url": "/organizations/capgemini/",
+    "id": "capgemini"
   },
   {
     "name": "Capital A (AirAsia)",
-    "url": "/organizations/airasia-bhd/"
+    "url": "/organizations/airasia-bhd/",
+    "id": "capital-a-(airasia)"
   },
   {
     "name": "Caresyntax",
-    "url": "/organizations/caresyntax/"
+    "url": "/organizations/caresyntax/",
+    "id": "caresyntax"
   },
   {
     "name": "Cargill",
-    "url": "/organizations/cargill-incorporated/"
+    "url": "/organizations/cargill-incorporated/",
+    "id": "cargill"
   },
   {
     "name": "Carlsberg Group",
-    "url": "/organizations/carlsberg-a-s/"
+    "url": "/organizations/carlsberg-a-s/",
+    "id": "carlsberg-group"
   },
   {
     "name": "Carlyle",
-    "url": "/organizations/the-carlyle-group/"
+    "url": "/organizations/the-carlyle-group/",
+    "id": "carlyle"
   },
   {
     "name": "Carson Cumberbatch",
-    "url": "/organizations/carson-cumberbatch/"
+    "url": "/organizations/carson-cumberbatch/",
+    "id": "carson-cumberbatch"
   },
   {
     "name": "CasperLabs",
-    "url": "/organizations/casperlabs/"
+    "url": "/organizations/casperlabs/",
+    "id": "casperlabs"
   },
   {
     "name": "causaLens",
-    "url": "/organizations/causalens/"
+    "url": "/organizations/causalens/",
+    "id": "causalens"
   },
   {
     "name": "Celonis",
-    "url": "/organizations/celonis/"
+    "url": "/organizations/celonis/",
+    "id": "celonis"
   },
   {
     "name": "CEMEX",
-    "url": "/organizations/cemex/"
+    "url": "/organizations/cemex/",
+    "id": "cemex"
   },
   {
     "name": "Cencora",
-    "url": "/organizations/amerisourcebergen-corporation/"
+    "url": "/organizations/amerisourcebergen-corporation/",
+    "id": "cencora"
   },
   {
     "name": "Cepsa",
-    "url": "/organizations/cepsa/"
+    "url": "/organizations/cepsa/",
+    "id": "cepsa"
   },
   {
     "name": "CH. Karnchang Public Company Limited (CK)",
-    "url": "/organizations/ch-karnchang-public-company-limited-ck/"
+    "url": "/organizations/ch-karnchang-public-company-limited-ck/",
+    "id": "ch.-karnchang-public-company-limited-(ck)"
   },
   {
     "name": "Chanel",
-    "url": "/organizations/chanel/"
+    "url": "/organizations/chanel/",
+    "id": "chanel"
   },
   {
     "name": "Check Point Software Technologies",
-    "url": "/organizations/check-point-software-technologies/"
+    "url": "/organizations/check-point-software-technologies/",
+    "id": "check-point-software-technologies"
   },
   {
     "name": "Chengdu Xingcheng Investment Group",
-    "url": "/organizations/chengdu-xingcheng-investment-group/"
+    "url": "/organizations/chengdu-xingcheng-investment-group/",
+    "id": "chengdu-xingcheng-investment-group"
   },
   {
     "name": "Chevron",
-    "url": "/organizations/chevron-corporation/"
+    "url": "/organizations/chevron-corporation/",
+    "id": "chevron"
   },
   {
     "name": "Chi Forest (Beijing) Food Technology Group Co., Ltd.",
-    "url": "/organizations/genki-forest-beijing-food-co-ltd/"
+    "url": "/organizations/genki-forest-beijing-food-co-ltd/",
+    "id": "chi-forest-(beijing)-food-technology-group-co.,-ltd."
   },
   {
     "name": "Chiba Bank",
-    "url": "/organizations/chiba-bank/"
+    "url": "/organizations/chiba-bank/",
+    "id": "chiba-bank"
   },
   {
     "name": "China Bohai Bank",
-    "url": "/organizations/china-bohai-bank/"
+    "url": "/organizations/china-bohai-bank/",
+    "id": "china-bohai-bank"
   },
   {
     "name": "China Construction Bank",
-    "url": "/organizations/china-construction-bank/"
+    "url": "/organizations/china-construction-bank/",
+    "id": "china-construction-bank"
   },
   {
     "name": "China Energy Investment",
-    "url": "/organizations/china-guodian-corporation/"
+    "url": "/organizations/china-guodian-corporation/",
+    "id": "china-energy-investment"
   },
   {
     "name": "China General Technology (Group) Holding",
-    "url": "/organizations/china-general-technology-group-holding/"
+    "url": "/organizations/china-general-technology-group-holding/",
+    "id": "china-general-technology-(group)-holding"
   },
   {
     "name": "China Huaneng Group",
-    "url": "/organizations/china-huaneng-group-chng/"
+    "url": "/organizations/china-huaneng-group-chng/",
+    "id": "china-huaneng-group"
   },
   {
     "name": "China Merchants Group (CMG)",
-    "url": "/organizations/china-merchants-group/"
+    "url": "/organizations/china-merchants-group/",
+    "id": "china-merchants-group-(cmg)"
   },
   {
     "name": "China Petrochemical Corporation (Sinopec Group)",
-    "url": "/organizations/china-petrochemical-corporation-sinopec-group/"
+    "url": "/organizations/china-petrochemical-corporation-sinopec-group/",
+    "id": "china-petrochemical-corporation-(sinopec-group)"
   },
   {
     "name": "China Southern Power Grid",
-    "url": "/organizations/china-southern-power-grid-co/"
+    "url": "/organizations/china-southern-power-grid-co/",
+    "id": "china-southern-power-grid"
   },
   {
     "name": "China UnionPay",
-    "url": "/organizations/china-unionpay/"
+    "url": "/organizations/china-unionpay/",
+    "id": "china-unionpay"
   },
   {
     "name": "Chindata Group",
-    "url": "/organizations/chindata-group/"
+    "url": "/organizations/chindata-group/",
+    "id": "chindata-group"
   },
   {
     "name": "Chip Mong Group",
-    "url": "/organizations/chip-mong-group/"
+    "url": "/organizations/chip-mong-group/",
+    "id": "chip-mong-group"
   },
   {
     "name": "Circle Internet Financial",
-    "url": "/organizations/circle-internet-financial/"
+    "url": "/organizations/circle-internet-financial/",
+    "id": "circle-internet-financial"
   },
   {
     "name": "Cisco",
-    "url": "/organizations/cisco/"
+    "url": "/organizations/cisco/",
+    "id": "cisco"
   },
   {
     "name": "Citi",
-    "url": "/organizations/citi/"
+    "url": "/organizations/citi/",
+    "id": "citi"
   },
   {
     "name": "CITIC Capital",
-    "url": "/organizations/citic-capital-holdings-limited/"
+    "url": "/organizations/citic-capital-holdings-limited/",
+    "id": "citic-capital"
   },
   {
     "name": "CITIC Group",
-    "url": "/organizations/citic-group/"
+    "url": "/organizations/citic-group/",
+    "id": "citic-group"
   },
   {
     "name": "CJ",
-    "url": "/organizations/cj/"
+    "url": "/organizations/cj/",
+    "id": "cj"
   },
   {
     "name": "Clariant",
-    "url": "/organizations/clariant-international-ltd/"
+    "url": "/organizations/clariant-international-ltd/",
+    "id": "clariant"
   },
   {
     "name": "Claure Group",
-    "url": "/organizations/claure-capital/"
+    "url": "/organizations/claure-capital/",
+    "id": "claure-group"
   },
   {
     "name": "Climate Impact X (CIX)",
-    "url": "/organizations/climate-impact-x-cix/"
+    "url": "/organizations/climate-impact-x-cix/",
+    "id": "climate-impact-x-(cix)"
   },
   {
     "name": "ClimatePartner",
-    "url": "/organizations/climatepartner/"
+    "url": "/organizations/climatepartner/",
+    "id": "climatepartner"
   },
   {
     "name": "Cloudflare",
-    "url": "/organizations/cloudflare/"
+    "url": "/organizations/cloudflare/",
+    "id": "cloudflare"
   },
   {
     "name": "CLS Bank International",
-    "url": "/organizations/cls-bank-international/"
+    "url": "/organizations/cls-bank-international/",
+    "id": "cls-bank-international"
   },
   {
     "name": "Coca-Cola HBC",
-    "url": "/organizations/coca-cola-hellenic-bottling-company/"
+    "url": "/organizations/coca-cola-hellenic-bottling-company/",
+    "id": "coca-cola-hbc"
   },
   {
     "name": "Cognizant",
-    "url": "/organizations/cognizant-technology-solutions/"
+    "url": "/organizations/cognizant-technology-solutions/",
+    "id": "cognizant"
   },
   {
     "name": "Coherent",
-    "url": "/organizations/ii-vi/"
+    "url": "/organizations/ii-vi/",
+    "id": "coherent"
   },
   {
     "name": "COL Group",
-    "url": "/organizations/col-group/"
+    "url": "/organizations/col-group/",
+    "id": "col-group"
   },
   {
     "name": "Colgate-Palmolive",
-    "url": "/organizations/colgate-palmolive/"
+    "url": "/organizations/colgate-palmolive/",
+    "id": "colgate-palmolive"
   },
   {
     "name": "Commercial International Bank (CIB)",
-    "url": "/organizations/commercial-international-bank-cib/"
+    "url": "/organizations/commercial-international-bank-cib/",
+    "id": "commercial-international-bank-(cib)"
   },
   {
     "name": "Commonwealth Bank of Australia",
-    "url": "/organizations/commonwealth-bank-of-australia/"
+    "url": "/organizations/commonwealth-bank-of-australia/",
+    "id": "commonwealth-bank-of-australia"
   },
   {
     "name": "Compagnie Financi\u00e8re Tradition",
-    "url": "/organizations/compagnie-financiere-tradition/"
+    "url": "/organizations/compagnie-financiere-tradition/",
+    "id": "compagnie-financi\u00e8re-tradition"
   },
   {
     "name": "ComplyAdvantage",
-    "url": "/organizations/complyadvantage/"
+    "url": "/organizations/complyadvantage/",
+    "id": "complyadvantage"
   },
   {
     "name": "Cond\u00e9 Nast",
-    "url": "/organizations/conde-nast/"
+    "url": "/organizations/conde-nast/",
+    "id": "cond\u00e9-nast"
   },
   {
     "name": "Consello",
-    "url": "/organizations/consello-llc/"
+    "url": "/organizations/consello-llc/",
+    "id": "consello"
   },
   {
     "name": "Consolidated Contractors Company (CCC)",
-    "url": "/organizations/consolidated-contractors-company-ccc/"
+    "url": "/organizations/consolidated-contractors-company-ccc/",
+    "id": "consolidated-contractors-company-(ccc)"
   },
   {
     "name": "Contemporary Amperex Technology (CATL)",
-    "url": "/organizations/contemporary-amperex-technology-catl/"
+    "url": "/organizations/contemporary-amperex-technology-catl/",
+    "id": "contemporary-amperex-technology-(catl)"
   },
   {
     "name": "Contents Technologies",
-    "url": "/organizations/contents-technologies/"
+    "url": "/organizations/contents-technologies/",
+    "id": "contents-technologies"
   },
   {
     "name": "COPA-DATA",
-    "url": "/organizations/copa-data/"
+    "url": "/organizations/copa-data/",
+    "id": "copa-data"
   },
   {
     "name": "Copenhagen Infrastructure Partners",
-    "url": "/organizations/copenhagen-infrastructure-partners/"
+    "url": "/organizations/copenhagen-infrastructure-partners/",
+    "id": "copenhagen-infrastructure-partners"
   },
   {
     "name": "Coppel",
-    "url": "/organizations/coppel/"
+    "url": "/organizations/coppel/",
+    "id": "coppel"
   },
   {
     "name": "Corficolombiana",
-    "url": "/organizations/corficolombiana/"
+    "url": "/organizations/corficolombiana/",
+    "id": "corficolombiana"
   },
   {
     "name": "Cornerstone United Holdings Jamaica (CUHJ)",
-    "url": "/organizations/cuhj/"
+    "url": "/organizations/cuhj/",
+    "id": "cornerstone-united-holdings-jamaica-(cuhj)"
   },
   {
     "name": "Corporaci\u00f3n Am\u00e9rica International",
-    "url": "/organizations/corporacion-america/"
+    "url": "/organizations/corporacion-america/",
+    "id": "corporaci\u00f3n-am\u00e9rica-international"
   },
   {
     "name": "Coursera",
-    "url": "/organizations/coursera/"
+    "url": "/organizations/coursera/",
+    "id": "coursera"
   },
   {
     "name": "Covington & Burling",
-    "url": "/organizations/covington-burling/"
+    "url": "/organizations/covington-burling/",
+    "id": "covington-&-burling"
   },
   {
     "name": "Cox Enterprises",
-    "url": "/organizations/cox-enterprises/"
+    "url": "/organizations/cox-enterprises/",
+    "id": "cox-enterprises"
   },
   {
     "name": "Coyote Bioscience",
-    "url": "/organizations/coyote-bioscience/"
+    "url": "/organizations/coyote-bioscience/",
+    "id": "coyote-bioscience"
   },
   {
     "name": "CP Group",
-    "url": "/organizations/charoen-pokphand-group/"
+    "url": "/organizations/charoen-pokphand-group/",
+    "id": "cp-group"
   },
   {
     "name": "CPP Investments",
-    "url": "/organizations/canada-pension-plan-investment-board/"
+    "url": "/organizations/canada-pension-plan-investment-board/",
+    "id": "cpp-investments"
   },
   {
     "name": "Crescent Enterprises",
-    "url": "/organizations/crescent-enterprises/"
+    "url": "/organizations/crescent-enterprises/",
+    "id": "crescent-enterprises"
   },
   {
     "name": "Crescent Petroleum",
-    "url": "/organizations/crescent-petroleum/"
+    "url": "/organizations/crescent-petroleum/",
+    "id": "crescent-petroleum"
   },
   {
     "name": "Crisp",
-    "url": "/organizations/crisp/"
+    "url": "/organizations/crisp/",
+    "id": "crisp"
   },
   {
     "name": "Crown Agents Bank",
-    "url": "/organizations/crown-agents-bank/"
+    "url": "/organizations/crown-agents-bank/",
+    "id": "crown-agents-bank"
   },
   {
     "name": "Crusoe",
-    "url": "/organizations/crusoe/"
+    "url": "/organizations/crusoe/",
+    "id": "crusoe"
   },
   {
     "name": "CTM360",
-    "url": "/organizations/ctm360/"
+    "url": "/organizations/ctm360/",
+    "id": "ctm360"
   },
   {
     "name": "CUJO AI",
-    "url": "/organizations/cujo-llc/"
+    "url": "/organizations/cujo-llc/",
+    "id": "cujo-ai"
   },
   {
     "name": "Culture Amp",
-    "url": "/organizations/culture-amp/"
+    "url": "/organizations/culture-amp/",
+    "id": "culture-amp"
   },
   {
     "name": "CVC Capital Partners (Luxembourg)",
-    "url": "/organizations/cvc-capital-partners-luxembourg-sarl/"
+    "url": "/organizations/cvc-capital-partners-luxembourg-sarl/",
+    "id": "cvc-capital-partners-(luxembourg)"
   },
   {
     "name": "CVS Health",
-    "url": "/organizations/cvs-caremark-corporation/"
+    "url": "/organizations/cvs-caremark-corporation/",
+    "id": "cvs-health"
   },
   {
     "name": "CyberArk",
-    "url": "/organizations/cyberark/"
+    "url": "/organizations/cyberark/",
+    "id": "cyberark"
   },
   {
     "name": "CZD Holding",
-    "url": "/organizations/czd-holding/"
+    "url": "/organizations/czd-holding/",
+    "id": "czd-holding"
   },
   {
     "name": "Dabur India",
-    "url": "/organizations/dabur-india-ltd/"
+    "url": "/organizations/dabur-india-ltd/",
+    "id": "dabur-india"
   },
   {
     "name": "Daesung Group",
-    "url": "/organizations/daesung-group/"
+    "url": "/organizations/daesung-group/",
+    "id": "daesung-group"
   },
   {
     "name": "Daiwa Securities Group",
-    "url": "/organizations/daiwa-securities-group/"
+    "url": "/organizations/daiwa-securities-group/",
+    "id": "daiwa-securities-group"
   },
   {
     "name": "Dalberg",
-    "url": "/organizations/dalberg/"
+    "url": "/organizations/dalberg/",
+    "id": "dalberg"
   },
   {
     "name": "Dalian Bingshan Group",
-    "url": "/organizations/dalian-bingshan-group-co-dbgc/"
+    "url": "/organizations/dalian-bingshan-group-co-dbgc/",
+    "id": "dalian-bingshan-group"
   },
   {
     "name": "Dalian Commodity Exchange",
-    "url": "/organizations/dalian-commodity-exchange/"
+    "url": "/organizations/dalian-commodity-exchange/",
+    "id": "dalian-commodity-exchange"
   },
   {
     "name": "Dalian Pengsheng Group",
-    "url": "/organizations/dalian-pengsheng-group/"
+    "url": "/organizations/dalian-pengsheng-group/",
+    "id": "dalian-pengsheng-group"
   },
   {
     "name": "Dallas Fort Worth International Airport",
-    "url": "/organizations/dallas-fort-worth-international-airport/"
+    "url": "/organizations/dallas-fort-worth-international-airport/",
+    "id": "dallas-fort-worth-international-airport"
   },
   {
     "name": "DAMAC International",
-    "url": "/organizations/damac-properties/"
+    "url": "/organizations/damac-properties/",
+    "id": "damac-international"
   },
   {
     "name": "Damen Shipyards Group",
-    "url": "/organizations/damen-shipyards-group/"
+    "url": "/organizations/damen-shipyards-group/",
+    "id": "damen-shipyards-group"
   },
   {
     "name": "Dana Gas",
-    "url": "/organizations/dana-gas-pjsc/"
+    "url": "/organizations/dana-gas-pjsc/",
+    "id": "dana-gas"
   },
   {
     "name": "Danfoss",
-    "url": "/organizations/danfoss-a-s/"
+    "url": "/organizations/danfoss-a-s/",
+    "id": "danfoss"
   },
   {
     "name": "Daojia",
-    "url": "/organizations/58-daojia/"
+    "url": "/organizations/58-daojia/",
+    "id": "daojia"
   },
   {
     "name": "Dar Al Arkan",
-    "url": "/organizations/dar-al-arkan/"
+    "url": "/organizations/dar-al-arkan/",
+    "id": "dar-al-arkan"
   },
   {
     "name": "Dassault Syst\u00e8mes",
-    "url": "/organizations/dassault-systemes/"
+    "url": "/organizations/dassault-systemes/",
+    "id": "dassault-syst\u00e8mes"
   },
   {
     "name": "Dataminr",
-    "url": "/organizations/dataminr/"
+    "url": "/organizations/dataminr/",
+    "id": "dataminr"
   },
   {
     "name": "DataProphet",
-    "url": "/organizations/dataprophet/"
+    "url": "/organizations/dataprophet/",
+    "id": "dataprophet"
   },
   {
     "name": "DatVietVAC",
-    "url": "/organizations/datvietvac-group-holdings/"
+    "url": "/organizations/datvietvac-group-holdings/",
+    "id": "datvietvac"
   },
   {
     "name": "Dawex",
-    "url": "/organizations/dawex/"
+    "url": "/organizations/dawex/",
+    "id": "dawex"
   },
   {
     "name": "DCVC",
-    "url": "/organizations/dcvc/"
+    "url": "/organizations/dcvc/",
+    "id": "dcvc"
   },
   {
     "name": "Deepen",
-    "url": "/organizations/deepen/"
+    "url": "/organizations/deepen/",
+    "id": "deepen"
   },
   {
     "name": "Dell Technologies",
-    "url": "/organizations/dell-inc/"
+    "url": "/organizations/dell-inc/",
+    "id": "dell-technologies"
   },
   {
     "name": "Deloitte",
-    "url": "/organizations/deloitte/"
+    "url": "/organizations/deloitte/",
+    "id": "deloitte"
   },
   {
     "name": "Dentsu",
-    "url": "/organizations/dentsu-inc/"
+    "url": "/organizations/dentsu-inc/",
+    "id": "dentsu"
   },
   {
     "name": "Depository Trust and Clearing (DTCC)",
-    "url": "/organizations/the-depository-trust-clearing-corporation-dtcc/"
+    "url": "/organizations/the-depository-trust-clearing-corporation-dtcc/",
+    "id": "depository-trust-and-clearing-(dtcc)"
   },
   {
     "name": "Descon",
-    "url": "/organizations/descon/"
+    "url": "/organizations/descon/",
+    "id": "descon"
   },
   {
     "name": "Desktop Metal",
-    "url": "/organizations/desktop-metal/"
+    "url": "/organizations/desktop-metal/",
+    "id": "desktop-metal"
   },
   {
     "name": "Destinus",
-    "url": "/organizations/destinus/"
+    "url": "/organizations/destinus/",
+    "id": "destinus"
   },
   {
     "name": "Deutsche Bank",
-    "url": "/organizations/deutsche-bank-ag/"
+    "url": "/organizations/deutsche-bank-ag/",
+    "id": "deutsche-bank"
   },
   {
     "name": "Development Bank of Japan (DBJ)",
-    "url": "/organizations/development-bank-of-japan-dbj/"
+    "url": "/organizations/development-bank-of-japan-dbj/",
+    "id": "development-bank-of-japan-(dbj)"
   },
   {
     "name": "Development Bank of Southern Africa",
-    "url": "/organizations/development-bank-of-southern-africa/"
+    "url": "/organizations/development-bank-of-southern-africa/",
+    "id": "development-bank-of-southern-africa"
   },
   {
     "name": "DHL Group",
-    "url": "/organizations/deutsche-post-dhl-group/"
+    "url": "/organizations/deutsche-post-dhl-group/",
+    "id": "dhl-group"
   },
   {
     "name": "DiManEx",
-    "url": "/organizations/dimanex/"
+    "url": "/organizations/dimanex/",
+    "id": "dimanex"
   },
   {
     "name": "Diriyah Gate Development Authority",
-    "url": "/organizations/diriyah-gate-development-authority/"
+    "url": "/organizations/diriyah-gate-development-authority/",
+    "id": "diriyah-gate-development-authority"
   },
   {
     "name": "Discovery",
-    "url": "/organizations/discovery/"
+    "url": "/organizations/discovery/",
+    "id": "discovery"
   },
   {
     "name": "Diverse Manufacturing Supply Chain Alliance (DMSCA) Supplier Development Foundation",
-    "url": "/organizations/dmsca-supplier-development-foundation/"
+    "url": "/organizations/dmsca-supplier-development-foundation/",
+    "id": "diverse-manufacturing-supply-chain-alliance-(dmsca)-supplier-development-foundation"
   },
   {
     "name": "DNB",
-    "url": "/organizations/dnb-asa/"
+    "url": "/organizations/dnb-asa/",
+    "id": "dnb"
   },
   {
     "name": "DNV",
-    "url": "/organizations/dnv-afc6343410/"
+    "url": "/organizations/dnv-afc6343410/",
+    "id": "dnv"
   },
   {
     "name": "Dogan Group of Companies",
-    "url": "/organizations/dogan-group-of-companies/"
+    "url": "/organizations/dogan-group-of-companies/",
+    "id": "dogan-group-of-companies"
   },
   {
     "name": "Dorae",
-    "url": "/organizations/dorae/"
+    "url": "/organizations/dorae/",
+    "id": "dorae"
   },
   {
     "name": "Dow",
-    "url": "/organizations/the-dow-chemical-company/"
+    "url": "/organizations/the-dow-chemical-company/",
+    "id": "dow"
   },
   {
     "name": "Dow Jones & Company",
-    "url": "/organizations/dow-jones-company/"
+    "url": "/organizations/dow-jones-company/",
+    "id": "dow-jones-&-company"
   },
   {
     "name": "DP World",
-    "url": "/organizations/dp-world/"
+    "url": "/organizations/dp-world/",
+    "id": "dp-world"
   },
   {
     "name": "Dr Reddy's",
-    "url": "/organizations/dr-reddys-ltd/"
+    "url": "/organizations/dr-reddys-ltd/",
+    "id": "dr-reddy's"
   },
   {
     "name": "Dragos",
-    "url": "/organizations/dragos/"
+    "url": "/organizations/dragos/",
+    "id": "dragos"
   },
   {
     "name": "Drax Group",
-    "url": "/organizations/drax-group/"
+    "url": "/organizations/drax-group/",
+    "id": "drax-group"
   },
   {
     "name": "dsm-firmenich",
-    "url": "/organizations/royal-dsm-nv/"
+    "url": "/organizations/royal-dsm-nv/",
+    "id": "dsm-firmenich"
   },
   {
     "name": "DSV",
-    "url": "/organizations/dsv/"
+    "url": "/organizations/dsv/",
+    "id": "dsv"
   },
   {
     "name": "DTEK",
-    "url": "/organizations/dtek/"
+    "url": "/organizations/dtek/",
+    "id": "dtek"
   },
   {
     "name": "Dubai Airports",
-    "url": "/organizations/dubai-airports/"
+    "url": "/organizations/dubai-airports/",
+    "id": "dubai-airports"
   },
   {
     "name": "Dubai Electricity and Water Authority",
-    "url": "/organizations/dubai-electricity-and-water-authority/"
+    "url": "/organizations/dubai-electricity-and-water-authority/",
+    "id": "dubai-electricity-and-water-authority"
   },
   {
     "name": "Dufry",
-    "url": "/organizations/dufry-ag/"
+    "url": "/organizations/dufry-ag/",
+    "id": "dufry"
   },
   {
     "name": "e&",
-    "url": "/organizations/emirates-telecommunications-corporation-etisalat/"
+    "url": "/organizations/emirates-telecommunications-corporation-etisalat/",
+    "id": "e&"
   },
   {
     "name": "Earli",
-    "url": "/organizations/earli/"
+    "url": "/organizations/earli/",
+    "id": "earli"
   },
   {
     "name": "Eastern Networks (EastNets)",
-    "url": "/organizations/eastern-networks-eastnets/"
+    "url": "/organizations/eastern-networks-eastnets/",
+    "id": "eastern-networks-(eastnets)"
   },
   {
     "name": "EastGarden International Group",
-    "url": "/organizations/eastgarden-international-group/"
+    "url": "/organizations/eastgarden-international-group/",
+    "id": "eastgarden-international-group"
   },
   {
     "name": "EastOne Group",
-    "url": "/organizations/eastone-group/"
+    "url": "/organizations/eastone-group/",
+    "id": "eastone-group"
   },
   {
     "name": "Ecolab",
-    "url": "/organizations/ecolab-inc/"
+    "url": "/organizations/ecolab-inc/",
+    "id": "ecolab"
   },
   {
     "name": "Ecopetrol",
-    "url": "/organizations/ecopetrol/"
+    "url": "/organizations/ecopetrol/",
+    "id": "ecopetrol"
   },
   {
     "name": "Eczac\u0131ba\u015f\u0131 Holding",
-    "url": "/organizations/eczacibasi-holding/"
+    "url": "/organizations/eczacibasi-holding/",
+    "id": "eczac\u0131ba\u015f\u0131-holding"
   },
   {
     "name": "Edelman",
-    "url": "/organizations/edelman/"
+    "url": "/organizations/edelman/",
+    "id": "edelman"
   },
   {
     "name": "Eden Global Partners",
-    "url": "/organizations/eden-global-partners/"
+    "url": "/organizations/eden-global-partners/",
+    "id": "eden-global-partners"
   },
   {
     "name": "Edenred",
-    "url": "/organizations/edenred/"
+    "url": "/organizations/edenred/",
+    "id": "edenred"
   },
   {
     "name": "EDGE",
-    "url": "/organizations/ovg-real-estate/"
+    "url": "/organizations/ovg-real-estate/",
+    "id": "edge"
   },
   {
     "name": "EDP - Energias de Portugal",
-    "url": "/organizations/edp-energias-de-portugal/"
+    "url": "/organizations/edp-energias-de-portugal/",
+    "id": "edp---energias-de-portugal"
   },
   {
     "name": "Edward Jones",
-    "url": "/organizations/edward-jones/"
+    "url": "/organizations/edward-jones/",
+    "id": "edward-jones"
   },
   {
     "name": "EFG International",
-    "url": "/organizations/efg-international/"
+    "url": "/organizations/efg-international/",
+    "id": "efg-international"
   },
   {
     "name": "Egon Zehnder",
-    "url": "/organizations/egon-zehnder/"
+    "url": "/organizations/egon-zehnder/",
+    "id": "egon-zehnder"
   },
   {
     "name": "Einride",
-    "url": "/organizations/einride/"
+    "url": "/organizations/einride/",
+    "id": "einride"
   },
   {
     "name": "Elang Mahkota Teknologi (Emtek)",
-    "url": "/organizations/elang-mahkota-teknologi-emtek/"
+    "url": "/organizations/elang-mahkota-teknologi-emtek/",
+    "id": "elang-mahkota-teknologi-(emtek)"
   },
   {
     "name": "Eli Lilly and Company",
-    "url": "/organizations/eli-lilly-and-company/"
+    "url": "/organizations/eli-lilly-and-company/",
+    "id": "eli-lilly-and-company"
   },
   {
     "name": "Elite Education Group",
-    "url": "/organizations/elite-prep/"
+    "url": "/organizations/elite-prep/",
+    "id": "elite-education-group"
   },
   {
     "name": "Embibe",
-    "url": "/organizations/embibe/"
+    "url": "/organizations/embibe/",
+    "id": "embibe"
   },
   {
     "name": "Emirates Global Aluminium",
-    "url": "/organizations/emirates-global-aluminium/"
+    "url": "/organizations/emirates-global-aluminium/",
+    "id": "emirates-global-aluminium"
   },
   {
     "name": "Employees Provident Fund (EPF)",
-    "url": "/organizations/employees-provident-fund-epf/"
+    "url": "/organizations/employees-provident-fund-epf/",
+    "id": "employees-provident-fund-(epf)"
   },
   {
     "name": "Enel",
-    "url": "/organizations/enel-spa/"
+    "url": "/organizations/enel-spa/",
+    "id": "enel"
   },
   {
     "name": "Energy Impact Partners",
-    "url": "/organizations/energy-impact-partners-lp/"
+    "url": "/organizations/energy-impact-partners-lp/",
+    "id": "energy-impact-partners"
   },
   {
     "name": "EnergyVision",
-    "url": "/organizations/energyvision/"
+    "url": "/organizations/energyvision/",
+    "id": "energyvision"
   },
   {
     "name": "ENGIE Group",
-    "url": "/organizations/engie/"
+    "url": "/organizations/engie/",
+    "id": "engie-group"
   },
   {
     "name": "EnginZyme",
-    "url": "/organizations/enginzyme/"
+    "url": "/organizations/enginzyme/",
+    "id": "enginzyme"
   },
   {
     "name": "Engro",
-    "url": "/organizations/engro/"
+    "url": "/organizations/engro/",
+    "id": "engro"
   },
   {
     "name": "Eni",
-    "url": "/organizations/eni-spa/"
+    "url": "/organizations/eni-spa/",
+    "id": "eni"
   },
   {
     "name": "Enko Chem",
-    "url": "/organizations/enko-chem/"
+    "url": "/organizations/enko-chem/",
+    "id": "enko-chem"
   },
   {
     "name": "Enpal",
-    "url": "/organizations/enpal/"
+    "url": "/organizations/enpal/",
+    "id": "enpal"
   },
   {
     "name": "EnQuest",
-    "url": "/organizations/enquest-plc/"
+    "url": "/organizations/enquest-plc/",
+    "id": "enquest"
   },
   {
     "name": "Envision Group",
-    "url": "/organizations/envision-group/"
+    "url": "/organizations/envision-group/",
+    "id": "envision-group"
   },
   {
     "name": "EQT",
-    "url": "/organizations/eqt-partners-ab/"
+    "url": "/organizations/eqt-partners-ab/",
+    "id": "eqt"
   },
   {
     "name": "Equinor",
-    "url": "/organizations/statoil-asa/"
+    "url": "/organizations/statoil-asa/",
+    "id": "equinor"
   },
   {
     "name": "Ericsson",
-    "url": "/organizations/telefonaktiebolaget-lm-ericsson/"
+    "url": "/organizations/telefonaktiebolaget-lm-ericsson/",
+    "id": "ericsson"
   },
   {
     "name": "Essar Oil UK",
-    "url": "/organizations/essar-oil-uk/"
+    "url": "/organizations/essar-oil-uk/",
+    "id": "essar-oil-uk"
   },
   {
     "name": "Essity",
-    "url": "/organizations/essity/"
+    "url": "/organizations/essity/",
+    "id": "essity"
   },
   {
     "name": "eToro",
-    "url": "/organizations/etoro/"
+    "url": "/organizations/etoro/",
+    "id": "etoro"
   },
   {
     "name": "Eurasian Resources Group (ERG)",
-    "url": "/organizations/eurasian-resources-group-sarl/"
+    "url": "/organizations/eurasian-resources-group-sarl/",
+    "id": "eurasian-resources-group-(erg)"
   },
   {
     "name": "Euroclear",
-    "url": "/organizations/euroclear/"
+    "url": "/organizations/euroclear/",
+    "id": "euroclear"
   },
   {
     "name": "European Bank for Reconstruction and Development (EBRD)",
-    "url": "/organizations/european-bank-for-reconstruction-and-development-ebrd/"
+    "url": "/organizations/european-bank-for-reconstruction-and-development-ebrd/",
+    "id": "european-bank-for-reconstruction-and-development-(ebrd)"
   },
   {
     "name": "European Investment Bank",
-    "url": "/organizations/european-investment-bank-eib/"
+    "url": "/organizations/european-investment-bank-eib/",
+    "id": "european-investment-bank"
   },
   {
     "name": "Evermos",
-    "url": "/organizations/evermos/"
+    "url": "/organizations/evermos/",
+    "id": "evermos"
   },
   {
     "name": "ExecOnline",
-    "url": "/organizations/execonline/"
+    "url": "/organizations/execonline/",
+    "id": "execonline"
   },
   {
     "name": "Exiger",
-    "url": "/organizations/exiger/"
+    "url": "/organizations/exiger/",
+    "id": "exiger"
   },
   {
     "name": "Explorance",
-    "url": "/organizations/explorance/"
+    "url": "/organizations/explorance/",
+    "id": "explorance"
   },
   {
     "name": "Exxaro",
-    "url": "/organizations/exxaro/"
+    "url": "/organizations/exxaro/",
+    "id": "exxaro"
   },
   {
     "name": "ExxonMobil",
-    "url": "/organizations/exxon-mobil-corporation/"
+    "url": "/organizations/exxon-mobil-corporation/",
+    "id": "exxonmobil"
   },
   {
     "name": "EY",
-    "url": "/organizations/ey/"
+    "url": "/organizations/ey/",
+    "id": "ey"
   },
   {
     "name": "Ezaki Glico",
-    "url": "/organizations/ezaki-glico/"
+    "url": "/organizations/ezaki-glico/",
+    "id": "ezaki-glico"
   },
   {
     "name": "Far East Holding Group",
-    "url": "/organizations/far-east-holding-group/"
+    "url": "/organizations/far-east-holding-group/",
+    "id": "far-east-holding-group"
   },
   {
     "name": "FEMSA",
-    "url": "/organizations/femsa/"
+    "url": "/organizations/femsa/",
+    "id": "femsa"
   },
   {
     "name": "Ferd",
-    "url": "/organizations/ferd/"
+    "url": "/organizations/ferd/",
+    "id": "ferd"
   },
   {
     "name": "Ferring Pharmaceuticals",
-    "url": "/organizations/ferring-pharmaceuticals/"
+    "url": "/organizations/ferring-pharmaceuticals/",
+    "id": "ferring-pharmaceuticals"
   },
   {
     "name": "Ferrovial",
-    "url": "/organizations/ferrovial/"
+    "url": "/organizations/ferrovial/",
+    "id": "ferrovial"
   },
   {
     "name": "Fidelity International",
-    "url": "/organizations/fidelity-international/"
+    "url": "/organizations/fidelity-international/",
+    "id": "fidelity-international"
   },
   {
     "name": "Fingerprint Cards",
-    "url": "/organizations/fingerprint-cards/"
+    "url": "/organizations/fingerprint-cards/",
+    "id": "fingerprint-cards"
   },
   {
     "name": "First Abu Dhabi Bank",
-    "url": "/organizations/first-abu-dhabi-bank/"
+    "url": "/organizations/first-abu-dhabi-bank/",
+    "id": "first-abu-dhabi-bank"
   },
   {
     "name": "FirstRand",
-    "url": "/organizations/firstrand-ltd/"
+    "url": "/organizations/firstrand-ltd/",
+    "id": "firstrand"
   },
   {
     "name": "Flagship Pioneering",
-    "url": "/organizations/flagship-pioneering/"
+    "url": "/organizations/flagship-pioneering/",
+    "id": "flagship-pioneering"
   },
   {
     "name": "Flex",
-    "url": "/organizations/flex/"
+    "url": "/organizations/flex/",
+    "id": "flex"
   },
   {
     "name": "Flottweg",
-    "url": "/organizations/flottweg/"
+    "url": "/organizations/flottweg/",
+    "id": "flottweg"
   },
   {
     "name": "Fluxys",
-    "url": "/organizations/fluxys/"
+    "url": "/organizations/fluxys/",
+    "id": "fluxys"
   },
   {
     "name": "Foherb (Tianjin) Pharmaceutical",
-    "url": "/organizations/fohoway-tianjin-pharmaceutical/"
+    "url": "/organizations/fohoway-tianjin-pharmaceutical/",
+    "id": "foherb-(tianjin)-pharmaceutical"
   },
   {
     "name": "FOMO Pay",
-    "url": "/organizations/fomo-pay-pte-ltd/"
+    "url": "/organizations/fomo-pay-pte-ltd/",
+    "id": "fomo-pay"
   },
   {
     "name": "Fortescue",
-    "url": "/organizations/fortescue-metals-group/"
+    "url": "/organizations/fortescue-metals-group/",
+    "id": "fortescue"
   },
   {
     "name": "Fortinet",
-    "url": "/organizations/fortinet/"
+    "url": "/organizations/fortinet/",
+    "id": "fortinet"
   },
   {
     "name": "FountainVest Partners (Asia)",
-    "url": "/organizations/fountainvest-partners-asia/"
+    "url": "/organizations/fountainvest-partners-asia/",
+    "id": "fountainvest-partners-(asia)"
   },
   {
     "name": "Foxconn Industrial Internet",
-    "url": "/organizations/foxconn-industrial-internet/"
+    "url": "/organizations/foxconn-industrial-internet/",
+    "id": "foxconn-industrial-internet"
   },
   {
     "name": "Fraser Health",
-    "url": "/organizations/fraser-health/"
+    "url": "/organizations/fraser-health/",
+    "id": "fraser-health"
   },
   {
     "name": "Fresenius",
-    "url": "/organizations/fresenius/"
+    "url": "/organizations/fresenius/",
+    "id": "fresenius"
   },
   {
     "name": "Frontera Energy",
-    "url": "/organizations/pacific-rubiales-energy/"
+    "url": "/organizations/pacific-rubiales-energy/",
+    "id": "frontera-energy"
   },
   {
     "name": "Frontiers Media",
-    "url": "/organizations/frontiers-open-access-journals/"
+    "url": "/organizations/frontiers-open-access-journals/",
+    "id": "frontiers-media"
   },
   {
     "name": "FSN Capital Partners",
-    "url": "/organizations/fsn-capital-partners/"
+    "url": "/organizations/fsn-capital-partners/",
+    "id": "fsn-capital-partners"
   },
   {
     "name": "FTI Consulting",
-    "url": "/organizations/fti-consulting-inc/"
+    "url": "/organizations/fti-consulting-inc/",
+    "id": "fti-consulting"
   },
   {
     "name": "Fubon Financial Holdings",
-    "url": "/organizations/fubon-financial-holdings/"
+    "url": "/organizations/fubon-financial-holdings/",
+    "id": "fubon-financial-holdings"
   },
   {
     "name": "FuelCell Energy",
-    "url": "/organizations/fuelcell-energy/"
+    "url": "/organizations/fuelcell-energy/",
+    "id": "fuelcell-energy"
   },
   {
     "name": "Fujitsu",
-    "url": "/organizations/fujitsu-limited/"
+    "url": "/organizations/fujitsu-limited/",
+    "id": "fujitsu"
   },
   {
     "name": "Galp",
-    "url": "/organizations/galp-energia/"
+    "url": "/organizations/galp-energia/",
+    "id": "galp"
   },
   {
     "name": "Garrett Motion",
-    "url": "/organizations/garrett-motion/"
+    "url": "/organizations/garrett-motion/",
+    "id": "garrett-motion"
   },
   {
     "name": "Garrison",
-    "url": "/organizations/garrison/"
+    "url": "/organizations/garrison/",
+    "id": "garrison"
   },
   {
     "name": "Gartner",
-    "url": "/organizations/gartner/"
+    "url": "/organizations/gartner/",
+    "id": "gartner"
   },
   {
     "name": "GBS",
-    "url": "/organizations/gbs/"
+    "url": "/organizations/gbs/",
+    "id": "gbs"
   },
   {
     "name": "GEA",
-    "url": "/organizations/gea-group/"
+    "url": "/organizations/gea-group/",
+    "id": "gea"
   },
   {
     "name": "Gecko Robotics",
-    "url": "/organizations/gecko-robotics/"
+    "url": "/organizations/gecko-robotics/",
+    "id": "gecko-robotics"
   },
   {
     "name": "Geminicorp Recycling",
-    "url": "/organizations/gemini-corporation/"
+    "url": "/organizations/gemini-corporation/",
+    "id": "geminicorp-recycling"
   },
   {
     "name": "General Atlantic",
-    "url": "/organizations/general-atlantic-llc/"
+    "url": "/organizations/general-atlantic-llc/",
+    "id": "general-atlantic"
   },
   {
     "name": "General Catalyst",
-    "url": "/organizations/general-catalyst/"
+    "url": "/organizations/general-catalyst/",
+    "id": "general-catalyst"
   },
   {
     "name": "Geox",
-    "url": "/organizations/geox/"
+    "url": "/organizations/geox/",
+    "id": "geox"
   },
   {
     "name": "GEP",
-    "url": "/organizations/gep/"
+    "url": "/organizations/gep/",
+    "id": "gep"
   },
   {
     "name": "Gerdau",
-    "url": "/organizations/gerdau/"
+    "url": "/organizations/gerdau/",
+    "id": "gerdau"
   },
   {
     "name": "GFH Financial Group",
-    "url": "/organizations/gfh-financial-group/"
+    "url": "/organizations/gfh-financial-group/",
+    "id": "gfh-financial-group"
   },
   {
     "name": "GHGSat",
-    "url": "/organizations/ghgsat/"
+    "url": "/organizations/ghgsat/",
+    "id": "ghgsat"
   },
   {
     "name": "GIC",
-    "url": "/organizations/gic-private-limited/"
+    "url": "/organizations/gic-private-limited/",
+    "id": "gic"
   },
   {
     "name": "Ginkgo Bioworks",
-    "url": "/organizations/ginkgo-bioworks/"
+    "url": "/organizations/ginkgo-bioworks/",
+    "id": "ginkgo-bioworks"
   },
   {
     "name": "Giti Group",
-    "url": "/organizations/giti-group/"
+    "url": "/organizations/giti-group/",
+    "id": "giti-group"
   },
   {
     "name": "Glencore International",
-    "url": "/organizations/glencore/"
+    "url": "/organizations/glencore/",
+    "id": "glencore-international"
   },
   {
     "name": "Gloat",
-    "url": "/organizations/gloat/"
+    "url": "/organizations/gloat/",
+    "id": "gloat"
   },
   {
     "name": "Global Asset Capital",
-    "url": "/organizations/global-asset-capital/"
+    "url": "/organizations/global-asset-capital/",
+    "id": "global-asset-capital"
   },
   {
     "name": "GLOBIS",
-    "url": "/organizations/globis-corporation/"
+    "url": "/organizations/globis-corporation/",
+    "id": "globis"
   },
   {
     "name": "Gloria",
-    "url": "/organizations/gloria/"
+    "url": "/organizations/gloria/",
+    "id": "gloria"
   },
   {
     "name": "GMR Infrastructure",
-    "url": "/organizations/gmr-group/"
+    "url": "/organizations/gmr-group/",
+    "id": "gmr-infrastructure"
   },
   {
     "name": "Godrej Industries",
-    "url": "/organizations/godrej-industries-ltd/"
+    "url": "/organizations/godrej-industries-ltd/",
+    "id": "godrej-industries"
   },
   {
     "name": "GoldenTree Asset Management",
-    "url": "/organizations/goldentree-asset-management/"
+    "url": "/organizations/goldentree-asset-management/",
+    "id": "goldentree-asset-management"
   },
   {
     "name": "Goldman Sachs",
-    "url": "/organizations/the-goldman-sachs-group-inc/"
+    "url": "/organizations/the-goldman-sachs-group-inc/",
+    "id": "goldman-sachs"
   },
   {
     "name": "Google",
-    "url": "/organizations/google/"
+    "url": "/organizations/google/",
+    "id": "google"
   },
   {
     "name": "Government of Flanders",
-    "url": "/organizations/government-of-flanders/"
+    "url": "/organizations/government-of-flanders/",
+    "id": "government-of-flanders"
   },
   {
     "name": "Grab",
-    "url": "/organizations/grab/"
+    "url": "/organizations/grab/",
+    "id": "grab"
   },
   {
     "name": "Graphjet Technology",
-    "url": "/organizations/graphjet-technology/"
+    "url": "/organizations/graphjet-technology/",
+    "id": "graphjet-technology"
   },
   {
     "name": "Grayscale Investments",
-    "url": "/organizations/grayscale-investments-llc/"
+    "url": "/organizations/grayscale-investments-llc/",
+    "id": "grayscale-investments"
   },
   {
     "name": "Greater Toronto Airports Authority",
-    "url": "/organizations/greater-toronto-airports-authority/"
+    "url": "/organizations/greater-toronto-airports-authority/",
+    "id": "greater-toronto-airports-authority"
   },
   {
     "name": "Green Delta Insurance",
-    "url": "/organizations/green-delta-insurance-company/"
+    "url": "/organizations/green-delta-insurance-company/",
+    "id": "green-delta-insurance"
   },
   {
     "name": "Greenko",
-    "url": "/organizations/greenko/"
+    "url": "/organizations/greenko/",
+    "id": "greenko"
   },
   {
     "name": "Greenoaks",
-    "url": "/organizations/greenoaks/"
+    "url": "/organizations/greenoaks/",
+    "id": "greenoaks"
   },
   {
     "name": "Greiner",
-    "url": "/organizations/greiner-holding/"
+    "url": "/organizations/greiner-holding/",
+    "id": "greiner"
   },
   {
     "name": "Groupe BPCE",
-    "url": "/organizations/groupe-bpce/"
+    "url": "/organizations/groupe-bpce/",
+    "id": "groupe-bpce"
   },
   {
     "name": "Grundfos",
-    "url": "/organizations/grundfos/"
+    "url": "/organizations/grundfos/",
+    "id": "grundfos"
   },
   {
     "name": "Grupo BAL",
-    "url": "/organizations/grupo-bal/"
+    "url": "/organizations/grupo-bal/",
+    "id": "grupo-bal"
   },
   {
     "name": "Grupo ISA",
-    "url": "/organizations/grupo-isa/"
+    "url": "/organizations/grupo-isa/",
+    "id": "grupo-isa"
   },
   {
     "name": "Grupo Mariposa",
-    "url": "/organizations/grupo-mariposa/"
+    "url": "/organizations/grupo-mariposa/",
+    "id": "grupo-mariposa"
   },
   {
     "name": "Grupo Mega",
-    "url": "/organizations/grupo-mega/"
+    "url": "/organizations/grupo-mega/",
+    "id": "grupo-mega"
   },
   {
     "name": "Grupo Salinas",
-    "url": "/organizations/grupo-salinas-a8939bf4ff/"
+    "url": "/organizations/grupo-salinas-a8939bf4ff/",
+    "id": "grupo-salinas"
   },
   {
     "name": "GS Group",
-    "url": "/organizations/gs-holdings/"
+    "url": "/organizations/gs-holdings/",
+    "id": "gs-group"
   },
   {
     "name": "Guangdong Galanz Enterprise (Group)",
-    "url": "/organizations/guangdong-galanz-enterprise-group/"
+    "url": "/organizations/guangdong-galanz-enterprise-group/",
+    "id": "guangdong-galanz-enterprise-(group)"
   },
   {
     "name": "Guangzhou Automobile Group",
-    "url": "/organizations/guangzhou-automobile-industry-group-co/"
+    "url": "/organizations/guangzhou-automobile-industry-group-co/",
+    "id": "guangzhou-automobile-group"
   },
   {
     "name": "Guardant Health",
-    "url": "/organizations/guardant-health/"
+    "url": "/organizations/guardant-health/",
+    "id": "guardant-health"
   },
   {
     "name": "Guggenheim Partners",
-    "url": "/organizations/guggenheim-partners-llc/"
+    "url": "/organizations/guggenheim-partners-llc/",
+    "id": "guggenheim-partners"
   },
   {
     "name": "Guidance",
-    "url": "/organizations/guidance/"
+    "url": "/organizations/guidance/",
+    "id": "guidance"
   },
   {
     "name": "Gulf International Bank (GIB)",
-    "url": "/organizations/gulf-international-bank-bsc-gib/"
+    "url": "/organizations/gulf-international-bank-bsc-gib/",
+    "id": "gulf-international-bank-(gib)"
   },
   {
     "name": "Gulfstream Aerospace",
-    "url": "/organizations/gulfstream-aerospace/"
+    "url": "/organizations/gulfstream-aerospace/",
+    "id": "gulfstream-aerospace"
   },
   {
     "name": "Gunvor Group",
-    "url": "/organizations/gunvor-sa/"
+    "url": "/organizations/gunvor-sa/",
+    "id": "gunvor-group"
   },
   {
     "name": "H&M (Hennes & Mauritz)",
-    "url": "/organizations/h-m-hennes-mauritz/"
+    "url": "/organizations/h-m-hennes-mauritz/",
+    "id": "h&m-(hennes-&-mauritz)"
   },
   {
     "name": "H3C",
-    "url": "/organizations/h3c/"
+    "url": "/organizations/h3c/",
+    "id": "h3c"
   },
   {
     "name": "Hackensack Meridian Health",
-    "url": "/organizations/hackensack-meridian-health/"
+    "url": "/organizations/hackensack-meridian-health/",
+    "id": "hackensack-meridian-health"
   },
   {
     "name": "Haier Group",
-    "url": "/organizations/haier-group/"
+    "url": "/organizations/haier-group/",
+    "id": "haier-group"
   },
   {
     "name": "Hanwha Group",
-    "url": "/organizations/hanwha-corporation/"
+    "url": "/organizations/hanwha-corporation/",
+    "id": "hanwha-group"
   },
   {
     "name": "HCC",
-    "url": "/organizations/hindustan-construction-company-ltd/"
+    "url": "/organizations/hindustan-construction-company-ltd/",
+    "id": "hcc"
   },
   {
     "name": "HCLTech",
-    "url": "/organizations/hcl-technologies-ltd/"
+    "url": "/organizations/hcl-technologies-ltd/",
+    "id": "hcltech"
   },
   {
     "name": "HD Hyundai",
-    "url": "/organizations/hyundai-heavy-industries/"
+    "url": "/organizations/hyundai-heavy-industries/",
+    "id": "hd-hyundai"
   },
   {
     "name": "Heathrow Airport",
-    "url": "/organizations/heathrow-airport/"
+    "url": "/organizations/heathrow-airport/",
+    "id": "heathrow-airport"
   },
   {
     "name": "Heidrick & Struggles",
-    "url": "/organizations/heidrick-struggles/"
+    "url": "/organizations/heidrick-struggles/",
+    "id": "heidrick-&-struggles"
   },
   {
     "name": "HEINEKEN",
-    "url": "/organizations/heineken-nv/"
+    "url": "/organizations/heineken-nv/",
+    "id": "heineken"
   },
   {
     "name": "Hellman & Friedman",
-    "url": "/organizations/hellman-friedman/"
+    "url": "/organizations/hellman-friedman/",
+    "id": "hellman-&-friedman"
   },
   {
     "name": "Hengchang",
-    "url": "/organizations/hengchang-litong-investment-management-beijing-co/"
+    "url": "/organizations/hengchang-litong-investment-management-beijing-co/",
+    "id": "hengchang"
   },
   {
     "name": "Hengtong Group",
-    "url": "/organizations/hengtong-group/"
+    "url": "/organizations/hengtong-group/",
+    "id": "hengtong-group"
   },
   {
     "name": "Henkel",
-    "url": "/organizations/henkel-ag-co-kgaa/"
+    "url": "/organizations/henkel-ag-co-kgaa/",
+    "id": "henkel"
   },
   {
     "name": "Henry Schein",
-    "url": "/organizations/henry-schein-inc/"
+    "url": "/organizations/henry-schein-inc/",
+    "id": "henry-schein"
   },
   {
     "name": "Hepsiburada",
-    "url": "/organizations/hepsiburada/"
+    "url": "/organizations/hepsiburada/",
+    "id": "hepsiburada"
   },
   {
     "name": "Heritage Assets",
-    "url": "/organizations/heritage-assets/"
+    "url": "/organizations/heritage-assets/",
+    "id": "heritage-assets"
   },
   {
     "name": "Hero Group",
-    "url": "/organizations/hero-group/"
+    "url": "/organizations/hero-group/",
+    "id": "hero-group"
   },
   {
     "name": "Hess Corporation",
-    "url": "/organizations/hess-corporation/"
+    "url": "/organizations/hess-corporation/",
+    "id": "hess-corporation"
   },
   {
     "name": "Hewlett Packard Enterprise",
-    "url": "/organizations/hewlett-packard-enterprise/"
+    "url": "/organizations/hewlett-packard-enterprise/",
+    "id": "hewlett-packard-enterprise"
   },
   {
     "name": "Hikma Pharmaceuticals",
-    "url": "/organizations/hikma-pharmaceuticals-plc/"
+    "url": "/organizations/hikma-pharmaceuticals-plc/",
+    "id": "hikma-pharmaceuticals"
   },
   {
     "name": "Hines",
-    "url": "/organizations/hines/"
+    "url": "/organizations/hines/",
+    "id": "hines"
   },
   {
     "name": "Hisense Group",
-    "url": "/organizations/hisense-group-holdings-co-ltd/"
+    "url": "/organizations/hisense-group-holdings-co-ltd/",
+    "id": "hisense-group"
   },
   {
     "name": "Hitachi",
-    "url": "/organizations/hitachi-ltd/"
+    "url": "/organizations/hitachi-ltd/",
+    "id": "hitachi"
   },
   {
     "name": "Holcim",
-    "url": "/organizations/lafargeholcim-ltd/"
+    "url": "/organizations/lafargeholcim-ltd/",
+    "id": "holcim"
   },
   {
     "name": "Holman Enterprises",
-    "url": "/organizations/holman-enterprises/"
+    "url": "/organizations/holman-enterprises/",
+    "id": "holman-enterprises"
   },
   {
     "name": "Hologic",
-    "url": "/organizations/hologic/"
+    "url": "/organizations/hologic/",
+    "id": "hologic"
   },
   {
     "name": "Holtzbrinck Publishing Group",
-    "url": "/organizations/holtzbrinck-publishing-group/"
+    "url": "/organizations/holtzbrinck-publishing-group/",
+    "id": "holtzbrinck-publishing-group"
   },
   {
     "name": "Honda Motor",
-    "url": "/organizations/honda-motor/"
+    "url": "/organizations/honda-motor/",
+    "id": "honda-motor"
   },
   {
     "name": "Honeywell",
-    "url": "/organizations/honeywell/"
+    "url": "/organizations/honeywell/",
+    "id": "honeywell"
   },
   {
     "name": "Hong Kong Exchanges and Clearing (HKEX)",
-    "url": "/organizations/hong-kong-exchanges-and-clearing-hkex/"
+    "url": "/organizations/hong-kong-exchanges-and-clearing-hkex/",
+    "id": "hong-kong-exchanges-and-clearing-(hkex)"
   },
   {
     "name": "Honoris United Universities",
-    "url": "/organizations/honoris-united-universities/"
+    "url": "/organizations/honoris-united-universities/",
+    "id": "honoris-united-universities"
   },
   {
     "name": "HP",
-    "url": "/organizations/hp-inc/"
+    "url": "/organizations/hp-inc/",
+    "id": "hp"
   },
   {
     "name": "HP Trust",
-    "url": "/organizations/hp-trust/"
+    "url": "/organizations/hp-trust/",
+    "id": "hp-trust"
   },
   {
     "name": "HSA Group",
-    "url": "/organizations/hayel-saeed-anam-group-of-companies-hsa-group/"
+    "url": "/organizations/hayel-saeed-anam-group-of-companies-hsa-group/",
+    "id": "hsa-group"
   },
   {
     "name": "HSBC",
-    "url": "/organizations/hsbc-holdings-plc/"
+    "url": "/organizations/hsbc-holdings-plc/",
+    "id": "hsbc"
   },
   {
     "name": "HTC-VIA",
-    "url": "/organizations/htc-via/"
+    "url": "/organizations/htc-via/",
+    "id": "htc-via"
   },
   {
     "name": "Huawei Technologies",
-    "url": "/organizations/huawei-technologies-co-ltd/"
+    "url": "/organizations/huawei-technologies-co-ltd/",
+    "id": "huawei-technologies"
   },
   {
     "name": "Hubert Burda Media",
-    "url": "/organizations/burda-media/"
+    "url": "/organizations/burda-media/",
+    "id": "hubert-burda-media"
   },
   {
     "name": "H\u00fcbner",
-    "url": "/organizations/hubner-gmbh/"
+    "url": "/organizations/hubner-gmbh/",
+    "id": "h\u00fcbner"
   },
   {
     "name": "Huma",
-    "url": "/organizations/huma/"
+    "url": "/organizations/huma/",
+    "id": "huma"
   },
   {
     "name": "Hunt Consolidated Energy",
-    "url": "/organizations/hunt-oil-company/"
+    "url": "/organizations/hunt-oil-company/",
+    "id": "hunt-consolidated-energy"
   },
   {
     "name": "Hydro",
-    "url": "/organizations/hydro/"
+    "url": "/organizations/hydro/",
+    "id": "hydro"
   },
   {
     "name": "Hyosung Group",
-    "url": "/organizations/hyosung-group/"
+    "url": "/organizations/hyosung-group/",
+    "id": "hyosung-group"
   },
   {
     "name": "Hyundai Motor",
-    "url": "/organizations/hyundai-motor-company/"
+    "url": "/organizations/hyundai-motor-company/",
+    "id": "hyundai-motor"
   },
   {
     "name": "Iberdrola",
-    "url": "/organizations/iberdrola/"
+    "url": "/organizations/iberdrola/",
+    "id": "iberdrola"
   },
   {
     "name": "IBM",
-    "url": "/organizations/ibm-corporation/"
+    "url": "/organizations/ibm-corporation/",
+    "id": "ibm"
   },
   {
     "name": "iFood",
-    "url": "/organizations/ifood/"
+    "url": "/organizations/ifood/",
+    "id": "ifood"
   },
   {
     "name": "iGenius",
-    "url": "/organizations/igenius/"
+    "url": "/organizations/igenius/",
+    "id": "igenius"
   },
   {
     "name": "Ihlas Holding",
-    "url": "/organizations/ihlas-holding-sa/"
+    "url": "/organizations/ihlas-holding-sa/",
+    "id": "ihlas-holding"
   },
   {
     "name": "illycaff\u00e8",
-    "url": "/organizations/illycaffe-spa/"
+    "url": "/organizations/illycaffe-spa/",
+    "id": "illycaff\u00e8"
   },
   {
     "name": "IMC Pan Asia Alliance",
-    "url": "/organizations/imc-pan-asia-alliance/"
+    "url": "/organizations/imc-pan-asia-alliance/",
+    "id": "imc-pan-asia-alliance"
   },
   {
     "name": "Imperial Logistics",
-    "url": "/organizations/imperial-logistics/"
+    "url": "/organizations/imperial-logistics/",
+    "id": "imperial-logistics"
   },
   {
     "name": "IN4.OS US",
-    "url": "/organizations/in4-os-us/"
+    "url": "/organizations/in4-os-us/",
+    "id": "in4.os-us"
   },
   {
     "name": "Indian Oil",
-    "url": "/organizations/indian-oil-corporation/"
+    "url": "/organizations/indian-oil-corporation/",
+    "id": "indian-oil"
   },
   {
     "name": "Indigo Agriculture",
-    "url": "/organizations/indigo-agriculture/"
+    "url": "/organizations/indigo-agriculture/",
+    "id": "indigo-agriculture"
   },
   {
     "name": "Indika Energy",
-    "url": "/organizations/pt-indika-energy-tbk/"
+    "url": "/organizations/pt-indika-energy-tbk/",
+    "id": "indika-energy"
   },
   {
     "name": "Indofood",
-    "url": "/organizations/indofood/"
+    "url": "/organizations/indofood/",
+    "id": "indofood"
   },
   {
     "name": "Indonesian Chamber of Commerce and Industry (KADIN)",
-    "url": "/organizations/kadin/"
+    "url": "/organizations/kadin/",
+    "id": "indonesian-chamber-of-commerce-and-industry-(kadin)"
   },
   {
     "name": "Indorama Ventures",
-    "url": "/organizations/indorama-ventures-public-company-limited/"
+    "url": "/organizations/indorama-ventures-public-company-limited/",
+    "id": "indorama-ventures"
   },
   {
     "name": "Indus Group",
-    "url": "/organizations/indus-group/"
+    "url": "/organizations/indus-group/",
+    "id": "indus-group"
   },
   {
     "name": "Industrial and Commercial Bank of China (ICBC)",
-    "url": "/organizations/industrial-and-commercial-bank-of-china-icbc/"
+    "url": "/organizations/industrial-and-commercial-bank-of-china-icbc/",
+    "id": "industrial-and-commercial-bank-of-china-(icbc)"
   },
   {
     "name": "Industrial Development Corporation of South Africa",
-    "url": "/organizations/industrial-development-corporation-of-south-africa-ltd-idc/"
+    "url": "/organizations/industrial-development-corporation-of-south-africa-ltd-idc/",
+    "id": "industrial-development-corporation-of-south-africa"
   },
   {
     "name": "Infosys",
-    "url": "/organizations/infosys-ltd/"
+    "url": "/organizations/infosys-ltd/",
+    "id": "infosys"
   },
   {
     "name": "ING Group",
-    "url": "/organizations/ing-group/"
+    "url": "/organizations/ing-group/",
+    "id": "ing-group"
   },
   {
     "name": "Ingka Group (IKEA)",
-    "url": "/organizations/ikea-group/"
+    "url": "/organizations/ikea-group/",
+    "id": "ingka-group-(ikea)"
   },
   {
     "name": "INOX Group",
-    "url": "/organizations/inox-group/"
+    "url": "/organizations/inox-group/",
+    "id": "inox-group"
   },
   {
     "name": "Instacart",
-    "url": "/organizations/instacart/"
+    "url": "/organizations/instacart/",
+    "id": "instacart"
   },
   {
     "name": "Integral Group",
-    "url": "/organizations/integral-petroleum/"
+    "url": "/organizations/integral-petroleum/",
+    "id": "integral-group"
   },
   {
     "name": "Intel",
-    "url": "/organizations/intel-corporation/"
+    "url": "/organizations/intel-corporation/",
+    "id": "intel"
   },
   {
     "name": "Inter-American Development Bank",
-    "url": "/organizations/the-inter-american-development-bank/"
+    "url": "/organizations/the-inter-american-development-bank/",
+    "id": "inter-american-development-bank"
   },
   {
     "name": "Intercorp",
-    "url": "/organizations/intercorp/"
+    "url": "/organizations/intercorp/",
+    "id": "intercorp"
   },
   {
     "name": "International Centre for Industrial Transformation",
-    "url": "/organizations/international-centre-for-industrial-transformation/"
+    "url": "/organizations/international-centre-for-industrial-transformation/",
+    "id": "international-centre-for-industrial-transformation"
   },
   {
     "name": "International Finance Corporation",
-    "url": "/organizations/international-finance-corporation-ifc/"
+    "url": "/organizations/international-finance-corporation-ifc/",
+    "id": "international-finance-corporation"
   },
   {
     "name": "Intesa Sanpaolo",
-    "url": "/organizations/intesa-sanpaolo-spa/"
+    "url": "/organizations/intesa-sanpaolo-spa/",
+    "id": "intesa-sanpaolo"
   },
   {
     "name": "Invesco",
-    "url": "/organizations/invesco/"
+    "url": "/organizations/invesco/",
+    "id": "invesco"
   },
   {
     "name": "Invest Ottawa",
-    "url": "/organizations/invest-ottawa/"
+    "url": "/organizations/invest-ottawa/",
+    "id": "invest-ottawa"
   },
   {
     "name": "Investcorp",
-    "url": "/organizations/investcorp/"
+    "url": "/organizations/investcorp/",
+    "id": "investcorp"
   },
   {
     "name": "Investec",
-    "url": "/organizations/investec-ltd/"
+    "url": "/organizations/investec-ltd/",
+    "id": "investec"
   },
   {
     "name": "Investissement Qu\u00e9bec",
-    "url": "/organizations/investissement-quebec/"
+    "url": "/organizations/investissement-quebec/",
+    "id": "investissement-qu\u00e9bec"
   },
   {
     "name": "Investment Promotion Agency Qatar (Invest Qatar)",
-    "url": "/organizations/ipa-qatar/"
+    "url": "/organizations/ipa-qatar/",
+    "id": "investment-promotion-agency-qatar-(invest-qatar)"
   },
   {
     "name": "IQVIA",
-    "url": "/organizations/iqvia/"
+    "url": "/organizations/iqvia/",
+    "id": "iqvia"
   },
   {
     "name": "Iron Mountain Information Management",
-    "url": "/organizations/iron-mountain-information-management/"
+    "url": "/organizations/iron-mountain-information-management/",
+    "id": "iron-mountain-information-management"
   },
   {
     "name": "ispace",
-    "url": "/organizations/ispace/"
+    "url": "/organizations/ispace/",
+    "id": "ispace"
   },
   {
     "name": "Ita\u00fa Unibanco",
-    "url": "/organizations/itau-unibanco-sa/"
+    "url": "/organizations/itau-unibanco-sa/",
+    "id": "ita\u00fa-unibanco"
   },
   {
     "name": "IVITA Group",
-    "url": "/organizations/ivita-health/"
+    "url": "/organizations/ivita-health/",
+    "id": "ivita-group"
   },
   {
     "name": "J. Safra Group",
-    "url": "/organizations/safra-group/"
+    "url": "/organizations/safra-group/",
+    "id": "j.-safra-group"
   },
   {
     "name": "Jabil",
-    "url": "/organizations/jabil-circuit-guangzhou/"
+    "url": "/organizations/jabil-circuit-guangzhou/",
+    "id": "jabil"
   },
   {
     "name": "Jahez",
-    "url": "/organizations/jahez/"
+    "url": "/organizations/jahez/",
+    "id": "jahez"
   },
   {
     "name": "Japan Bank for International Cooperation (JBIC)",
-    "url": "/organizations/japan-bank-for-international-cooperation-jbic/"
+    "url": "/organizations/japan-bank-for-international-cooperation-jbic/",
+    "id": "japan-bank-for-international-cooperation-(jbic)"
   },
   {
     "name": "JBS",
-    "url": "/organizations/grupo-jbs-friboi-sa/"
+    "url": "/organizations/grupo-jbs-friboi-sa/",
+    "id": "jbs"
   },
   {
     "name": "JERA",
-    "url": "/organizations/jera/"
+    "url": "/organizations/jera/",
+    "id": "jera"
   },
   {
     "name": "Jer\u00f3nimo Martins",
-    "url": "/organizations/jeronimo-martins-sgps-sa/"
+    "url": "/organizations/jeronimo-martins-sgps-sa/",
+    "id": "jer\u00f3nimo-martins"
   },
   {
     "name": "Jetex Flight Support",
-    "url": "/organizations/jetex-flight-support/"
+    "url": "/organizations/jetex-flight-support/",
+    "id": "jetex-flight-support"
   },
   {
     "name": "Jetline Group",
-    "url": "/organizations/jetline-group-of-companies/"
+    "url": "/organizations/jetline-group-of-companies/",
+    "id": "jetline-group"
   },
   {
     "name": "JHSF",
-    "url": "/organizations/jhsf/"
+    "url": "/organizations/jhsf/",
+    "id": "jhsf"
   },
   {
     "name": "JinkoSolar",
-    "url": "/organizations/jinkosolar/"
+    "url": "/organizations/jinkosolar/",
+    "id": "jinkosolar"
   },
   {
     "name": "JLL",
-    "url": "/organizations/jll/"
+    "url": "/organizations/jll/",
+    "id": "jll"
   },
   {
     "name": "Johannesburg Stock Exchange",
-    "url": "/organizations/johannesburg-stock-exchange/"
+    "url": "/organizations/johannesburg-stock-exchange/",
+    "id": "johannesburg-stock-exchange"
   },
   {
     "name": "John Keells Holdings",
-    "url": "/organizations/john-keells-holdings/"
+    "url": "/organizations/john-keells-holdings/",
+    "id": "john-keells-holdings"
   },
   {
     "name": "Johnson & Johnson",
-    "url": "/organizations/johnson-johnson/"
+    "url": "/organizations/johnson-johnson/",
+    "id": "johnson-&-johnson"
   },
   {
     "name": "Johnson Controls",
-    "url": "/organizations/johnson-controls-inc/"
+    "url": "/organizations/johnson-controls-inc/",
+    "id": "johnson-controls"
   },
   {
     "name": "Johnson Matthey",
-    "url": "/organizations/johnson-matthey/"
+    "url": "/organizations/johnson-matthey/",
+    "id": "johnson-matthey"
   },
   {
     "name": "JPMorgan Chase & Co.",
-    "url": "/organizations/jpmorgan-chase-co/"
+    "url": "/organizations/jpmorgan-chase-co/",
+    "id": "jpmorgan-chase-&-co."
   },
   {
     "name": "JS Group",
-    "url": "/organizations/js-group/"
+    "url": "/organizations/js-group/",
+    "id": "js-group"
   },
   {
     "name": "JSW Group",
-    "url": "/organizations/jsw-group/"
+    "url": "/organizations/jsw-group/",
+    "id": "jsw-group"
   },
   {
     "name": "Jubilant Bhartia Group",
-    "url": "/organizations/jubilant-bhartia-group/"
+    "url": "/organizations/jubilant-bhartia-group/",
+    "id": "jubilant-bhartia-group"
   },
   {
     "name": "Juffali and Brothers",
-    "url": "/organizations/juffali-and-brothers/"
+    "url": "/organizations/juffali-and-brothers/",
+    "id": "juffali-and-brothers"
   },
   {
     "name": "Kaiser Permanente",
-    "url": "/organizations/kaiser-permanente-06c11263bc/"
+    "url": "/organizations/kaiser-permanente-06c11263bc/",
+    "id": "kaiser-permanente"
   },
   {
     "name": "Kaizen Institute",
-    "url": "/organizations/kaizen-institute-consulting-group/"
+    "url": "/organizations/kaizen-institute-consulting-group/",
+    "id": "kaizen-institute"
   },
   {
     "name": "Kale Holding",
-    "url": "/organizations/kale-group/"
+    "url": "/organizations/kale-group/",
+    "id": "kale-holding"
   },
   {
     "name": "Kaltroco",
-    "url": "/organizations/kaltroco/"
+    "url": "/organizations/kaltroco/",
+    "id": "kaltroco"
   },
   {
     "name": "KAR Group",
-    "url": "/organizations/kar-group/"
+    "url": "/organizations/kar-group/",
+    "id": "kar-group"
   },
   {
     "name": "Kasikornbank",
-    "url": "/organizations/kasikornbank/"
+    "url": "/organizations/kasikornbank/",
+    "id": "kasikornbank"
   },
   {
     "name": "Kayrros",
-    "url": "/organizations/kayrros/"
+    "url": "/organizations/kayrros/",
+    "id": "kayrros"
   },
   {
     "name": "Kcap Holdings",
-    "url": "/organizations/kcap-holdings/"
+    "url": "/organizations/kcap-holdings/",
+    "id": "kcap-holdings"
   },
   {
     "name": "Kearney",
-    "url": "/organizations/kearney-inc/"
+    "url": "/organizations/kearney-inc/",
+    "id": "kearney"
   },
   {
     "name": "Keidanren (Japan Business Federation)",
-    "url": "/organizations/keidanren-japan-business-federation/"
+    "url": "/organizations/keidanren-japan-business-federation/",
+    "id": "keidanren-(japan-business-federation)"
   },
   {
     "name": "Khazanah Nasional",
-    "url": "/organizations/khazanah-nasional-berhad/"
+    "url": "/organizations/khazanah-nasional-berhad/",
+    "id": "khazanah-nasional"
   },
   {
     "name": "Kikkoman",
-    "url": "/organizations/kikkoman-corporation/"
+    "url": "/organizations/kikkoman-corporation/",
+    "id": "kikkoman"
   },
   {
     "name": "King & Wood Mallesons",
-    "url": "/organizations/king-wood-mallesons/"
+    "url": "/organizations/king-wood-mallesons/",
+    "id": "king-&-wood-mallesons"
   },
   {
     "name": "King Faisal Specialist Hospital and Research Centre",
-    "url": "/organizations/king-faisal-specialist-hospital-and-research-centre/"
+    "url": "/organizations/king-faisal-specialist-hospital-and-research-centre/",
+    "id": "king-faisal-specialist-hospital-and-research-centre"
   },
   {
     "name": "Kingdom Holding",
-    "url": "/organizations/kingdom-holding-co/"
+    "url": "/organizations/kingdom-holding-co/",
+    "id": "kingdom-holding"
   },
   {
     "name": "Ko\u00e7 Holding",
-    "url": "/organizations/koc-holding-as/"
+    "url": "/organizations/koc-holding-as/",
+    "id": "ko\u00e7-holding"
   },
   {
     "name": "Kohlberg Kravis Roberts & Co. (KKR)",
-    "url": "/organizations/kohlberg-kravis-roberts-co-l-p/"
+    "url": "/organizations/kohlberg-kravis-roberts-co-l-p/",
+    "id": "kohlberg-kravis-roberts-&-co.-(kkr)"
   },
   {
     "name": "KOIS",
-    "url": "/organizations/kois-invest/"
+    "url": "/organizations/kois-invest/",
+    "id": "kois"
   },
   {
     "name": "KONUX",
-    "url": "/organizations/konux/"
+    "url": "/organizations/konux/",
+    "id": "konux"
   },
   {
     "name": "K\u00f6rber Digital",
-    "url": "/organizations/korber-digital/"
+    "url": "/organizations/korber-digital/",
+    "id": "k\u00f6rber-digital"
   },
   {
     "name": "Korea Zinc",
-    "url": "/organizations/korea-zinc/"
+    "url": "/organizations/korea-zinc/",
+    "id": "korea-zinc"
   },
   {
     "name": "KPMG",
-    "url": "/organizations/kpmg-international-cooperative/"
+    "url": "/organizations/kpmg-international-cooperative/",
+    "id": "kpmg"
   },
   {
     "name": "KraneShares",
-    "url": "/organizations/kraneshares/"
+    "url": "/organizations/kraneshares/",
+    "id": "kraneshares"
   },
   {
     "name": "Kudelski Group",
-    "url": "/organizations/kudelski-group/"
+    "url": "/organizations/kudelski-group/",
+    "id": "kudelski-group"
   },
   {
     "name": "Kuwait Industries",
-    "url": "/organizations/kuwait-industries/"
+    "url": "/organizations/kuwait-industries/",
+    "id": "kuwait-industries"
   },
   {
     "name": "Kuwaiti Danish Dairy (KDD)",
-    "url": "/organizations/the-kuwaiti-danish-dairy-company-kcsc/"
+    "url": "/organizations/the-kuwaiti-danish-dairy-company-kcsc/",
+    "id": "kuwaiti-danish-dairy-(kdd)"
   },
   {
     "name": "Kweichow Moutai Group",
-    "url": "/organizations/kweichow-moutai-group/"
+    "url": "/organizations/kweichow-moutai-group/",
+    "id": "kweichow-moutai-group"
   },
   {
     "name": "Kyndryl",
-    "url": "/organizations/kyndryl/"
+    "url": "/organizations/kyndryl/",
+    "id": "kyndryl"
   },
   {
     "name": "KYU Collective",
-    "url": "/organizations/kyu-collective/"
+    "url": "/organizations/kyu-collective/",
+    "id": "kyu-collective"
   },
   {
     "name": "L'Or\u00e9al",
-    "url": "/organizations/loreal/"
+    "url": "/organizations/loreal/",
+    "id": "l'or\u00e9al"
   },
   {
     "name": "Lab49",
-    "url": "/organizations/lab49/"
+    "url": "/organizations/lab49/",
+    "id": "lab49"
   },
   {
     "name": "Lamar Holding",
-    "url": "/organizations/lamar-holding/"
+    "url": "/organizations/lamar-holding/",
+    "id": "lamar-holding"
   },
   {
     "name": "LanzaJet",
-    "url": "/organizations/lanzajet/"
+    "url": "/organizations/lanzajet/",
+    "id": "lanzajet"
   },
   {
     "name": "Lawson",
-    "url": "/organizations/lawson-inc/"
+    "url": "/organizations/lawson-inc/",
+    "id": "lawson"
   },
   {
     "name": "Lazard",
-    "url": "/organizations/lazard/"
+    "url": "/organizations/lazard/",
+    "id": "lazard"
   },
   {
     "name": "LEK Consulting",
-    "url": "/organizations/lek-consulting/"
+    "url": "/organizations/lek-consulting/",
+    "id": "lek-consulting"
   },
   {
     "name": "Lenovo",
-    "url": "/organizations/lenovo/"
+    "url": "/organizations/lenovo/",
+    "id": "lenovo"
   },
   {
     "name": "LG Chem",
-    "url": "/organizations/lg-chem/"
+    "url": "/organizations/lg-chem/",
+    "id": "lg-chem"
   },
   {
     "name": "LGT Group",
-    "url": "/organizations/lgt-group-foundation/"
+    "url": "/organizations/lgt-group-foundation/",
+    "id": "lgt-group"
   },
   {
     "name": "Liberty Global",
-    "url": "/organizations/liberty-global/"
+    "url": "/organizations/liberty-global/",
+    "id": "liberty-global"
   },
   {
     "name": "LightGuide",
-    "url": "/organizations/ops-solutions/"
+    "url": "/organizations/ops-solutions/",
+    "id": "lightguide"
   },
   {
     "name": "Lightspeed Venture Partners",
-    "url": "/organizations/lightspeed-venture-partners/"
+    "url": "/organizations/lightspeed-venture-partners/",
+    "id": "lightspeed-venture-partners"
   },
   {
     "name": "Limak Holding",
-    "url": "/organizations/limak-holding/"
+    "url": "/organizations/limak-holding/",
+    "id": "limak-holding"
   },
   {
     "name": "LinkedIn",
-    "url": "/organizations/linkedin-corporation/"
+    "url": "/organizations/linkedin-corporation/",
+    "id": "linkedin"
   },
   {
     "name": "Lippo Group",
-    "url": "/organizations/lippo-group/"
+    "url": "/organizations/lippo-group/",
+    "id": "lippo-group"
   },
   {
     "name": "Lloyds Banking Group",
-    "url": "/organizations/lloyds-banking-group-plc/"
+    "url": "/organizations/lloyds-banking-group-plc/",
+    "id": "lloyds-banking-group"
   },
   {
     "name": "Lockheed Martin Space Systems",
-    "url": "/organizations/lockheed-martin-space-systems/"
+    "url": "/organizations/lockheed-martin-space-systems/",
+    "id": "lockheed-martin-space-systems"
   },
   {
     "name": "London Stock Exchange Group (LSEG)",
-    "url": "/organizations/london-stock-exchange-group/"
+    "url": "/organizations/london-stock-exchange-group/",
+    "id": "london-stock-exchange-group-(lseg)"
   },
   {
     "name": "Longi Green Energy Technology Co.",
-    "url": "/organizations/longi-green-energy-technology-co/"
+    "url": "/organizations/longi-green-energy-technology-co/",
+    "id": "longi-green-energy-technology-co."
   },
   {
     "name": "Lord, Abbett & Co.",
-    "url": "/organizations/lord-abbett-co/"
+    "url": "/organizations/lord-abbett-co/",
+    "id": "lord,-abbett-&-co."
   },
   {
     "name": "Louis Dreyfus Company",
-    "url": "/organizations/louis-dreyfus-group/"
+    "url": "/organizations/louis-dreyfus-group/",
+    "id": "louis-dreyfus-company"
   },
   {
     "name": "Luksic Group",
-    "url": "/organizations/quinenco-sa/"
+    "url": "/organizations/quinenco-sa/",
+    "id": "luksic-group"
   },
   {
     "name": "Lulu Group International",
-    "url": "/organizations/lulu-group-international/"
+    "url": "/organizations/lulu-group-international/",
+    "id": "lulu-group-international"
   },
   {
     "name": "Luma Group",
-    "url": "/organizations/luma-group/"
+    "url": "/organizations/luma-group/",
+    "id": "luma-group"
   },
   {
     "name": "Lunit",
-    "url": "/organizations/lunit/"
+    "url": "/organizations/lunit/",
+    "id": "lunit"
   },
   {
     "name": "LVMH Mo\u00ebt Hennessy - Louis Vuitton",
-    "url": "/organizations/lvmh-moet-hennessy-louis-vuitton/"
+    "url": "/organizations/lvmh-moet-hennessy-louis-vuitton/",
+    "id": "lvmh-mo\u00ebt-hennessy---louis-vuitton"
   },
   {
     "name": "LyondellBasell",
-    "url": "/organizations/lyondellbasell/"
+    "url": "/organizations/lyondellbasell/",
+    "id": "lyondellbasell"
   },
   {
     "name": "Maekyung Media Group",
-    "url": "/organizations/maekyung-media-group/"
+    "url": "/organizations/maekyung-media-group/",
+    "id": "maekyung-media-group"
   },
   {
     "name": "magniX",
-    "url": "/organizations/magnix/"
+    "url": "/organizations/magnix/",
+    "id": "magnix"
   },
   {
     "name": "Maharashtra Institution for Transformation (MITRA)",
-    "url": "/organizations/maharashtra-institution-for-transformation-mitra/"
+    "url": "/organizations/maharashtra-institution-for-transformation-mitra/",
+    "id": "maharashtra-institution-for-transformation-(mitra)"
   },
   {
     "name": "Mahindra Group",
-    "url": "/organizations/mahindra-mahindra-ltd/"
+    "url": "/organizations/mahindra-mahindra-ltd/",
+    "id": "mahindra-group"
   },
   {
     "name": "Majid Al Futtaim Holding",
-    "url": "/organizations/majid-al-futtaim-holding-llc/"
+    "url": "/organizations/majid-al-futtaim-holding-llc/",
+    "id": "majid-al-futtaim-holding"
   },
   {
     "name": "MakinaRocks",
-    "url": "/organizations/makinarocks/"
+    "url": "/organizations/makinarocks/",
+    "id": "makinarocks"
   },
   {
     "name": "Manchester United",
-    "url": "/organizations/manchester-united/"
+    "url": "/organizations/manchester-united/",
+    "id": "manchester-united"
   },
   {
     "name": "Manipal Health Enterprises",
-    "url": "/organizations/manipal-health-enterprises/"
+    "url": "/organizations/manipal-health-enterprises/",
+    "id": "manipal-health-enterprises"
   },
   {
     "name": "ManpowerGroup",
-    "url": "/organizations/manpowergroup/"
+    "url": "/organizations/manpowergroup/",
+    "id": "manpowergroup"
   },
   {
     "name": "Manulife",
-    "url": "/organizations/manulife-financial/"
+    "url": "/organizations/manulife-financial/",
+    "id": "manulife"
   },
   {
     "name": "Mari Petroleum",
-    "url": "/organizations/mari-petroleum-company-limited/"
+    "url": "/organizations/mari-petroleum-company-limited/",
+    "id": "mari-petroleum"
   },
   {
     "name": "Marsh McLennan",
-    "url": "/organizations/marsh-mclennan-companies-mmc/"
+    "url": "/organizations/marsh-mclennan-companies-mmc/",
+    "id": "marsh-mclennan"
   },
   {
     "name": "Martin Dow",
-    "url": "/organizations/martin-dow-limited/"
+    "url": "/organizations/martin-dow-limited/",
+    "id": "martin-dow"
   },
   {
     "name": "Mastercard",
-    "url": "/organizations/mastercard/"
+    "url": "/organizations/mastercard/",
+    "id": "mastercard"
   },
   {
     "name": "Mattermost",
-    "url": "/organizations/mattermost/"
+    "url": "/organizations/mattermost/",
+    "id": "mattermost"
   },
   {
     "name": "Mayfield",
-    "url": "/organizations/mayfield-fund/"
+    "url": "/organizations/mayfield-fund/",
+    "id": "mayfield"
   },
   {
     "name": "Mayo Clinic",
-    "url": "/organizations/mayo-clinic/"
+    "url": "/organizations/mayo-clinic/",
+    "id": "mayo-clinic"
   },
   {
     "name": "McDermott",
-    "url": "/organizations/mcdermott-international/"
+    "url": "/organizations/mcdermott-international/",
+    "id": "mcdermott"
   },
   {
     "name": "McKinsey & Company",
-    "url": "/organizations/mckinsey-company/"
+    "url": "/organizations/mckinsey-company/",
+    "id": "mckinsey-&-company"
   },
   {
     "name": "Medable",
-    "url": "/organizations/medable/"
+    "url": "/organizations/medable/",
+    "id": "medable"
   },
   {
     "name": "Medtronic",
-    "url": "/organizations/medtronic-inc/"
+    "url": "/organizations/medtronic-inc/",
+    "id": "medtronic"
   },
   {
     "name": "Mengniu Group",
-    "url": "/organizations/china-mengniu-dairy-company/"
+    "url": "/organizations/china-mengniu-dairy-company/",
+    "id": "mengniu-group"
   },
   {
     "name": "Merck",
-    "url": "/organizations/merck/"
+    "url": "/organizations/merck/",
+    "id": "merck"
   },
   {
     "name": "Mercuria Energy Group",
-    "url": "/organizations/mercuria-energy-group-holding-sa/"
+    "url": "/organizations/mercuria-energy-group-holding-sa/",
+    "id": "mercuria-energy-group"
   },
   {
     "name": "Meridiam",
-    "url": "/organizations/meridiam-infrastructure/"
+    "url": "/organizations/meridiam-infrastructure/",
+    "id": "meridiam"
   },
   {
     "name": "Meridian",
-    "url": "/organizations/meridian-corporation/"
+    "url": "/organizations/meridian-corporation/",
+    "id": "meridian"
   },
   {
     "name": "Meta",
-    "url": "/organizations/facebook-inc/"
+    "url": "/organizations/facebook-inc/",
+    "id": "meta"
   },
   {
     "name": "Metabase Q",
-    "url": "/organizations/metabase-q/"
+    "url": "/organizations/metabase-q/",
+    "id": "metabase-q"
   },
   {
     "name": "Metaphysic",
-    "url": "/organizations/metaphysic/"
+    "url": "/organizations/metaphysic/",
+    "id": "metaphysic"
   },
   {
     "name": "Microsoft",
-    "url": "/organizations/microsoft-corporation/"
+    "url": "/organizations/microsoft-corporation/",
+    "id": "microsoft"
   },
   {
     "name": "Midea Group",
-    "url": "/organizations/midea-group/"
+    "url": "/organizations/midea-group/",
+    "id": "midea-group"
   },
   {
     "name": "Midis Group",
-    "url": "/organizations/midis-group/"
+    "url": "/organizations/midis-group/",
+    "id": "midis-group"
   },
   {
     "name": "Mitsubishi Chemical Group",
-    "url": "/organizations/mitsubishi-chemical-holdings-corporation/"
+    "url": "/organizations/mitsubishi-chemical-holdings-corporation/",
+    "id": "mitsubishi-chemical-group"
   },
   {
     "name": "Mitsubishi Corporation",
-    "url": "/organizations/mitsubishi-corporation/"
+    "url": "/organizations/mitsubishi-corporation/",
+    "id": "mitsubishi-corporation"
   },
   {
     "name": "Mitsubishi Electric",
-    "url": "/organizations/mitsubishi-electric-corporation/"
+    "url": "/organizations/mitsubishi-electric-corporation/",
+    "id": "mitsubishi-electric"
   },
   {
     "name": "Mitsubishi Heavy Industries",
-    "url": "/organizations/mitsubishi-heavy-industries-ltd/"
+    "url": "/organizations/mitsubishi-heavy-industries-ltd/",
+    "id": "mitsubishi-heavy-industries"
   },
   {
     "name": "Mitsui & Co.",
-    "url": "/organizations/mitsui-co-ltd/"
+    "url": "/organizations/mitsui-co-ltd/",
+    "id": "mitsui-&-co."
   },
   {
     "name": "Mitsui Chemicals",
-    "url": "/organizations/mitsui-chemicals/"
+    "url": "/organizations/mitsui-chemicals/",
+    "id": "mitsui-chemicals"
   },
   {
     "name": "Mitsui O.S.K. Lines",
-    "url": "/organizations/mitsui-o-s-k-lines-f2c3f37177/"
+    "url": "/organizations/mitsui-o-s-k-lines-f2c3f37177/",
+    "id": "mitsui-o.s.k.-lines"
   },
   {
     "name": "Mizuho Financial Group",
-    "url": "/organizations/mizuho-financial-group-inc/"
+    "url": "/organizations/mizuho-financial-group-inc/",
+    "id": "mizuho-financial-group"
   },
   {
     "name": "MKS PAMP",
-    "url": "/organizations/mks-switzerland-sa/"
+    "url": "/organizations/mks-switzerland-sa/",
+    "id": "mks-pamp"
   },
   {
     "name": "Moderna",
-    "url": "/organizations/moderna-therapeutics/"
+    "url": "/organizations/moderna-therapeutics/",
+    "id": "moderna"
   },
   {
     "name": "Moelis & Company",
-    "url": "/organizations/moelis-company/"
+    "url": "/organizations/moelis-company/",
+    "id": "moelis-&-company"
   },
   {
     "name": "Mohammed Bin Salman Foundation (MiSK)",
-    "url": "/organizations/misk/"
+    "url": "/organizations/misk/",
+    "id": "mohammed-bin-salman-foundation-(misk)"
   },
   {
     "name": "Morgan Lewis",
-    "url": "/organizations/morgan-lewis/"
+    "url": "/organizations/morgan-lewis/",
+    "id": "morgan-lewis"
   },
   {
     "name": "Morgan Stanley",
-    "url": "/organizations/morgan-stanley/"
+    "url": "/organizations/morgan-stanley/",
+    "id": "morgan-stanley"
   },
   {
     "name": "Mori Building Co.",
-    "url": "/organizations/mori-building-co-ltd/"
+    "url": "/organizations/mori-building-co-ltd/",
+    "id": "mori-building-co."
   },
   {
     "name": "Mosa Meat B.V.",
-    "url": "/organizations/mosa-meat-b-v/"
+    "url": "/organizations/mosa-meat-b-v/",
+    "id": "mosa-meat-b.v."
   },
   {
     "name": "Motive Partners",
-    "url": "/organizations/motive-partners/"
+    "url": "/organizations/motive-partners/",
+    "id": "motive-partners"
   },
   {
     "name": "Mozilla",
-    "url": "/organizations/mozilla-corporation/"
+    "url": "/organizations/mozilla-corporation/",
+    "id": "mozilla"
   },
   {
     "name": "MSD",
-    "url": "/organizations/msd/"
+    "url": "/organizations/msd/",
+    "id": "msd"
   },
   {
     "name": "MTR",
-    "url": "/organizations/mtr-corporation/"
+    "url": "/organizations/mtr-corporation/",
+    "id": "mtr"
   },
   {
     "name": "Mubadala Investment",
-    "url": "/organizations/mubadala-development-company/"
+    "url": "/organizations/mubadala-development-company/",
+    "id": "mubadala-investment"
   },
   {
     "name": "MUFG Bank",
-    "url": "/organizations/the-bank-of-tokyo-mitsubishi-ufj-ltd/"
+    "url": "/organizations/the-bank-of-tokyo-mitsubishi-ufj-ltd/",
+    "id": "mufg-bank"
   },
   {
     "name": "Multichoice",
-    "url": "/organizations/multichoice-group/"
+    "url": "/organizations/multichoice-group/",
+    "id": "multichoice"
   },
   {
     "name": "Mundys",
-    "url": "/organizations/atlantia/"
+    "url": "/organizations/atlantia/",
+    "id": "mundys"
   },
   {
     "name": "Naftogaz of Ukraine",
-    "url": "/organizations/njsc-naftogaz-of-ukraine/"
+    "url": "/organizations/njsc-naftogaz-of-ukraine/",
+    "id": "naftogaz-of-ukraine"
   },
   {
     "name": "Nanban ESG Solutions",
-    "url": "/organizations/nanban-esg-solutions/"
+    "url": "/organizations/nanban-esg-solutions/",
+    "id": "nanban-esg-solutions"
   },
   {
     "name": "Nasdaq",
-    "url": "/organizations/nasdaq-inc/"
+    "url": "/organizations/nasdaq-inc/",
+    "id": "nasdaq"
   },
   {
     "name": "Nash Industries",
-    "url": "/organizations/nash-india/"
+    "url": "/organizations/nash-india/",
+    "id": "nash-industries"
   },
   {
     "name": "Naspers",
-    "url": "/organizations/naspers-limited/"
+    "url": "/organizations/naspers-limited/",
+    "id": "naspers"
   },
   {
     "name": "Naturgy",
-    "url": "/organizations/naturgy/"
+    "url": "/organizations/naturgy/",
+    "id": "naturgy"
   },
   {
     "name": "NavVis",
-    "url": "/organizations/navvis/"
+    "url": "/organizations/navvis/",
+    "id": "navvis"
   },
   {
     "name": "NAX Group",
-    "url": "/organizations/nax-group/"
+    "url": "/organizations/nax-group/",
+    "id": "nax-group"
   },
   {
     "name": "NBCUniversal",
-    "url": "/organizations/nbcuniversal-76557653aa/"
+    "url": "/organizations/nbcuniversal-76557653aa/",
+    "id": "nbcuniversal"
   },
   {
     "name": "NEC",
-    "url": "/organizations/nec-corporation/"
+    "url": "/organizations/nec-corporation/",
+    "id": "nec"
   },
   {
     "name": "Nedbank Group",
-    "url": "/organizations/nedbank-group/"
+    "url": "/organizations/nedbank-group/",
+    "id": "nedbank-group"
   },
   {
     "name": "NEOM",
-    "url": "/organizations/neom/"
+    "url": "/organizations/neom/",
+    "id": "neom"
   },
   {
     "name": "Neste",
-    "url": "/organizations/neste/"
+    "url": "/organizations/neste/",
+    "id": "neste"
   },
   {
     "name": "Nestl\u00e9",
-    "url": "/organizations/nestle-sa/"
+    "url": "/organizations/nestle-sa/",
+    "id": "nestl\u00e9"
   },
   {
     "name": "Netguru",
-    "url": "/organizations/netguru/"
+    "url": "/organizations/netguru/",
+    "id": "netguru"
   },
   {
     "name": "Network for Teaching Entrepreneurship (NFTE)",
-    "url": "/organizations/network-for-teaching-entrepreneurship-nfte/"
+    "url": "/organizations/network-for-teaching-entrepreneurship-nfte/",
+    "id": "network-for-teaching-entrepreneurship-(nfte)"
   },
   {
     "name": "Neusoft",
-    "url": "/organizations/neusoft-corporation/"
+    "url": "/organizations/neusoft-corporation/",
+    "id": "neusoft"
   },
   {
     "name": "New Enterprise Associates (NEA)",
-    "url": "/organizations/new-enterprise-associates/"
+    "url": "/organizations/new-enterprise-associates/",
+    "id": "new-enterprise-associates-(nea)"
   },
   {
     "name": "New York Life Investment Management",
-    "url": "/organizations/new-york-life-investment-management-llc/"
+    "url": "/organizations/new-york-life-investment-management-llc/",
+    "id": "new-york-life-investment-management"
   },
   {
     "name": "New York Times",
-    "url": "/organizations/the-new-york-times/"
+    "url": "/organizations/the-new-york-times/",
+    "id": "new-york-times"
   },
   {
     "name": "newcleo",
-    "url": "/organizations/newcleo/"
+    "url": "/organizations/newcleo/",
+    "id": "newcleo"
   },
   {
     "name": "Newmont",
-    "url": "/organizations/newmont-mining-corporation/"
+    "url": "/organizations/newmont-mining-corporation/",
+    "id": "newmont"
   },
   {
     "name": "Nielsen",
-    "url": "/organizations/nielsen/"
+    "url": "/organizations/nielsen/",
+    "id": "nielsen"
   },
   {
     "name": "Nigerian National Petroleum Corporation (NNPC)",
-    "url": "/organizations/nigerian-national-petroleum-corporation-nnpc/"
+    "url": "/organizations/nigerian-national-petroleum-corporation-nnpc/",
+    "id": "nigerian-national-petroleum-corporation-(nnpc)"
   },
   {
     "name": "Nikkei",
-    "url": "/organizations/nikkei-inc/"
+    "url": "/organizations/nikkei-inc/",
+    "id": "nikkei"
   },
   {
     "name": "Nishith Desai Associates",
-    "url": "/organizations/nishith-desai-associates/"
+    "url": "/organizations/nishith-desai-associates/",
+    "id": "nishith-desai-associates"
   },
   {
     "name": "NN Group",
-    "url": "/organizations/nn-group/"
+    "url": "/organizations/nn-group/",
+    "id": "nn-group"
   },
   {
     "name": "Nomura Holdings",
-    "url": "/organizations/nomura-holdings-inc/"
+    "url": "/organizations/nomura-holdings-inc/",
+    "id": "nomura-holdings"
   },
   {
     "name": "Noom",
-    "url": "/organizations/noom/"
+    "url": "/organizations/noom/",
+    "id": "noom"
   },
   {
     "name": "Nord Security",
-    "url": "/organizations/nordvpn/"
+    "url": "/organizations/nordvpn/",
+    "id": "nord-security"
   },
   {
     "name": "Novartis",
-    "url": "/organizations/novartis-ag/"
+    "url": "/organizations/novartis-ag/",
+    "id": "novartis"
   },
   {
     "name": "Novo Nordisk Foundation",
-    "url": "/organizations/novo-nordisk-foundation/"
+    "url": "/organizations/novo-nordisk-foundation/",
+    "id": "novo-nordisk-foundation"
   },
   {
     "name": "NR Instant Produce",
-    "url": "/organizations/nrf/"
+    "url": "/organizations/nrf/",
+    "id": "nr-instant-produce"
   },
   {
     "name": "NTPC",
-    "url": "/organizations/ntpc/"
+    "url": "/organizations/ntpc/",
+    "id": "ntpc"
   },
   {
     "name": "NTT DATA Group Corporation",
-    "url": "/organizations/ntt-data-group/"
+    "url": "/organizations/ntt-data-group/",
+    "id": "ntt-data-group-corporation"
   },
   {
     "name": "Nuclearelectrica",
-    "url": "/organizations/nuclearelectrica/"
+    "url": "/organizations/nuclearelectrica/",
+    "id": "nuclearelectrica"
   },
   {
     "name": "Nucor",
-    "url": "/organizations/nucor/"
+    "url": "/organizations/nucor/",
+    "id": "nucor"
   },
   {
     "name": "Nutrien",
-    "url": "/organizations/nutrien/"
+    "url": "/organizations/nutrien/",
+    "id": "nutrien"
   },
   {
     "name": "NYSE",
-    "url": "/organizations/nyse/"
+    "url": "/organizations/nyse/",
+    "id": "nyse"
   },
   {
     "name": "OakNorth",
-    "url": "/organizations/oaknorth/"
+    "url": "/organizations/oaknorth/",
+    "id": "oaknorth"
   },
   {
     "name": "Oando",
-    "url": "/organizations/oando-plc/"
+    "url": "/organizations/oando-plc/",
+    "id": "oando"
   },
   {
     "name": "Occamsec",
-    "url": "/organizations/occamsec/"
+    "url": "/organizations/occamsec/",
+    "id": "occamsec"
   },
   {
     "name": "Occidental",
-    "url": "/organizations/occidental-petroleum-corporation/"
+    "url": "/organizations/occidental-petroleum-corporation/",
+    "id": "occidental"
   },
   {
     "name": "OCP Group",
-    "url": "/organizations/ocp-group/"
+    "url": "/organizations/ocp-group/",
+    "id": "ocp-group"
   },
   {
     "name": "Octopus Energy",
-    "url": "/organizations/octopus-energy/"
+    "url": "/organizations/octopus-energy/",
+    "id": "octopus-energy"
   },
   {
     "name": "Oerlikon",
-    "url": "/organizations/oerlikon-management/"
+    "url": "/organizations/oerlikon-management/",
+    "id": "oerlikon"
   },
   {
     "name": "Oisix ra daichi Inc.",
-    "url": "/organizations/oisix-daichi/"
+    "url": "/organizations/oisix-daichi/",
+    "id": "oisix-ra-daichi-inc."
   },
   {
     "name": "Olayan Group",
-    "url": "/organizations/the-olayan-group/"
+    "url": "/organizations/the-olayan-group/",
+    "id": "olayan-group"
   },
   {
     "name": "Old Mutual",
-    "url": "/organizations/old-mutual-2ebc7418-7da0-4281-8a1a-15cdb32b6d9c/"
+    "url": "/organizations/old-mutual-2ebc7418-7da0-4281-8a1a-15cdb32b6d9c/",
+    "id": "old-mutual"
   },
   {
     "name": "Oman Global Logistics Group (ASYAD)",
-    "url": "/organizations/asyad-group/"
+    "url": "/organizations/asyad-group/",
+    "id": "oman-global-logistics-group-(asyad)"
   },
   {
     "name": "OMINVEST",
-    "url": "/organizations/ominvest/"
+    "url": "/organizations/ominvest/",
+    "id": "ominvest"
   },
   {
     "name": "OmniBot.ai",
-    "url": "/organizations/omnibot/"
+    "url": "/organizations/omnibot/",
+    "id": "omnibot.ai"
   },
   {
     "name": "Omnicom Group",
-    "url": "/organizations/omnicom-group-inc/"
+    "url": "/organizations/omnicom-group-inc/",
+    "id": "omnicom-group"
   },
   {
     "name": "OMV",
-    "url": "/organizations/omv/"
+    "url": "/organizations/omv/",
+    "id": "omv"
   },
   {
     "name": "Ontario Teachers' Pension Plan",
-    "url": "/organizations/ontario-teachers-pension-plan/"
+    "url": "/organizations/ontario-teachers-pension-plan/",
+    "id": "ontario-teachers'-pension-plan"
   },
   {
     "name": "Open Mineral",
-    "url": "/organizations/open-mineral-822320995d/"
+    "url": "/organizations/open-mineral-822320995d/",
+    "id": "open-mineral"
   },
   {
     "name": "Open Society Foundations",
-    "url": "/organizations/open-society-institute/"
+    "url": "/organizations/open-society-institute/",
+    "id": "open-society-foundations"
   },
   {
     "name": "Optel Group",
-    "url": "/organizations/optel-group/"
+    "url": "/organizations/optel-group/",
+    "id": "optel-group"
   },
   {
     "name": "Orano",
-    "url": "/organizations/orano/"
+    "url": "/organizations/orano/",
+    "id": "orano"
   },
   {
     "name": "Organic and Beyond",
-    "url": "/organizations/beijing-organic-and-beyond-corporation/"
+    "url": "/organizations/beijing-organic-and-beyond-corporation/",
+    "id": "organic-and-beyond"
   },
   {
     "name": "OTORIO",
-    "url": "/organizations/otorio/"
+    "url": "/organizations/otorio/",
+    "id": "otorio"
   },
   {
     "name": "Owl ventures",
-    "url": "/organizations/owl-ventures/"
+    "url": "/organizations/owl-ventures/",
+    "id": "owl-ventures"
   },
   {
     "name": "OYAK",
-    "url": "/organizations/oyak/"
+    "url": "/organizations/oyak/",
+    "id": "oyak"
   },
   {
     "name": "\u00d8rsted",
-    "url": "/organizations/orsted/"
+    "url": "/organizations/orsted/",
+    "id": "\u00f8rsted"
   },
   {
     "name": "PAG",
-    "url": "/organizations/pag/"
+    "url": "/organizations/pag/",
+    "id": "pag"
   },
   {
     "name": "Palantir Technologies",
-    "url": "/organizations/palantir-technologies/"
+    "url": "/organizations/palantir-technologies/",
+    "id": "palantir-technologies"
   },
   {
     "name": "Palo Alto Networks",
-    "url": "/organizations/palo-alto-networks/"
+    "url": "/organizations/palo-alto-networks/",
+    "id": "palo-alto-networks"
   },
   {
     "name": "PALO IT Group",
-    "url": "/organizations/palo-it-group/"
+    "url": "/organizations/palo-it-group/",
+    "id": "palo-it-group"
   },
   {
     "name": "Panasonic Connect",
-    "url": "/organizations/panasonic-connect/"
+    "url": "/organizations/panasonic-connect/",
+    "id": "panasonic-connect"
   },
   {
     "name": "Pathfinder Group",
-    "url": "/organizations/pathfinder-group/"
+    "url": "/organizations/pathfinder-group/",
+    "id": "pathfinder-group"
   },
   {
     "name": "PayPal",
-    "url": "/organizations/paypal-inc/"
+    "url": "/organizations/paypal-inc/",
+    "id": "paypal"
   },
   {
     "name": "Paytm",
-    "url": "/organizations/paytm/"
+    "url": "/organizations/paytm/",
+    "id": "paytm"
   },
   {
     "name": "Pegasystems",
-    "url": "/organizations/pegasystems/"
+    "url": "/organizations/pegasystems/",
+    "id": "pegasystems"
   },
   {
     "name": "PensionDanmark",
-    "url": "/organizations/pensiondanmark/"
+    "url": "/organizations/pensiondanmark/",
+    "id": "pensiondanmark"
   },
   {
     "name": "PepsiCo",
-    "url": "/organizations/pepsico-inc/"
+    "url": "/organizations/pepsico-inc/",
+    "id": "pepsico"
   },
   {
     "name": "Perfect World",
-    "url": "/organizations/perfect-world/"
+    "url": "/organizations/perfect-world/",
+    "id": "perfect-world"
   },
   {
     "name": "Permira Advisers",
-    "url": "/organizations/permira-advisers-llp/"
+    "url": "/organizations/permira-advisers-llp/",
+    "id": "permira-advisers"
   },
   {
     "name": "Permodalan Nasional Berhard (PNB)",
-    "url": "/organizations/permodalan-nasional/"
+    "url": "/organizations/permodalan-nasional/",
+    "id": "permodalan-nasional-berhard-(pnb)"
   },
   {
     "name": "Perot Companies",
-    "url": "/organizations/the-perot-companies/"
+    "url": "/organizations/the-perot-companies/",
+    "id": "perot-companies"
   },
   {
     "name": "Petroleo Brasileiro - PETROBRAS",
-    "url": "/organizations/petroleo-brasileiro-sa-petrobras/"
+    "url": "/organizations/petroleo-brasileiro-sa-petrobras/",
+    "id": "petroleo-brasileiro---petrobras"
   },
   {
     "name": "PETRONAS (Petroliam Nasional)",
-    "url": "/organizations/petronas-petroliam-nasional/"
+    "url": "/organizations/petronas-petroliam-nasional/",
+    "id": "petronas-(petroliam-nasional)"
   },
   {
     "name": "Pfizer",
-    "url": "/organizations/pfizer/"
+    "url": "/organizations/pfizer/",
+    "id": "pfizer"
   },
   {
     "name": "PG&E",
-    "url": "/organizations/pg-e/"
+    "url": "/organizations/pg-e/",
+    "id": "pg&e"
   },
   {
     "name": "Pharco",
-    "url": "/organizations/pharco/"
+    "url": "/organizations/pharco/",
+    "id": "pharco"
   },
   {
     "name": "Phongsavanh Group",
-    "url": "/organizations/phongsavanh-bank/"
+    "url": "/organizations/phongsavanh-bank/",
+    "id": "phongsavanh-group"
   },
   {
     "name": "Photonic",
-    "url": "/organizations/photonic/"
+    "url": "/organizations/photonic/",
+    "id": "photonic"
   },
   {
     "name": "Pictet Group",
-    "url": "/organizations/pictet-group/"
+    "url": "/organizations/pictet-group/",
+    "id": "pictet-group"
   },
   {
     "name": "Pinheiro Neto Advogados",
-    "url": "/organizations/pinheiro-neto-advogados/"
+    "url": "/organizations/pinheiro-neto-advogados/",
+    "id": "pinheiro-neto-advogados"
   },
   {
     "name": "Pinterest",
-    "url": "/organizations/pinterest-inc/"
+    "url": "/organizations/pinterest-inc/",
+    "id": "pinterest"
   },
   {
     "name": "Pladis Foods",
-    "url": "/organizations/pladis-foods/"
+    "url": "/organizations/pladis-foods/",
+    "id": "pladis-foods"
   },
   {
     "name": "Planet Labs",
-    "url": "/organizations/planet-labs/"
+    "url": "/organizations/planet-labs/",
+    "id": "planet-labs"
   },
   {
     "name": "Port of Antwerp-Bruges",
-    "url": "/organizations/antwerp-port-authority/"
+    "url": "/organizations/antwerp-port-authority/",
+    "id": "port-of-antwerp-bruges"
   },
   {
     "name": "POSCO Holdings",
-    "url": "/organizations/posco-holdings/"
+    "url": "/organizations/posco-holdings/",
+    "id": "posco-holdings"
   },
   {
     "name": "Power Dekor Group",
-    "url": "/organizations/power-dekor-group/"
+    "url": "/organizations/power-dekor-group/",
+    "id": "power-dekor-group"
   },
   {
     "name": "PPF",
-    "url": "/organizations/ppf-group/"
+    "url": "/organizations/ppf-group/",
+    "id": "ppf"
   },
   {
     "name": "PQShield",
-    "url": "/organizations/post-quantum-shield/"
+    "url": "/organizations/post-quantum-shield/",
+    "id": "pqshield"
   },
   {
     "name": "Praava Health",
-    "url": "/organizations/praava-health/"
+    "url": "/organizations/praava-health/",
+    "id": "praava-health"
   },
   {
     "name": "Primavera Capital Group",
-    "url": "/organizations/primavera-capital-group/"
+    "url": "/organizations/primavera-capital-group/",
+    "id": "primavera-capital-group"
   },
   {
     "name": "ProColombia",
-    "url": "/organizations/procolombia/"
+    "url": "/organizations/procolombia/",
+    "id": "procolombia"
   },
   {
     "name": "project44",
-    "url": "/organizations/project44/"
+    "url": "/organizations/project44/",
+    "id": "project44"
   },
   {
     "name": "Prophesee",
-    "url": "/organizations/chronocam/"
+    "url": "/organizations/chronocam/",
+    "id": "prophesee"
   },
   {
     "name": "Pryon",
-    "url": "/organizations/pryon/"
+    "url": "/organizations/pryon/",
+    "id": "pryon"
   },
   {
     "name": "PSA International",
-    "url": "/organizations/psa-international/"
+    "url": "/organizations/psa-international/",
+    "id": "psa-international"
   },
   {
     "name": "PSP Investments",
-    "url": "/organizations/psp-investments/"
+    "url": "/organizations/psp-investments/",
+    "id": "psp-investments"
   },
   {
     "name": "PTT",
-    "url": "/organizations/ptt-public-company-limited/"
+    "url": "/organizations/ptt-public-company-limited/",
+    "id": "ptt"
   },
   {
     "name": "Publicis Groupe",
-    "url": "/organizations/publicis-groupe-sa/"
+    "url": "/organizations/publicis-groupe-sa/",
+    "id": "publicis-groupe"
   },
   {
     "name": "Puravankara",
-    "url": "/organizations/puravankara-limited/"
+    "url": "/organizations/puravankara-limited/",
+    "id": "puravankara"
   },
   {
     "name": "PwC",
-    "url": "/organizations/pricewaterhousecoopers-llp/"
+    "url": "/organizations/pricewaterhousecoopers-llp/",
+    "id": "pwc"
   },
   {
     "name": "Pymetrics",
-    "url": "/organizations/pymetrics-inc/"
+    "url": "/organizations/pymetrics-inc/",
+    "id": "pymetrics"
   },
   {
     "name": "PZU",
-    "url": "/organizations/pzu/"
+    "url": "/organizations/pzu/",
+    "id": "pzu"
   },
   {
     "name": "Q-CTRL",
-    "url": "/organizations/q-ctrl/"
+    "url": "/organizations/q-ctrl/",
+    "id": "q-ctrl"
   },
   {
     "name": "Qatar Development Bank",
-    "url": "/organizations/qatar-development-bank/"
+    "url": "/organizations/qatar-development-bank/",
+    "id": "qatar-development-bank"
   },
   {
     "name": "Qatar Financial Centre (QFC)",
-    "url": "/organizations/qfc/"
+    "url": "/organizations/qfc/",
+    "id": "qatar-financial-centre-(qfc)"
   },
   {
     "name": "Qatar Financial Centre Regulatory Authority",
-    "url": "/organizations/qatar-financial-centre-regulatory-authority/"
+    "url": "/organizations/qatar-financial-centre-regulatory-authority/",
+    "id": "qatar-financial-centre-regulatory-authority"
   },
   {
     "name": "Qatar Investment Authority",
-    "url": "/organizations/qatar-investment-authority/"
+    "url": "/organizations/qatar-investment-authority/",
+    "id": "qatar-investment-authority"
   },
   {
     "name": "Qatar National Bank",
-    "url": "/organizations/qatar-national-bank/"
+    "url": "/organizations/qatar-national-bank/",
+    "id": "qatar-national-bank"
   },
   {
     "name": "QI Group",
-    "url": "/organizations/qi-group/"
+    "url": "/organizations/qi-group/",
+    "id": "qi-group"
   },
   {
     "name": "QIAGEN",
-    "url": "/organizations/qiagen-nv/"
+    "url": "/organizations/qiagen-nv/",
+    "id": "qiagen"
   },
   {
     "name": "Qualcomm",
-    "url": "/organizations/qualcomm-incorporated/"
+    "url": "/organizations/qualcomm-incorporated/",
+    "id": "qualcomm"
   },
   {
     "name": "Quantstamp",
-    "url": "/organizations/quantstamp/"
+    "url": "/organizations/quantstamp/",
+    "id": "quantstamp"
   },
   {
     "name": "Quexco",
-    "url": "/organizations/quexco-inc/"
+    "url": "/organizations/quexco-inc/",
+    "id": "quexco"
   },
   {
     "name": "QuintessenceLabs",
-    "url": "/organizations/quintessencelabs-pty-ltd/"
+    "url": "/organizations/quintessencelabs-pty-ltd/",
+    "id": "quintessencelabs"
   },
   {
     "name": "Quotient",
-    "url": "/organizations/quotient/"
+    "url": "/organizations/quotient/",
+    "id": "quotient"
   },
   {
     "name": "Rabobank",
-    "url": "/organizations/rabobank-group/"
+    "url": "/organizations/rabobank-group/",
+    "id": "rabobank"
   },
   {
     "name": "Radius Recycling",
-    "url": "/organizations/radius-recycling/"
+    "url": "/organizations/radius-recycling/",
+    "id": "radius-recycling"
   },
   {
     "name": "Rakuten Group",
-    "url": "/organizations/rakuten/"
+    "url": "/organizations/rakuten/",
+    "id": "rakuten-group"
   },
   {
     "name": "Ralph Lauren",
-    "url": "/organizations/polo-ralph-lauren-corp/"
+    "url": "/organizations/polo-ralph-lauren-corp/",
+    "id": "ralph-lauren"
   },
   {
     "name": "Randoncorp",
-    "url": "/organizations/randon-companies/"
+    "url": "/organizations/randon-companies/",
+    "id": "randoncorp"
   },
   {
     "name": "Randstad",
-    "url": "/organizations/randstad-holding/"
+    "url": "/organizations/randstad-holding/",
+    "id": "randstad"
   },
   {
     "name": "RBC (Royal Bank of Canada)",
-    "url": "/organizations/rbc-financial-group/"
+    "url": "/organizations/rbc-financial-group/",
+    "id": "rbc-(royal-bank-of-canada)"
   },
   {
     "name": "Recruit Holdings",
-    "url": "/organizations/recruit-holdings-co/"
+    "url": "/organizations/recruit-holdings-co/",
+    "id": "recruit-holdings"
   },
   {
     "name": "Reech Corporations",
-    "url": "/organizations/reech/"
+    "url": "/organizations/reech/",
+    "id": "reech-corporations"
   },
   {
     "name": "Regeneron Pharmaceuticals",
-    "url": "/organizations/regeneron-pharmaceuticals/"
+    "url": "/organizations/regeneron-pharmaceuticals/",
+    "id": "regeneron-pharmaceuticals"
   },
   {
     "name": "Regrow",
-    "url": "/organizations/regrow/"
+    "url": "/organizations/regrow/",
+    "id": "regrow"
   },
   {
     "name": "Reliance Industries",
-    "url": "/organizations/reliance-industries-limited/"
+    "url": "/organizations/reliance-industries-limited/",
+    "id": "reliance-industries"
   },
   {
     "name": "Remixpoint",
-    "url": "/organizations/remixpoint/"
+    "url": "/organizations/remixpoint/",
+    "id": "remixpoint"
   },
   {
     "name": "RenaissanceRe",
-    "url": "/organizations/renaissancere-holdings/"
+    "url": "/organizations/renaissancere-holdings/",
+    "id": "renaissancere"
   },
   {
     "name": "ReNew",
-    "url": "/organizations/renew-power/"
+    "url": "/organizations/renew-power/",
+    "id": "renew"
   },
   {
     "name": "Repsol",
-    "url": "/organizations/repsol-sa/"
+    "url": "/organizations/repsol-sa/",
+    "id": "repsol"
   },
   {
     "name": "Rescale",
-    "url": "/organizations/rescale-inc/"
+    "url": "/organizations/rescale-inc/",
+    "id": "rescale"
   },
   {
     "name": "Responsible Cyber",
-    "url": "/organizations/responsible-cyber-pte-ltd/"
+    "url": "/organizations/responsible-cyber-pte-ltd/",
+    "id": "responsible-cyber"
   },
   {
     "name": "Ricardo",
-    "url": "/organizations/ricardo/"
+    "url": "/organizations/ricardo/",
+    "id": "ricardo"
   },
   {
     "name": "Ringier",
-    "url": "/organizations/ringier/"
+    "url": "/organizations/ringier/",
+    "id": "ringier"
   },
   {
     "name": "Rio Tinto",
-    "url": "/organizations/rio-tinto-plc/"
+    "url": "/organizations/rio-tinto-plc/",
+    "id": "rio-tinto"
   },
   {
     "name": "Ripple",
-    "url": "/organizations/ripple/"
+    "url": "/organizations/ripple/",
+    "id": "ripple"
   },
   {
     "name": "Risk Insights",
-    "url": "/organizations/risk-insights/"
+    "url": "/organizations/risk-insights/",
+    "id": "risk-insights"
   },
   {
     "name": "RMZ",
-    "url": "/organizations/rmz-corp/"
+    "url": "/organizations/rmz-corp/",
+    "id": "rmz"
   },
   {
     "name": "Robert Bosch",
-    "url": "/organizations/robert-bosch-gmbh/"
+    "url": "/organizations/robert-bosch-gmbh/",
+    "id": "robert-bosch"
   },
   {
     "name": "Robinhood",
-    "url": "/organizations/robinhood/"
+    "url": "/organizations/robinhood/",
+    "id": "robinhood"
   },
   {
     "name": "Roche",
-    "url": "/organizations/roche/"
+    "url": "/organizations/roche/",
+    "id": "roche"
   },
   {
     "name": "Rockwell Automation",
-    "url": "/organizations/rockwell-automation/"
+    "url": "/organizations/rockwell-automation/",
+    "id": "rockwell-automation"
   },
   {
     "name": "ROHTO Pharmaceutical",
-    "url": "/organizations/rohto-pharmaceutical/"
+    "url": "/organizations/rohto-pharmaceutical/",
+    "id": "rohto-pharmaceutical"
   },
   {
     "name": "Roland Berger",
-    "url": "/organizations/roland-berger-holding-gmbh/"
+    "url": "/organizations/roland-berger-holding-gmbh/",
+    "id": "roland-berger"
   },
   {
     "name": "Royal Commission for AlUla",
-    "url": "/organizations/al-ula/"
+    "url": "/organizations/al-ula/",
+    "id": "royal-commission-for-alula"
   },
   {
     "name": "Royal Golden Eagle (RGE)",
-    "url": "/organizations/rge-pte-ltd/"
+    "url": "/organizations/rge-pte-ltd/",
+    "id": "royal-golden-eagle-(rge)"
   },
   {
     "name": "Royal Philips",
-    "url": "/organizations/royal-philips/"
+    "url": "/organizations/royal-philips/",
+    "id": "royal-philips"
   },
   {
     "name": "Royal Vopak",
-    "url": "/organizations/royal-vopak/"
+    "url": "/organizations/royal-vopak/",
+    "id": "royal-vopak"
   },
   {
     "name": "RPG Enterprises",
-    "url": "/organizations/rpg-enterprises/"
+    "url": "/organizations/rpg-enterprises/",
+    "id": "rpg-enterprises"
   },
   {
     "name": "Ruder Finn",
-    "url": "/organizations/ruder-finn/"
+    "url": "/organizations/ruder-finn/",
+    "id": "ruder-finn"
   },
   {
     "name": "Russell Reynolds Associates",
-    "url": "/organizations/russell-reynolds-associates/"
+    "url": "/organizations/russell-reynolds-associates/",
+    "id": "russell-reynolds-associates"
   },
   {
     "name": "RWE",
-    "url": "/organizations/rwe/"
+    "url": "/organizations/rwe/",
+    "id": "rwe"
   },
   {
     "name": "S. C. Johnson",
-    "url": "/organizations/s-c-johnson/"
+    "url": "/organizations/s-c-johnson/",
+    "id": "s.-c.-johnson"
   },
   {
     "name": "S&P Global",
-    "url": "/organizations/s-p-global/"
+    "url": "/organizations/s-p-global/",
+    "id": "s&p-global"
   },
   {
     "name": "S4Capital",
-    "url": "/organizations/s4capital/"
+    "url": "/organizations/s4capital/",
+    "id": "s4capital"
   },
   {
     "name": "Sabanci Holding",
-    "url": "/organizations/sabanci-holding/"
+    "url": "/organizations/sabanci-holding/",
+    "id": "sabanci-holding"
   },
   {
     "name": "Safe Security",
-    "url": "/organizations/safe-security/"
+    "url": "/organizations/safe-security/",
+    "id": "safe-security"
   },
   {
     "name": "Salesforce",
-    "url": "/organizations/salesforce-1/"
+    "url": "/organizations/salesforce-1/",
+    "id": "salesforce"
   },
   {
     "name": "Samsung Electronics",
-    "url": "/organizations/samsung-electronics/"
+    "url": "/organizations/samsung-electronics/",
+    "id": "samsung-electronics"
   },
   {
     "name": "Samuel Group",
-    "url": "/organizations/the-samuel-group/"
+    "url": "/organizations/the-samuel-group/",
+    "id": "samuel-group"
   },
   {
     "name": "SandboxAQ",
-    "url": "/organizations/sandboxaq/"
+    "url": "/organizations/sandboxaq/",
+    "id": "sandboxaq"
   },
   {
     "name": "Sandstar",
-    "url": "/organizations/sandstar/"
+    "url": "/organizations/sandstar/",
+    "id": "sandstar"
   },
   {
     "name": "Sanofi",
-    "url": "/organizations/sanofi/"
+    "url": "/organizations/sanofi/",
+    "id": "sanofi"
   },
   {
     "name": "SAP",
-    "url": "/organizations/sap-se/"
+    "url": "/organizations/sap-se/",
+    "id": "sap"
   },
   {
     "name": "Saudi Arabian Mining Company (Ma'aden)",
-    "url": "/organizations/saudi-arabian-mining-company-maaden/"
+    "url": "/organizations/saudi-arabian-mining-company-maaden/",
+    "id": "saudi-arabian-mining-company-(ma'aden)"
   },
   {
     "name": "Saudi Basic Industries (SABIC)",
-    "url": "/organizations/saudi-basic-industries-corporation-sabic/"
+    "url": "/organizations/saudi-basic-industries-corporation-sabic/",
+    "id": "saudi-basic-industries-(sabic)"
   },
   {
     "name": "Saudi Electricity Company (SEC)",
-    "url": "/organizations/saudi-electricity-company-sec/"
+    "url": "/organizations/saudi-electricity-company-sec/",
+    "id": "saudi-electricity-company-(sec)"
   },
   {
     "name": "Saudi Industrial Development Fund",
-    "url": "/organizations/saudi-industrial-development-fund/"
+    "url": "/organizations/saudi-industrial-development-fund/",
+    "id": "saudi-industrial-development-fund"
   },
   {
     "name": "Saudi National Bank (SNB)",
-    "url": "/organizations/saudi-national-bank/"
+    "url": "/organizations/saudi-national-bank/",
+    "id": "saudi-national-bank-(snb)"
   },
   {
     "name": "Scale AI",
-    "url": "/organizations/scale-ai/"
+    "url": "/organizations/scale-ai/",
+    "id": "scale-ai"
   },
   {
     "name": "Scan Global Logistics",
-    "url": "/organizations/scan-global-logistics/"
+    "url": "/organizations/scan-global-logistics/",
+    "id": "scan-global-logistics"
   },
   {
     "name": "Schneider Electric",
-    "url": "/organizations/schneider-electric-sa/"
+    "url": "/organizations/schneider-electric-sa/",
+    "id": "schneider-electric"
   },
   {
     "name": "SecurityScorecard",
-    "url": "/organizations/securityscorecard/"
+    "url": "/organizations/securityscorecard/",
+    "id": "securityscorecard"
   },
   {
     "name": "Sekunjalo Group",
-    "url": "/organizations/sekunjalo-investment-holdings-pty-limited/"
+    "url": "/organizations/sekunjalo-investment-holdings-pty-limited/",
+    "id": "sekunjalo-group"
   },
   {
     "name": "Sempra",
-    "url": "/organizations/sempra-energy/"
+    "url": "/organizations/sempra-energy/",
+    "id": "sempra"
   },
   {
     "name": "SENSORO",
-    "url": "/organizations/sensoro/"
+    "url": "/organizations/sensoro/",
+    "id": "sensoro"
   },
   {
     "name": "Septodont",
-    "url": "/organizations/septodont/"
+    "url": "/organizations/septodont/",
+    "id": "septodont"
   },
   {
     "name": "Sequoia Capital",
-    "url": "/organizations/sequoia-capital-group/"
+    "url": "/organizations/sequoia-capital-group/",
+    "id": "sequoia-capital"
   },
   {
     "name": "Serum Institute of India",
-    "url": "/organizations/serum-institute-of-india-ltd/"
+    "url": "/organizations/serum-institute-of-india-ltd/",
+    "id": "serum-institute-of-india"
   },
   {
     "name": "ServiceNow",
-    "url": "/organizations/servicenow/"
+    "url": "/organizations/servicenow/",
+    "id": "servicenow"
   },
   {
     "name": "SES-imagotag",
-    "url": "/organizations/ses-imagotag/"
+    "url": "/organizations/ses-imagotag/",
+    "id": "ses-imagotag"
   },
   {
     "name": "SettleMint",
-    "url": "/organizations/settlemint/"
+    "url": "/organizations/settlemint/",
+    "id": "settlemint"
   },
   {
     "name": "SG Holdings",
-    "url": "/organizations/sg-holdings/"
+    "url": "/organizations/sg-holdings/",
+    "id": "sg-holdings"
   },
   {
     "name": "Shein",
-    "url": "/organizations/shein/"
+    "url": "/organizations/shein/",
+    "id": "shein"
   },
   {
     "name": "Shell",
-    "url": "/organizations/royal-dutch-shell-plc/"
+    "url": "/organizations/royal-dutch-shell-plc/",
+    "id": "shell"
   },
   {
     "name": "Shizen Energy",
-    "url": "/organizations/shizen-energy/"
+    "url": "/organizations/shizen-energy/",
+    "id": "shizen-energy"
   },
   {
     "name": "Shree Cement",
-    "url": "/organizations/shree-cement/"
+    "url": "/organizations/shree-cement/",
+    "id": "shree-cement"
   },
   {
     "name": "ShuKun",
-    "url": "/organizations/shukun/"
+    "url": "/organizations/shukun/",
+    "id": "shukun"
   },
   {
     "name": "Siam Cement Group (SCG)",
-    "url": "/organizations/siam-cement-group/"
+    "url": "/organizations/siam-cement-group/",
+    "id": "siam-cement-group-(scg)"
   },
   {
     "name": "SICPA",
-    "url": "/organizations/sicpa-holding-sa/"
+    "url": "/organizations/sicpa-holding-sa/",
+    "id": "sicpa"
   },
   {
     "name": "Siemens",
-    "url": "/organizations/siemens-ag/"
+    "url": "/organizations/siemens-ag/",
+    "id": "siemens"
   },
   {
     "name": "Siemens Energy",
-    "url": "/organizations/siemens-energy/"
+    "url": "/organizations/siemens-energy/",
+    "id": "siemens-energy"
   },
   {
     "name": "Siemens Healthineers",
-    "url": "/organizations/siemens-healthineers/"
+    "url": "/organizations/siemens-healthineers/",
+    "id": "siemens-healthineers"
   },
   {
     "name": "Sight Machine",
-    "url": "/organizations/sight-machine/"
+    "url": "/organizations/sight-machine/",
+    "id": "sight-machine"
   },
   {
     "name": "Silver Lake",
-    "url": "/organizations/silver-lake-154e4818-cccf-4909-b57e-28d64df19f40/"
+    "url": "/organizations/silver-lake-154e4818-cccf-4909-b57e-28d64df19f40/",
+    "id": "silver-lake"
   },
   {
     "name": "Sincerity International Group",
-    "url": "/organizations/sincerity-international-group/"
+    "url": "/organizations/sincerity-international-group/",
+    "id": "sincerity-international-group"
   },
   {
     "name": "Singapore Economic Development Board",
-    "url": "/organizations/singapore-economic-development-board/"
+    "url": "/organizations/singapore-economic-development-board/",
+    "id": "singapore-economic-development-board"
   },
   {
     "name": "SingleStore",
-    "url": "/organizations/singlestore/"
+    "url": "/organizations/singlestore/",
+    "id": "singlestore"
   },
   {
     "name": "Sino Group",
-    "url": "/organizations/sino-group/"
+    "url": "/organizations/sino-group/",
+    "id": "sino-group"
   },
   {
     "name": "SITE",
-    "url": "/organizations/saudi-information-technology-company/"
+    "url": "/organizations/saudi-information-technology-company/",
+    "id": "site"
   },
   {
     "name": "SIX Group",
-    "url": "/organizations/six-group/"
+    "url": "/organizations/six-group/",
+    "id": "six-group"
   },
   {
     "name": "SK Group",
-    "url": "/organizations/sk-holdings/"
+    "url": "/organizations/sk-holdings/",
+    "id": "sk-group"
   },
   {
     "name": "Skillsoft",
-    "url": "/organizations/skillsoft/"
+    "url": "/organizations/skillsoft/",
+    "id": "skillsoft"
   },
   {
     "name": "SkyBridge Capital",
-    "url": "/organizations/skybridge-capital/"
+    "url": "/organizations/skybridge-capital/",
+    "id": "skybridge-capital"
   },
   {
     "name": "SkyHive",
-    "url": "/organizations/skyhive/"
+    "url": "/organizations/skyhive/",
+    "id": "skyhive"
   },
   {
     "name": "SkyNRG",
-    "url": "/organizations/skynrg/"
+    "url": "/organizations/skynrg/",
+    "id": "skynrg"
   },
   {
     "name": "SkyPower",
-    "url": "/organizations/skypower/"
+    "url": "/organizations/skypower/",
+    "id": "skypower"
   },
   {
     "name": "SLB",
-    "url": "/organizations/schlumberger/"
+    "url": "/organizations/schlumberger/",
+    "id": "slb"
   },
   {
     "name": "SM Investments",
-    "url": "/organizations/sm-investments-corporation/"
+    "url": "/organizations/sm-investments-corporation/",
+    "id": "sm-investments"
   },
   {
     "name": "SOCAR (State Oil Company of the Azerbaijan Republic)",
-    "url": "/organizations/socar/"
+    "url": "/organizations/socar/",
+    "id": "socar-(state-oil-company-of-the-azerbaijan-republic)"
   },
   {
     "name": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
-    "url": "/organizations/societe-generale/"
+    "url": "/organizations/societe-generale/",
+    "id": "soci\u00e9t\u00e9-g\u00e9n\u00e9rale"
   },
   {
     "name": "SOHO China",
-    "url": "/organizations/soho-china/"
+    "url": "/organizations/soho-china/",
+    "id": "soho-china"
   },
   {
     "name": "Solugen",
-    "url": "/organizations/solugen/"
+    "url": "/organizations/solugen/",
+    "id": "solugen"
   },
   {
     "name": "Sompo Holdings",
-    "url": "/organizations/sompo-holdings/"
+    "url": "/organizations/sompo-holdings/",
+    "id": "sompo-holdings"
   },
   {
     "name": "Sonae",
-    "url": "/organizations/sonae-sa/"
+    "url": "/organizations/sonae-sa/",
+    "id": "sonae"
   },
   {
     "name": "Sony Group",
-    "url": "/organizations/sony-corporation/"
+    "url": "/organizations/sony-corporation/",
+    "id": "sony-group"
   },
   {
     "name": "South African Reserve Bank (SARB)",
-    "url": "/organizations/south-african-reserve-bank-sarb/"
+    "url": "/organizations/south-african-reserve-bank-sarb/",
+    "id": "south-african-reserve-bank-(sarb)"
   },
   {
     "name": "South32",
-    "url": "/organizations/south32/"
+    "url": "/organizations/south32/",
+    "id": "south32"
   },
   {
     "name": "Space Perspective",
-    "url": "/organizations/space-perspective/"
+    "url": "/organizations/space-perspective/",
+    "id": "space-perspective"
   },
   {
     "name": "SpeQtral",
-    "url": "/organizations/speqtral/"
+    "url": "/organizations/speqtral/",
+    "id": "speqtral"
   },
   {
     "name": "Splunk",
-    "url": "/organizations/splunk/"
+    "url": "/organizations/splunk/",
+    "id": "splunk"
   },
   {
     "name": "Spring Health",
-    "url": "/organizations/spring-health/"
+    "url": "/organizations/spring-health/",
+    "id": "spring-health"
   },
   {
     "name": "SpyCloud",
-    "url": "/organizations/spycloud/"
+    "url": "/organizations/spycloud/",
+    "id": "spycloud"
   },
   {
     "name": "Standard Bank Group",
-    "url": "/organizations/the-standard-bank-group-limited/"
+    "url": "/organizations/the-standard-bank-group-limited/",
+    "id": "standard-bank-group"
   },
   {
     "name": "Standard Chartered Bank",
-    "url": "/organizations/standard-chartered-bank/"
+    "url": "/organizations/standard-chartered-bank/",
+    "id": "standard-chartered-bank"
   },
   {
     "name": "Standard Energy",
-    "url": "/organizations/standard-energy/"
+    "url": "/organizations/standard-energy/",
+    "id": "standard-energy"
   },
   {
     "name": "State Bank of India",
-    "url": "/organizations/state-bank-of-india/"
+    "url": "/organizations/state-bank-of-india/",
+    "id": "state-bank-of-india"
   },
   {
     "name": "State Farm Mutual Automobile Insurance",
-    "url": "/organizations/state-farm-mutual-automobile-insurance-companies/"
+    "url": "/organizations/state-farm-mutual-automobile-insurance-companies/",
+    "id": "state-farm-mutual-automobile-insurance"
   },
   {
     "name": "State Grid Corporation of China",
-    "url": "/organizations/state-grid-corporation-of-china/"
+    "url": "/organizations/state-grid-corporation-of-china/",
+    "id": "state-grid-corporation-of-china"
   },
   {
     "name": "State Oil Fund of the Republic of Azerbaijan (SOFAZ)",
-    "url": "/organizations/state-oil-fund-of-the-republic-of-azerbaijan-sofaz/"
+    "url": "/organizations/state-oil-fund-of-the-republic-of-azerbaijan-sofaz/",
+    "id": "state-oil-fund-of-the-republic-of-azerbaijan-(sofaz)"
   },
   {
     "name": "State Street",
-    "url": "/organizations/state-street-corporation/"
+    "url": "/organizations/state-street-corporation/",
+    "id": "state-street"
   },
   {
     "name": "STC",
-    "url": "/organizations/saudi-telecom-group/"
+    "url": "/organizations/saudi-telecom-group/",
+    "id": "stc"
   },
   {
     "name": "Stellar Development Foundation",
-    "url": "/organizations/stellar-development-foundation/"
+    "url": "/organizations/stellar-development-foundation/",
+    "id": "stellar-development-foundation"
   },
   {
     "name": "Stena",
-    "url": "/organizations/stena-ab/"
+    "url": "/organizations/stena-ab/",
+    "id": "stena"
   },
   {
     "name": "Stifel Financial",
-    "url": "/organizations/stifel-financial/"
+    "url": "/organizations/stifel-financial/",
+    "id": "stifel-financial"
   },
   {
     "name": "Strangeworks",
-    "url": "/organizations/strangeworks/"
+    "url": "/organizations/strangeworks/",
+    "id": "strangeworks"
   },
   {
     "name": "Stripe",
-    "url": "/organizations/stripe/"
+    "url": "/organizations/stripe/",
+    "id": "stripe"
   },
   {
     "name": "Suade",
-    "url": "/organizations/suade-labs/"
+    "url": "/organizations/suade-labs/",
+    "id": "suade"
   },
   {
     "name": "SUEZ",
-    "url": "/organizations/suez/"
+    "url": "/organizations/suez/",
+    "id": "suez"
   },
   {
     "name": "Sumitomo Corporation",
-    "url": "/organizations/sumitomo-corporation/"
+    "url": "/organizations/sumitomo-corporation/",
+    "id": "sumitomo-corporation"
   },
   {
     "name": "Sumitomo Mitsui Financial Group (SMFG)",
-    "url": "/organizations/sumitomo-mitsui-financial-group-smfg/"
+    "url": "/organizations/sumitomo-mitsui-financial-group-smfg/",
+    "id": "sumitomo-mitsui-financial-group-(smfg)"
   },
   {
     "name": "Sun Finance Group",
-    "url": "/organizations/sun-finance-group/"
+    "url": "/organizations/sun-finance-group/",
+    "id": "sun-finance-group"
   },
   {
     "name": "Sun Pharmaceutical Industries",
-    "url": "/organizations/sun-pharmaceutical-industries/"
+    "url": "/organizations/sun-pharmaceutical-industries/",
+    "id": "sun-pharmaceutical-industries"
   },
   {
     "name": "Sunfire",
-    "url": "/organizations/sunfire/"
+    "url": "/organizations/sunfire/",
+    "id": "sunfire"
   },
   {
     "name": "Suntory Holdings",
-    "url": "/organizations/suntory-holdings-limited/"
+    "url": "/organizations/suntory-holdings-limited/",
+    "id": "suntory-holdings"
   },
   {
     "name": "SVOLT Energy Technology",
-    "url": "/organizations/svolt-energy-technology/"
+    "url": "/organizations/svolt-energy-technology/",
+    "id": "svolt-energy-technology"
   },
   {
     "name": "SWIFT",
-    "url": "/organizations/swift-scrl/"
+    "url": "/organizations/swift-scrl/",
+    "id": "swift"
   },
   {
     "name": "Swing Mobility",
-    "url": "/organizations/swing-mobility/"
+    "url": "/organizations/swing-mobility/",
+    "id": "swing-mobility"
   },
   {
     "name": "Swiss Bank of Geneva (BCGE)",
-    "url": "/organizations/swiss-bank-of-geneva-bcge/"
+    "url": "/organizations/swiss-bank-of-geneva-bcge/",
+    "id": "swiss-bank-of-geneva-(bcge)"
   },
   {
     "name": "Swiss Re",
-    "url": "/organizations/swiss-reinsurance-company-ltd/"
+    "url": "/organizations/swiss-reinsurance-company-ltd/",
+    "id": "swiss-re"
   },
   {
     "name": "Syensqo",
-    "url": "/organizations/solvay-sa/"
+    "url": "/organizations/solvay-sa/",
+    "id": "syensqo"
   },
   {
     "name": "Syngenta Group",
-    "url": "/organizations/syngenta-group/"
+    "url": "/organizations/syngenta-group/",
+    "id": "syngenta-group"
   },
   {
     "name": "Synhelion",
-    "url": "/organizations/synhelion/"
+    "url": "/organizations/synhelion/",
+    "id": "synhelion"
   },
   {
     "name": "Takeda Pharmaceutical",
-    "url": "/organizations/takeda-pharmaceutical-company-limited/"
+    "url": "/organizations/takeda-pharmaceutical-company-limited/",
+    "id": "takeda-pharmaceutical"
   },
   {
     "name": "Tamer Group",
-    "url": "/organizations/tamer-group/"
+    "url": "/organizations/tamer-group/",
+    "id": "tamer-group"
   },
   {
     "name": "Tata Consultancy Services",
-    "url": "/organizations/tata-consultancy-services-ltd/"
+    "url": "/organizations/tata-consultancy-services-ltd/",
+    "id": "tata-consultancy-services"
   },
   {
     "name": "Tata Sons",
-    "url": "/organizations/tata-sons-ltd/"
+    "url": "/organizations/tata-sons-ltd/",
+    "id": "tata-sons"
   },
   {
     "name": "TCL",
-    "url": "/organizations/tcl-corporation/"
+    "url": "/organizations/tcl-corporation/",
+    "id": "tcl"
   },
   {
     "name": "TD Bank Group",
-    "url": "/organizations/td-bank-group/"
+    "url": "/organizations/td-bank-group/",
+    "id": "td-bank-group"
   },
   {
     "name": "Team Internet",
-    "url": "/organizations/codewise/"
+    "url": "/organizations/codewise/",
+    "id": "team-internet"
   },
   {
     "name": "Teamshares",
-    "url": "/organizations/teamshares-inc/"
+    "url": "/organizations/teamshares-inc/",
+    "id": "teamshares"
   },
   {
     "name": "Technip Energies",
-    "url": "/organizations/technip-energies/"
+    "url": "/organizations/technip-energies/",
+    "id": "technip-energies"
   },
   {
     "name": "Technogym",
-    "url": "/organizations/technogym-spa/"
+    "url": "/organizations/technogym-spa/",
+    "id": "technogym"
   },
   {
     "name": "Teck Resources",
-    "url": "/organizations/teck-resources-limited/"
+    "url": "/organizations/teck-resources-limited/",
+    "id": "teck-resources"
   },
   {
     "name": "Telefonica",
-    "url": "/organizations/telefonica-sa/"
+    "url": "/organizations/telefonica-sa/",
+    "id": "telefonica"
   },
   {
     "name": "Telenor Group",
-    "url": "/organizations/telenor-asa/"
+    "url": "/organizations/telenor-asa/",
+    "id": "telenor-group"
   },
   {
     "name": "Teleperformance",
-    "url": "/organizations/teleperformance/"
+    "url": "/organizations/teleperformance/",
+    "id": "teleperformance"
   },
   {
     "name": "Temasek",
-    "url": "/organizations/temasek-holdings/"
+    "url": "/organizations/temasek-holdings/",
+    "id": "temasek"
   },
   {
     "name": "Temedica",
-    "url": "/organizations/temedica/"
+    "url": "/organizations/temedica/",
+    "id": "temedica"
   },
   {
     "name": "Temenos",
-    "url": "/organizations/temenos/"
+    "url": "/organizations/temenos/",
+    "id": "temenos"
   },
   {
     "name": "Tencent Holdings",
-    "url": "/organizations/tencent-holdings/"
+    "url": "/organizations/tencent-holdings/",
+    "id": "tencent-holdings"
   },
   {
     "name": "Teneo",
-    "url": "/organizations/teneo-holdings/"
+    "url": "/organizations/teneo-holdings/",
+    "id": "teneo"
   },
   {
     "name": "Thai Beverage",
-    "url": "/organizations/thai-beverage/"
+    "url": "/organizations/thai-beverage/",
+    "id": "thai-beverage"
   },
   {
     "name": "The Coca-Cola Company",
-    "url": "/organizations/the-coca-cola-company/"
+    "url": "/organizations/the-coca-cola-company/",
+    "id": "the-coca-cola-company"
   },
   {
     "name": "The Est\u00e9e Lauder Companies",
-    "url": "/organizations/estee-lauder/"
+    "url": "/organizations/estee-lauder/",
+    "id": "the-est\u00e9e-lauder-companies"
   },
   {
     "name": "The Exploration Company",
-    "url": "/organizations/the-exploration-company/"
+    "url": "/organizations/the-exploration-company/",
+    "id": "the-exploration-company"
   },
   {
     "name": "Therme Group",
-    "url": "/organizations/therme-group/"
+    "url": "/organizations/therme-group/",
+    "id": "therme-group"
   },
   {
     "name": "Thermo Fisher Scientific",
-    "url": "/organizations/thermo-fisher-scientific-inc/"
+    "url": "/organizations/thermo-fisher-scientific-inc/",
+    "id": "thermo-fisher-scientific"
   },
   {
     "name": "TIAA",
-    "url": "/organizations/tiaa/"
+    "url": "/organizations/tiaa/",
+    "id": "tiaa"
   },
   {
     "name": "Tianjin Jinbin Development Co.",
-    "url": "/organizations/tianjin-jinbin-development-co/"
+    "url": "/organizations/tianjin-jinbin-development-co/",
+    "id": "tianjin-jinbin-development-co."
   },
   {
     "name": "TikTok",
-    "url": "/organizations/bytedance-ltd/"
+    "url": "/organizations/bytedance-ltd/",
+    "id": "tiktok"
   },
   {
     "name": "TikTok",
-    "url": "/organizations/tiktok-14b4d253cb/"
+    "url": "/organizations/tiktok-14b4d253cb/",
+    "id": "tiktok"
   },
   {
     "name": "Tillman Global Holdings",
-    "url": "/organizations/tillman-global-holdings-llc/"
+    "url": "/organizations/tillman-global-holdings-llc/",
+    "id": "tillman-global-holdings"
   },
   {
     "name": "TIME",
-    "url": "/organizations/time/"
+    "url": "/organizations/time/",
+    "id": "time"
   },
   {
     "name": "Titan Cement",
-    "url": "/organizations/titan-cement-company/"
+    "url": "/organizations/titan-cement-company/",
+    "id": "titan-cement"
   },
   {
     "name": "TNO",
-    "url": "/organizations/tno/"
+    "url": "/organizations/tno/",
+    "id": "tno"
   },
   {
     "name": "TOGG",
-    "url": "/organizations/togg/"
+    "url": "/organizations/togg/",
+    "id": "togg"
   },
   {
     "name": "Tokio Marine",
-    "url": "/organizations/tokio-marine-holdings/"
+    "url": "/organizations/tokio-marine-holdings/",
+    "id": "tokio-marine"
   },
   {
     "name": "Tony Blair Institute for Global Change",
-    "url": "/organizations/tony-blair-institute-for-global-change/"
+    "url": "/organizations/tony-blair-institute-for-global-change/",
+    "id": "tony-blair-institute-for-global-change"
   },
   {
     "name": "TOPPAN",
-    "url": "/organizations/toppan/"
+    "url": "/organizations/toppan/",
+    "id": "toppan"
   },
   {
     "name": "Topsoe",
-    "url": "/organizations/haldor-topsoe-a-s/"
+    "url": "/organizations/haldor-topsoe-a-s/",
+    "id": "topsoe"
   },
   {
     "name": "Tosyali Holding",
-    "url": "/organizations/tosyali-holding-a-s/"
+    "url": "/organizations/tosyali-holding-a-s/",
+    "id": "tosyali-holding"
   },
   {
     "name": "TotalEnergies",
-    "url": "/organizations/total/"
+    "url": "/organizations/total/",
+    "id": "totalenergies"
   },
   {
     "name": "Toyota",
-    "url": "/organizations/toyota-motor-corporation/"
+    "url": "/organizations/toyota-motor-corporation/",
+    "id": "toyota"
   },
   {
     "name": "TPG",
-    "url": "/organizations/tpg-global-llc/"
+    "url": "/organizations/tpg-global-llc/",
+    "id": "tpg"
   },
   {
     "name": "Trade and Development Bank of Mongolia",
-    "url": "/organizations/trade-and-development-bank-of-mongolia/"
+    "url": "/organizations/trade-and-development-bank-of-mongolia/",
+    "id": "trade-and-development-bank-of-mongolia"
   },
   {
     "name": "TradeAsia International",
-    "url": "/organizations/tradeasia-international/"
+    "url": "/organizations/tradeasia-international/",
+    "id": "tradeasia-international"
   },
   {
     "name": "Tradeteq",
-    "url": "/organizations/tradeteq/"
+    "url": "/organizations/tradeteq/",
+    "id": "tradeteq"
   },
   {
     "name": "Trafigura",
-    "url": "/organizations/trafigura/"
+    "url": "/organizations/trafigura/",
+    "id": "trafigura"
   },
   {
     "name": "Trane Technologies",
-    "url": "/organizations/trane-technologies/"
+    "url": "/organizations/trane-technologies/",
+    "id": "trane-technologies"
   },
   {
     "name": "transcosmos",
-    "url": "/organizations/transcosmos/"
+    "url": "/organizations/transcosmos/",
+    "id": "transcosmos"
   },
   {
     "name": "Transport Corporation of India",
-    "url": "/organizations/transport-corporation-of-india/"
+    "url": "/organizations/transport-corporation-of-india/",
+    "id": "transport-corporation-of-india"
   },
   {
     "name": "Tree Energy Solutions (TES)",
-    "url": "/organizations/tree-energy-solutions-tes-h2/"
+    "url": "/organizations/tree-energy-solutions-tes-h2/",
+    "id": "tree-energy-solutions-(tes)"
   },
   {
     "name": "Trellix",
-    "url": "/organizations/trellix/"
+    "url": "/organizations/trellix/",
+    "id": "trellix"
   },
   {
     "name": "Trina Solar",
-    "url": "/organizations/trina-solar-ltd/"
+    "url": "/organizations/trina-solar-ltd/",
+    "id": "trina-solar"
   },
   {
     "name": "Trip.com Group",
-    "url": "/organizations/ctrip-com/"
+    "url": "/organizations/ctrip-com/",
+    "id": "trip.com-group"
   },
   {
     "name": "Truepic",
-    "url": "/organizations/truepic/"
+    "url": "/organizations/truepic/",
+    "id": "truepic"
   },
   {
     "name": "Tsingtao Brewery Co.,Ltd",
-    "url": "/organizations/tsingtao-brewery-co-ltd/"
+    "url": "/organizations/tsingtao-brewery-co-ltd/",
+    "id": "tsingtao-brewery-co.,ltd"
   },
   {
     "name": "Tulip Interfaces",
-    "url": "/organizations/tulip-interfaces-inc/"
+    "url": "/organizations/tulip-interfaces-inc/",
+    "id": "tulip-interfaces"
   },
   {
     "name": "Turkish Employers Association of Metal Industries (MESS)",
-    "url": "/organizations/turkish-employers-association-of-metal-industries-mess/"
+    "url": "/organizations/turkish-employers-association-of-metal-industries-mess/",
+    "id": "turkish-employers-association-of-metal-industries-(mess)"
   },
   {
     "name": "T\u00fcrkiye Wealth Fund",
-    "url": "/organizations/turkish-wealth-fund/"
+    "url": "/organizations/turkish-wealth-fund/",
+    "id": "t\u00fcrkiye-wealth-fund"
   },
   {
     "name": "T\u00dcV S\u00dcD",
-    "url": "/organizations/tuv-sud/"
+    "url": "/organizations/tuv-sud/",
+    "id": "t\u00fcv-s\u00fcd"
   },
   {
     "name": "TVS Group",
-    "url": "/organizations/tvs-group/"
+    "url": "/organizations/tvs-group/",
+    "id": "tvs-group"
   },
   {
     "name": "Two Sigma",
-    "url": "/organizations/two-sigma/"
+    "url": "/organizations/two-sigma/",
+    "id": "two-sigma"
   },
   {
     "name": "U-Earth",
-    "url": "/organizations/u-earth/"
+    "url": "/organizations/u-earth/",
+    "id": "u-earth"
   },
   {
     "name": "Uber Technologies",
-    "url": "/organizations/uber/"
+    "url": "/organizations/uber/",
+    "id": "uber-technologies"
   },
   {
     "name": "UBS",
-    "url": "/organizations/ubs-switzerland-ag/"
+    "url": "/organizations/ubs-switzerland-ag/",
+    "id": "ubs"
   },
   {
     "name": "Umicore",
-    "url": "/organizations/umicore/"
+    "url": "/organizations/umicore/",
+    "id": "umicore"
   },
   {
     "name": "Underwriters Laboratories",
-    "url": "/organizations/ul/"
+    "url": "/organizations/ul/",
+    "id": "underwriters-laboratories"
   },
   {
     "name": "Unico",
-    "url": "/organizations/unico/"
+    "url": "/organizations/unico/",
+    "id": "unico"
   },
   {
     "name": "UniCredit",
-    "url": "/organizations/unicredit-spa/"
+    "url": "/organizations/unicredit-spa/",
+    "id": "unicredit"
   },
   {
     "name": "Unilever",
-    "url": "/organizations/unilever/"
+    "url": "/organizations/unilever/",
+    "id": "unilever"
   },
   {
     "name": "Uniphore",
-    "url": "/organizations/uniphore/"
+    "url": "/organizations/uniphore/",
+    "id": "uniphore"
   },
   {
     "name": "Unipol Gruppo",
-    "url": "/organizations/unipol-gruppo-finanziario/"
+    "url": "/organizations/unipol-gruppo-finanziario/",
+    "id": "unipol-gruppo"
   },
   {
     "name": "Unison Capital",
-    "url": "/organizations/unison-capital-inc/"
+    "url": "/organizations/unison-capital-inc/",
+    "id": "unison-capital"
   },
   {
     "name": "Unitel",
-    "url": "/organizations/unitel/"
+    "url": "/organizations/unitel/",
+    "id": "unitel"
   },
   {
     "name": "Univercells",
-    "url": "/organizations/univercells/"
+    "url": "/organizations/univercells/",
+    "id": "univercells"
   },
   {
     "name": "Upfield Group",
-    "url": "/organizations/upfield-group/"
+    "url": "/organizations/upfield-group/",
+    "id": "upfield-group"
   },
   {
     "name": "UPL",
-    "url": "/organizations/upl-ltd/"
+    "url": "/organizations/upl-ltd/",
+    "id": "upl"
   },
   {
     "name": "UPS",
-    "url": "/organizations/ups/"
+    "url": "/organizations/ups/",
+    "id": "ups"
   },
   {
     "name": "Vale",
-    "url": "/organizations/vale/"
+    "url": "/organizations/vale/",
+    "id": "vale"
   },
   {
     "name": "VARO Energy",
-    "url": "/organizations/varo/"
+    "url": "/organizations/varo/",
+    "id": "varo-energy"
   },
   {
     "name": "Vattenfall",
-    "url": "/organizations/vattenfall-ab/"
+    "url": "/organizations/vattenfall-ab/",
+    "id": "vattenfall"
   },
   {
     "name": "VdA Legal Partners",
-    "url": "/organizations/vda-legal-partners/"
+    "url": "/organizations/vda-legal-partners/",
+    "id": "vda-legal-partners"
   },
   {
     "name": "Vedanta Resources",
-    "url": "/organizations/vedanta-resources/"
+    "url": "/organizations/vedanta-resources/",
+    "id": "vedanta-resources"
   },
   {
     "name": "VELUX",
-    "url": "/organizations/velux/"
+    "url": "/organizations/velux/",
+    "id": "velux"
   },
   {
     "name": "Verizon Communications",
-    "url": "/organizations/verizon-communications/"
+    "url": "/organizations/verizon-communications/",
+    "id": "verizon-communications"
   },
   {
     "name": "Verra",
-    "url": "/organizations/verra/"
+    "url": "/organizations/verra/",
+    "id": "verra"
   },
   {
     "name": "Versatile",
-    "url": "/organizations/versatile/"
+    "url": "/organizations/versatile/",
+    "id": "versatile"
   },
   {
     "name": "Vertical Future",
-    "url": "/organizations/vertical-future/"
+    "url": "/organizations/vertical-future/",
+    "id": "vertical-future"
   },
   {
     "name": "Vestas",
-    "url": "/organizations/vestas-wind-systems-a-s/"
+    "url": "/organizations/vestas-wind-systems-a-s/",
+    "id": "vestas"
   },
   {
     "name": "VFS Global",
-    "url": "/organizations/vf-worldwide-holdings/"
+    "url": "/organizations/vf-worldwide-holdings/",
+    "id": "vfs-global"
   },
   {
     "name": "VGZ",
-    "url": "/organizations/zorgverzekeraar-vgz/"
+    "url": "/organizations/zorgverzekeraar-vgz/",
+    "id": "vgz"
   },
   {
     "name": "ViaSat",
-    "url": "/organizations/inmarsat-global/"
+    "url": "/organizations/inmarsat-global/",
+    "id": "viasat"
   },
   {
     "name": "Vibrant Energy",
-    "url": "/organizations/vibrant-energy/"
+    "url": "/organizations/vibrant-energy/",
+    "id": "vibrant-energy"
   },
   {
     "name": "Vietcombank",
-    "url": "/organizations/vietcombank/"
+    "url": "/organizations/vietcombank/",
+    "id": "vietcombank"
   },
   {
     "name": "Viking Global Investors",
-    "url": "/organizations/viking-global-investors-lp/"
+    "url": "/organizations/viking-global-investors-lp/",
+    "id": "viking-global-investors"
   },
   {
     "name": "Visa",
-    "url": "/organizations/visa-usa-inc/"
+    "url": "/organizations/visa-usa-inc/",
+    "id": "visa"
   },
   {
     "name": "Vista Equity Partners",
-    "url": "/organizations/vista-equity-partners/"
+    "url": "/organizations/vista-equity-partners/",
+    "id": "vista-equity-partners"
   },
   {
     "name": "Vital Capital Fund",
-    "url": "/organizations/vital-capital-fund/"
+    "url": "/organizations/vital-capital-fund/",
+    "id": "vital-capital-fund"
   },
   {
     "name": "Volkswagen Group",
-    "url": "/organizations/volkswagen-ag/"
+    "url": "/organizations/volkswagen-ag/",
+    "id": "volkswagen-group"
   },
   {
     "name": "Volvo Cars",
-    "url": "/organizations/volvo-car-corporation/"
+    "url": "/organizations/volvo-car-corporation/",
+    "id": "volvo-cars"
   },
   {
     "name": "Volvo Group",
-    "url": "/organizations/ab-volvo/"
+    "url": "/organizations/ab-volvo/",
+    "id": "volvo-group"
   },
   {
     "name": "Voyager Space",
-    "url": "/organizations/voyager-space-holdings/"
+    "url": "/organizations/voyager-space-holdings/",
+    "id": "voyager-space"
   },
   {
     "name": "Walmart",
-    "url": "/organizations/wal-mart-stores-inc/"
+    "url": "/organizations/wal-mart-stores-inc/",
+    "id": "walmart"
   },
   {
     "name": "Wellcome Trust",
-    "url": "/organizations/the-wellcome-trust/"
+    "url": "/organizations/the-wellcome-trust/",
+    "id": "wellcome-trust"
   },
   {
     "name": "Welspun World",
-    "url": "/organizations/welspun-world/"
+    "url": "/organizations/welspun-world/",
+    "id": "welspun-world"
   },
   {
     "name": "Western Digital",
-    "url": "/organizations/western-digital/"
+    "url": "/organizations/western-digital/",
+    "id": "western-digital"
   },
   {
     "name": "Williams-Sonoma",
-    "url": "/organizations/williams-sonoma/"
+    "url": "/organizations/williams-sonoma/",
+    "id": "williams-sonoma"
   },
   {
     "name": "Wilmar International",
-    "url": "/organizations/wilmar-international-limited/"
+    "url": "/organizations/wilmar-international-limited/",
+    "id": "wilmar-international"
   },
   {
     "name": "Wingcopter",
-    "url": "/organizations/wingcopter/"
+    "url": "/organizations/wingcopter/",
+    "id": "wingcopter"
   },
   {
     "name": "Wipro",
-    "url": "/organizations/wipro-limited/"
+    "url": "/organizations/wipro-limited/",
+    "id": "wipro"
   },
   {
     "name": "Wood Mackenzie",
-    "url": "/organizations/wood-mackenzie/"
+    "url": "/organizations/wood-mackenzie/",
+    "id": "wood-mackenzie"
   },
   {
     "name": "Workday",
-    "url": "/organizations/workday-inc/"
+    "url": "/organizations/workday-inc/",
+    "id": "workday"
   },
   {
     "name": "World Kinect",
-    "url": "/organizations/world-fuel-services/"
+    "url": "/organizations/world-fuel-services/",
+    "id": "world-kinect"
   },
   {
     "name": "WorldBridge",
-    "url": "/organizations/worldbridge/"
+    "url": "/organizations/worldbridge/",
+    "id": "worldbridge"
   },
   {
     "name": "WorldQuant",
-    "url": "/organizations/worldquant-llc/"
+    "url": "/organizations/worldquant-llc/",
+    "id": "worldquant"
   },
   {
     "name": "Xenco Medical",
-    "url": "/organizations/xenco-medical/"
+    "url": "/organizations/xenco-medical/",
+    "id": "xenco-medical"
   },
   {
     "name": "Xylem",
-    "url": "/organizations/xylem/"
+    "url": "/organizations/xylem/",
+    "id": "xylem"
   },
   {
     "name": "Yanghe Distillery",
-    "url": "/organizations/yanghe-distillery/"
+    "url": "/organizations/yanghe-distillery/",
+    "id": "yanghe-distillery"
   },
   {
     "name": "Yara International",
-    "url": "/organizations/yara-international-asa/"
+    "url": "/organizations/yara-international-asa/",
+    "id": "yara-international"
   },
   {
     "name": "Yatsen Global",
-    "url": "/organizations/yatsen-global/"
+    "url": "/organizations/yatsen-global/",
+    "id": "yatsen-global"
   },
   {
     "name": "Yuexiu Enterprises",
-    "url": "/organizations/guangzhou-yuexiu-holding/"
+    "url": "/organizations/guangzhou-yuexiu-holding/",
+    "id": "yuexiu-enterprises"
   },
   {
     "name": "Yunzhanghu",
-    "url": "/organizations/accumulus-tianjin-sharing-economy-information-consulting/"
+    "url": "/organizations/accumulus-tianjin-sharing-economy-information-consulting/",
+    "id": "yunzhanghu"
   },
   {
     "name": "Zahid Group",
-    "url": "/organizations/zahid-group/"
+    "url": "/organizations/zahid-group/",
+    "id": "zahid-group"
   },
   {
     "name": "Zenith Bank",
-    "url": "/organizations/zenith-bank-plc/"
+    "url": "/organizations/zenith-bank-plc/",
+    "id": "zenith-bank"
   },
   {
     "name": "ZF Group",
-    "url": "/organizations/zf-friedrichshafen/"
+    "url": "/organizations/zf-friedrichshafen/",
+    "id": "zf-group"
   },
   {
     "name": "Zhongguancun Development Group",
-    "url": "/organizations/zhongguancun-development-group/"
+    "url": "/organizations/zhongguancun-development-group/",
+    "id": "zhongguancun-development-group"
   },
   {
     "name": "Zoom",
-    "url": "/organizations/zoom/"
+    "url": "/organizations/zoom/",
+    "id": "zoom"
   },
   {
     "name": "Zoomlion",
-    "url": "/organizations/changsha-zoomlion-heavy-industry-science-technology-development/"
+    "url": "/organizations/changsha-zoomlion-heavy-industry-science-technology-development/",
+    "id": "zoomlion"
   },
   {
     "name": "ZS",
-    "url": "/organizations/zs/"
+    "url": "/organizations/zs/",
+    "id": "zs"
   },
   {
     "name": "Zscaler",
-    "url": "/organizations/zscaler-inc/"
+    "url": "/organizations/zscaler-inc/",
+    "id": "zscaler"
   },
   {
     "name": "Zurich Insurance Group",
-    "url": "/organizations/zurich-insurance-group/"
+    "url": "/organizations/zurich-insurance-group/",
+    "id": "zurich-insurance-group"
   }
 ]

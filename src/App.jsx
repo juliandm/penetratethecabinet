@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import BlogArticle from './components/BlogArticle/BlogArticle';
+import CssBaseline from '@mui/material/CssBaseline';
 
 
 const router = createBrowserRouter([
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
     element: <Result />,
   },
     {
-    path: "people/:personId",
+    path: "company/:personId",
+    element: <BlogArticle />,
+  },
+      {
+    path: "person/:personId",
     element: <BlogArticle />,
   },
 ]);
@@ -26,10 +31,8 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <Box p={6}>
-        <RouterProvider router={router} />
-      </Box>
-
+      <CssBaseline />
+      <RouterProvider router={router} />
     </div>
   );
 }

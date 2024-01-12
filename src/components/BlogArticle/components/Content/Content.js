@@ -1,47 +1,47 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react';
-import { useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Grid from '@mui/material/Grid';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Avatar from '@mui/material/Avatar';
-import IconButton from '@mui/material/IconButton';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
+import React from "react";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Grid from "@mui/material/Grid";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import Divider from "@mui/material/Divider";
+import Avatar from "@mui/material/Avatar";
+import IconButton from "@mui/material/IconButton";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
-const Content = () => {
+const Content = ({ data }) => {
   const theme = useTheme();
-  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+  const isMd = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true,
   });
 
   const photos = [
     {
-      src: 'https://assets.maccarianagency.com/backgrounds/img25.jpg',
+      src: "https://assets.maccarianagency.com/backgrounds/img25.jpg",
       rows: 1,
       cols: 2,
     },
     {
-      src: 'https://assets.maccarianagency.com/backgrounds/img22.jpg',
+      src: "https://assets.maccarianagency.com/backgrounds/img22.jpg",
       rows: 1,
       cols: 1,
     },
     {
-      src: 'https://assets.maccarianagency.com/backgrounds/img24.jpg',
+      src: "https://assets.maccarianagency.com/backgrounds/img24.jpg",
       rows: 1,
       cols: 1,
     },
     {
-      src: 'https://assets.maccarianagency.com/backgrounds/img21.jpg',
+      src: "https://assets.maccarianagency.com/backgrounds/img21.jpg",
       rows: 1,
       cols: 2,
     },
@@ -50,7 +50,7 @@ const Content = () => {
   return (
     <Box>
       <Box paddingX={{ xs: 0, sm: 4, md: 6 }}>
-        <Typography variant={'subtitle1'}>
+        <Typography variant={"subtitle1"}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -61,34 +61,34 @@ const Content = () => {
         </Typography>
         <Box width={1} height={1} marginY={4}>
           <img
-            height={'100%'}
-            width={'100%'}
-            src={'https://assets.maccarianagency.com/backgrounds/img4.jpg'}
+            height={"100%"}
+            width={"100%"}
+            src={"https://assets.maccarianagency.com/backgrounds/img4.jpg"}
             alt="Remote working"
             loading="lazy"
             style={{
               filter:
-                theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
-              objectFit: 'cover',
+                theme.palette.mode === "dark" ? "brightness(0.7)" : "none",
+              objectFit: "cover",
               borderRadius: 8,
-              width: '100%',
-              height: '100%',
+              width: "100%",
+              height: "100%",
               maxHeight: 400,
             }}
           />
         </Box>
         <Typography
-          variant={'h4'}
-          color={'primary'}
-          align={'center'}
-          fontWeight={'normal'}
+          variant={"h4"}
+          color={"primary"}
+          align={"center"}
+          fontWeight={"normal"}
         >
           “So many teams struggle to make their onboarding experience anywhere
           near as good as their core product, so the results of this is poor
           retention”
         </Typography>
         <Box marginY={4}>
-          <Typography variant={'h5'} gutterBottom>
+          <Typography variant={"h5"} gutterBottom>
             Big heading for a new topic
           </Typography>
           <Typography>
@@ -127,17 +127,17 @@ const Content = () => {
           {photos.map((item, i) => (
             <ImageListItem key={i} cols={item.cols || 2} rows={item.rows || 1}>
               <img
-                height={'100%'}
-                width={'100%'}
+                height={"100%"}
+                width={"100%"}
                 src={item.src}
                 alt="..."
                 loading="lazy"
                 style={{
-                  objectFit: 'cover',
-                  cursor: 'poiner',
+                  objectFit: "cover",
+                  cursor: "poiner",
                   borderRadius: 8,
                   filter:
-                    theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
+                    theme.palette.mode === "dark" ? "brightness(0.7)" : "none",
                 }}
               />
             </ImageListItem>
@@ -146,7 +146,7 @@ const Content = () => {
       </Box>
       <Box paddingX={{ xs: 0, sm: 4, md: 6 }} paddingBottom={4}>
         <Box>
-          <Typography variant={'h5'} gutterBottom>
+          <Typography variant={"h5"} gutterBottom>
             Small heading for a smaller transition
           </Typography>
           <Typography>
@@ -162,47 +162,47 @@ const Content = () => {
       <Box
         component={Card}
         boxShadow={2}
-        display={'flex'}
-        flexDirection={{ xs: 'column', md: 'row-reverse' }}
-        sx={{ backgroundImage: 'none' }}
+        display={"flex"}
+        flexDirection={{ xs: "column", md: "row-reverse" }}
+        sx={{ backgroundImage: "none" }}
       >
         <Box
           sx={{
-            width: { xs: 1, md: '50%' },
-            position: 'relative',
+            width: { xs: 1, md: "50%" },
+            position: "relative",
           }}
         >
           <Box
-            component={'img'}
+            component={"img"}
             height={1}
             width={1}
-            src={'https://assets.maccarianagency.com/backgrounds/img1.jpg'}
+            src={"https://assets.maccarianagency.com/backgrounds/img1.jpg"}
             alt="..."
             loading="lazy"
             sx={{
-              objectFit: 'cover',
+              objectFit: "cover",
               maxHeight: 360,
               filter:
-                theme.palette.mode === 'dark' ? 'brightness(0.7)' : 'none',
+                theme.palette.mode === "dark" ? "brightness(0.7)" : "none",
             }}
           />
           <Box
-            component={'svg'}
+            component={"svg"}
             viewBox="0 0 112 690"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             sx={{
-              position: 'absolute',
+              position: "absolute",
               bottom: 0,
-              top: '-50%',
+              top: "-50%",
               left: 0,
               right: 0,
               color: theme.palette.background.paper,
-              transform: 'scale(2)',
+              transform: "scale(2)",
               height: 1,
-              width: 'auto',
-              transformOrigin: 'top center',
-              display: { xs: 'none', md: 'block' },
+              width: "auto",
+              transformOrigin: "top center",
+              display: { xs: "none", md: "block" },
             }}
           >
             <path
@@ -213,19 +213,19 @@ const Content = () => {
         </Box>
         <CardContent
           sx={{
-            position: 'relative',
-            width: { xs: 1, md: '50%' },
-            display: 'flex',
-            alignItems: 'center',
+            position: "relative",
+            width: { xs: 1, md: "50%" },
+            display: "flex",
+            alignItems: "center",
           }}
         >
           <form>
             <Grid container spacing={2}>
               <Grid item xs={12}>
-                <Typography variant={'h6'} gutterBottom>
+                <Typography variant={"h6"} gutterBottom>
                   Download our sturtup giude
                 </Typography>
-                <Typography color={'text.secondary'}>
+                <Typography color={"text.secondary"}>
                   Small heading for a smaller transition
                 </Typography>
               </Grid>
@@ -233,7 +233,7 @@ const Content = () => {
                 <TextField
                   label="Name *"
                   variant="outlined"
-                  name={'name'}
+                  name={"name"}
                   fullWidth
                 />
               </Grid>
@@ -241,16 +241,16 @@ const Content = () => {
                 <TextField
                   label="Email *"
                   variant="outlined"
-                  name={'email'}
+                  name={"email"}
                   fullWidth
                 />
               </Grid>
               <Grid item xs={12}>
                 <Button
-                  size={'large'}
+                  size={"large"}
                   fullWidth
-                  variant={'contained'}
-                  type={'submit'}
+                  variant={"contained"}
+                  type={"submit"}
                   sx={{ height: 54 }}
                 >
                   Download
@@ -261,7 +261,7 @@ const Content = () => {
         </CardContent>
       </Box>
       <Box paddingX={{ xs: 0, sm: 4, md: 6 }} paddingY={4}>
-        <Typography color={'text.secondary'}>
+        <Typography color={"text.secondary"}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -274,23 +274,23 @@ const Content = () => {
         <Divider />
       </Box>
       <Box
-        display={'flex'}
-        alignItems={'center'}
-        justifyContent={'space-between'}
-        flexWrap={'wrap'}
+        display={"flex"}
+        alignItems={"center"}
+        justifyContent={"space-between"}
+        flexWrap={"wrap"}
       >
-        <Box display={'flex'} alignItems={'center'}>
+        <Box display={"flex"} alignItems={"center"}>
           <Avatar
             sx={{ width: 50, height: 50, marginRight: 2 }}
-            src={'https://assets.maccarianagency.com/avatars/img3.jpg'}
+            src={"https://assets.maccarianagency.com/avatars/img3.jpg"}
           />
           <Box>
             <Typography fontWeight={600}>Jhon Anderson</Typography>
-            <Typography color={'text.secondary'}>May 19, 2021</Typography>
+            <Typography color={"text.secondary"}>May 19, 2021</Typography>
           </Box>
         </Box>
-        <Box display={'flex'} alignItems={'center'}>
-          <Typography color={'text.secondary'}>Share:</Typography>
+        <Box display={"flex"} alignItems={"center"}>
+          <Typography color={"text.secondary"}>Share:</Typography>
           <Box marginLeft={0.5}>
             <IconButton aria-label="Facebook">
               <FacebookIcon />

@@ -41,7 +41,7 @@ const NavItem = ({ title, items }) => {
         </AccordionSummary>
         <AccordionDetails sx={{ padding: 0 }}>
           <Grid container spacing={1}>
-            {items.map((p, i) => (
+            {items_.map((p, i) => (
               <Grid item key={i} xs={12}>
                 <Button
                   size={"large"}

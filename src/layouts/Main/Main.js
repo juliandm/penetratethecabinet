@@ -55,7 +55,7 @@ const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
         <Container paddingY={1}>
           <Topbar
             onSidebarOpen={handleSidebarOpen}
-            pages={[{ title: "Home", href: "/" }]}
+            pages={{}}
             colorInvert={trigger ? false : colorInvert}
           />
         </Container>
@@ -66,7 +66,14 @@ const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
         variant="temporary"
         pages={[]}
       />
-      <main>
+      <main
+        style={
+          {
+            // overflow: "hidden",
+            // width: "100%",
+          }
+        }
+      >
         {children}
         <Divider />
       </main>
