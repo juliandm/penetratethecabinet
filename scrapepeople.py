@@ -10,20 +10,24 @@ import time
 file_path = './src/data/people.json'
 
 def make_request_with_retry(url):
-    max_retries = 5
+    max_retries = 10
     for attempt in range(max_retries):
         try:
             response = requests.get(url)
             if response.status_code == 200:
                 return response
+            if response.status_code == 404:
+                print(f"Url not found.")
+                return None
             else:
+                print(response.reason)
                 print(f"Request failed with status code {response.status_code}. Retrying in 20 seconds...")
         except requests.RequestException as e:
             print(f"An error occurred: {e}. Retrying in 20 seconds...")
 
-        time.sleep(20)
+        time.sleep(30)
     time.sleep(5)
-    print("Max retries reached. Returning None.")
+    raise Exception("Max retries reached.")
     return None
 
 def get_archived_urls(original_url):
@@ -55,7 +59,7 @@ def main():
     with open(file_path, 'r') as file:
         people = json.load(file)
 
-    start_from = 100  # Adjust this to choose the starting point (1-based index)
+    start_from = 435  # Adjust this to choose the starting point (1-based index)
     processed_count = start_from
 
     for index, person in enumerate(people, start=1):
