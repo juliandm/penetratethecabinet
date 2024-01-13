@@ -1,0 +1,50 @@
+apiRevision: edurata.io/v1
+name: enrich-wef-config
+title: Enrich config
+description: fetching with the wayback machine old articles of wef, adding to json and then uploading to s3
+interface:
+  inputs:
+    properties:
+      cursor:
+        type: string
+        title: cursor
+        description: if to start from a specific element in the array
+        default: 1730
+steps:
+  get-people:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: etl/extract/read-from-s3
+    dependencies:
+      AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
+      bucket_name: wef-images
+      s3_file_key: people.json
+  get-cache:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: etl/extract/read-from-s3
+    dependencies:
+      AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
+      bucket_name: wef-images
+      s3_file_key: cache-people.json
+  enrich-people:
+    cache: true
+    source:
+      repoUrl: https://github.com/juliandm/penetratethecabinet.git
+      path: ./functions/scrapepeople.py
+    dependencies:
+      file: ${get-people.file}
+      cursor: ${inputs.cursor}
+  upload-people:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: etl/load/upload-s3
+    dependencies:
+      AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
+      bucket_name: wef-images
+      files:
+        - ${enrich-people.file}
+        - ${enrich-people.cursor}

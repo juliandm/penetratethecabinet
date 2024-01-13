@@ -24,17 +24,21 @@ const Result = () => {
   const chunks = search.toLowerCase().split(" ");
   const navigate = useNavigate();
   const companies = companiesAll
-    .filter((item) =>
-      chunks.every((chunk) => item.name.toLowerCase().includes(chunk))
+    .filter(
+      (item) =>
+        item.name &&
+        chunks.every((chunk) => item.name.toLowerCase().includes(chunk))
     )
     .map((item) => ({ ...item, type: "company" }));
   const people = peopleAll
-    .filter((item) =>
-      chunks.every(
-        (chunk) =>
-          item.name.toLowerCase().includes(chunk) ||
-          item.description.toLowerCase().includes(chunk)
-      )
+    .filter(
+      (item) =>
+        item.name &&
+        chunks.every(
+          (chunk) =>
+            item.name.toLowerCase().includes(chunk) ||
+            item.title.toLowerCase().includes(chunk)
+        )
     )
     .map((item) => ({ ...item, type: "person" }));
   const all = [...companies, ...people];

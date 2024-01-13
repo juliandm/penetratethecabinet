@@ -1,0 +1,53 @@
+apiRevision: edurata.io/v1
+name: scrape-images
+title: scrape-images
+description: Scraping images for a list of people and uploading them to the s3 bucket
+interface:
+  inputs:
+    properties:
+      cursor:
+        type: string
+        title: cursor
+        description: if to start from a specific element in the array
+        default: 0
+steps:
+  get-people:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: etl/extract/read-from-s3
+    dependencies:
+      AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
+      bucket_name: wef-images
+      s3_file_key: people.json
+      is_json: true
+  filter-people:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: general/eval-nodejs
+    dependencies:
+      code: |
+        const { cursor } = inputs;
+        const { people } = dependencies;
+        const filtered = people.slice(cursor);
+        return { filtered };
+      inputs:
+        cursor: ${inputs.cursor}
+        people: ${get-people.content}
+  get-images:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: etl/extract/get-google-images
+    dependencies:
+      searches: ${filter-people.outputs.filtered}
+      GOOGLE_API_KEY: ${secrets.GOOGLE_API_KEY}
+      GOOGLE_PROJECT_CX: ${secrets.GOOGLE_PROJECT_CX}
+  upload-images:
+    source:
+      repoUrl: https://github.com/Edurata/edurata-functions.git
+      path: etl/load/upload-to-s3
+    dependencies:
+      AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
+      bucket_name: wef-images
+      files: ${get-images.images}

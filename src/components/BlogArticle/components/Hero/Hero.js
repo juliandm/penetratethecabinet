@@ -51,7 +51,7 @@ const Hero = ({ data }) => {
           backgroundSize: "cover",
           backgroundPosition: "center center",
           backgroundImage:
-            "url(https://assets.maccarianagency.com/backgrounds/img3.jpg)",
+            "url(https://wef-images.s3.eu-central-1.amazonaws.com/images/a-s-madhukumar.jpg)",
         }}
       />
       <Box
