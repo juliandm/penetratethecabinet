@@ -28,7 +28,7 @@ steps:
     cache: true
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
-      path: ./functions/scrape-people
+      path: functions/scrape-people
       ref: master
     dependencies:
       file: ${get-config.files[0].path}
