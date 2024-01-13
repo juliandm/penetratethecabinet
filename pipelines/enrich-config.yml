@@ -11,32 +11,27 @@ interface:
         description: if to start from a specific element in the array
         default: 1730
 steps:
-  get-people:
+  get-config:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
-      path: etl/extract/read-from-s3
+      path: etl/extract/download-s3
     dependencies:
       AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
       AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
       bucket_name: wef-images
-      s3_file_key: people.json
-  get-cache:
-    source:
-      repoUrl: https://github.com/Edurata/edurata-functions.git
-      path: etl/extract/read-from-s3
-    dependencies:
-      AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
-      AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
-      bucket_name: wef-images
-      s3_file_key: cache-people.json
+      files:
+        - key: people.json
+          as_json: true
+        - key: cursor.json
+          as_json: true
   enrich-people:
     cache: true
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
       path: ./functions/scrapepeople.py
     dependencies:
-      file: ${get-people.file}
-      cursor: ${inputs.cursor}
+      file: ${get-config.files[0].path}
+      cursor: ${get-config.files[1].path}
   upload-people:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
