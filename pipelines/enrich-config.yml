@@ -22,7 +22,7 @@ steps:
       files:
         - key: people.json
           as_json: true
-        - key: cursor.json
+        - key: cursor
           as_json: true
   enrich-people:
     cache: true
