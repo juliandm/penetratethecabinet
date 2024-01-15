@@ -14,7 +14,7 @@ steps:
   get-people:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
-      path: etl/extract/read-from-s3
+      path: etl/extract/download-s3
     dependencies:
       AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
       AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
@@ -45,7 +45,7 @@ steps:
   upload-images:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
-      path: etl/load/upload-to-s3
+      path: etl/load/upload-s3
     dependencies:
       AWS_ACCESS_KEY_ID: ${secrets.AWS_ACCESS_KEY_ID}
       AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
