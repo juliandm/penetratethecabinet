@@ -41,7 +41,7 @@ steps:
     dependencies:
       searches: ${filter-people.outputs.filtered}
       GOOGLE_API_KEY: ${secrets.GOOGLE_API_KEY}
-      GOOGLE_PROJECT_CX: ${secrets.GOOGLE_PROJECT_CX}
+      GOOGLE_PROJECT_CX: ${variables.GOOGLE_PROJECT_CX}
   upload-images:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
