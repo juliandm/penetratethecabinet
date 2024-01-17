@@ -61,51 +61,52 @@ def scrape_person_info(url):
 
 def handler(inputs):
     file_path = inputs["file"]
-    cursor_path = inputs["cursor"]
-    with open(cursor_path, 'r') as file:
-        cursor = json.load(file)
+    # existing implementation remains the same...
+
     with open(file_path, 'r') as file:
         people = json.load(file)
-    processed_count = cursor
+
+    processed_count = 0
     try:
         for index, person in enumerate(people, start=1):
-            if index < cursor:
+            if person['description']:
                 continue
+
             print("processing", person["name"])
             archived_urls = get_archived_urls(person['link'])
             for url in archived_urls[::-1]:  # Iterate from the oldest to newest
                 person_info = scrape_person_info(url)
                 if person_info and person_info['description']:
                     person['description'] = person_info['description']
+                    person['source'] = url  # Adding the Wayback Machine URL as the source
                     if not person['title']:  # Update the title if it's empty
                         person['title'] = person_info['title']
                     break  # Break the loop if information is found
 
-            processed_count += 1
+            processed_count = index
             if processed_count % 5 == 0:
-                # Save progress every 10 processed entries
+                # Save progress every 5 processed entries
                 with open(file_path, 'w') as file:
                     json.dump(people, file, indent=4)
-                with open("cursor", 'w') as file:
-                    json.dump(processed_count, file, indent=4)
                 print(f'Saved progress after processing {processed_count} people')
+
         # Save the final state after finishing all people
         with open(file_path, 'w') as file:
             json.dump(people, file, indent=4)
+
     except Exception as e:
         print(f"Error occurred: {e}")
-        with open("cursor", 'w') as file:
-            json.dump(processed_count, file, indent=4)
         print(f'Saved progress after processing {processed_count} people')
         return {
-            file: file_path,
-            cursor: processed_count,
+            'file': file_path,
         }
 
     print(f'Updated information for {len(people)} people')
+    return {
+        'file': file_path,
+    }
 
 if __name__ == '__main__':
     handler({
-        "file": "src/data/people.json",
-        "cursor": "cursor"
+        "file": "src/data/people.json"
     })

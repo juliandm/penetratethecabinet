@@ -5,16 +5,7 @@ interface:
     properties:
       file:
         type: file
-      cursor:
-        type: file
-        title: start from
-        description: if to start from a specific element in the array
   outputs:
     properties:
       file:
         type: file
-      cursor:
-        type: string
-        title: cursor
-        description: if to start from a specific element in the array
-        default: 0

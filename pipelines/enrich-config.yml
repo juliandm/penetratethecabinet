@@ -21,16 +21,13 @@ steps:
       bucket_name: wef-images
       files:
         - key: people.json
-        - key: cursor
   enrich-people:
-    cache: true
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
       path: functions/scrape-people
       ref: master
     dependencies:
       file: ${get-config.files[0].path}
-      cursor: ${get-config.files[1].path}
   upload-people:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
