@@ -5,6 +5,11 @@ interface:
     properties:
       file:
         type: file
+      limit:
+        type: number
+        title: limit
+        description: if to break after a specific number of elements processed
+        default: 100
   outputs:
     properties:
       file:

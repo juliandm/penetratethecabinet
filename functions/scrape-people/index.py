@@ -61,16 +61,22 @@ def scrape_person_info(url):
 
 def handler(inputs):
     file_path = inputs["file"]
+    limit = int(inputs["limit"]) or 100
     # existing implementation remains the same...
 
     with open(file_path, 'r') as file:
         people = json.load(file)
 
     processed_count = 0
+    processed_count_total = 0
     try:
         for index, person in enumerate(people, start=1):
             if person['description']:
                 continue
+
+            if processed_count >= limit:
+                print(f"Processed limit {processed_count} people, exiting...")
+                break
 
             print("processing", person["name"])
             archived_urls = get_archived_urls(person['link'])
@@ -83,7 +89,8 @@ def handler(inputs):
                         person['title'] = person_info['title']
                     break  # Break the loop if information is found
 
-            processed_count = index
+            processed_count_total = index
+            processed_count += 1
             if processed_count % 5 == 0:
                 # Save progress every 5 processed entries
                 with open(file_path, 'w') as file:
@@ -96,12 +103,10 @@ def handler(inputs):
 
     except Exception as e:
         print(f"Error occurred: {e}")
-        print(f'Saved progress after processing {processed_count} people')
-        return {
-            'file': file_path,
-        }
 
-    print(f'Updated information for {len(people)} people')
+    with open(file_path, 'w') as file:
+        json.dump(people, file, indent=4)
+    print(f'Updated information for {processed_count} people')
     return {
         'file': file_path,
     }
