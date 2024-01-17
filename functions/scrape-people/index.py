@@ -58,10 +58,9 @@ def scrape_person_info(url):
         }
     return None
 
-
 def handler(inputs):
     file_path = inputs["file"]
-    limit = int(inputs["limit"]) or 100
+    limit = int(inputs.get("limit") or 100) 
     # existing implementation remains the same...
 
     with open(file_path, 'r') as file:
@@ -71,7 +70,7 @@ def handler(inputs):
     processed_count_total = 0
     try:
         for index, person in enumerate(people, start=1):
-            if person['description']:
+            if person.get('description'):
                 continue
 
             if processed_count >= limit:
@@ -113,5 +112,5 @@ def handler(inputs):
 
 if __name__ == '__main__':
     handler({
-        "file": "src/data/people.json"
+        "file": "../tests/test.json"
     })
