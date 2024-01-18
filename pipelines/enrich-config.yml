@@ -9,7 +9,7 @@ interface:
         type: string
         title: cursor
         description: if to start from a specific element in the array
-        default: 1731
+        default: 1730
 steps:
   get-config:
     source:
