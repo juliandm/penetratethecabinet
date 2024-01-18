@@ -61,6 +61,7 @@ def scrape_person_info(url):
 def handler(inputs):
     file_path = inputs["file"]
     limit = int(inputs.get("limit") or 100) 
+    cursor = int(inputs.get("cursor") or 0) 
     # existing implementation remains the same...
 
     with open(file_path, 'r') as file:
@@ -71,6 +72,9 @@ def handler(inputs):
     try:
         for index, person in enumerate(people, start=1):
             if person.get('description'):
+                continue
+
+            if index < cursor:
                 continue
 
             if processed_count >= limit:

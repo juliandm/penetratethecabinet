@@ -39,4 +39,3 @@ steps:
       bucket_name: wef-images
       files:
         - ${enrich-people.file}
-        - ${enrich-people.cursor}
