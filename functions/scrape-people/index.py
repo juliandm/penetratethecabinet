@@ -3,12 +3,11 @@ from bs4 import BeautifulSoup
 import json
 import time
 
-import requests
 from bs4 import BeautifulSoup
 import time
 from json.decoder import JSONDecodeError
 from itertools import cycle
-
+from urllib3.exceptions import ProxyError, ConnectTimeoutError
 # Define the URL for proxy list
 proxy_list_url = "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt"
 
@@ -60,11 +59,14 @@ def make_request_with_retry(url, skip_proxy=False):
         except StopIteration:
             print("All proxies used up. Retrying in 20 seconds...")
             time.sleep(20)
-        except (requests.error.ProxyError, requests.error.ConnectTimeoutError) as e:
+        except (ProxyError, ConnectTimeoutError) as e:
             print(f"Proxy error. Taking different proxy.")
         except requests.Timeout:
             print(f"Request timed out after {request_timeout} seconds. Retrying...")
         except requests.RequestException as e:
+            if "ProxyError" in str(e) or isinstance(e, ConnectTimeoutError):
+                print(f"Proxy connection error: {e}. Retrying immediately...")
+                continue  # Retry immediately on proxy error
             print(f"An error occurred: {e}. Retrying in 20 seconds...")
             time.sleep(20)
     time.sleep(5)
