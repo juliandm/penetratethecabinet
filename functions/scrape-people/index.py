@@ -17,7 +17,8 @@ def make_request_with_retry(url):
             if response.status_code == 200:
                 return response
             if response.status_code >= 400:
-                print(f"Url not found.")
+                print(f"Permission error.")
+                print(response.reason)
                 return None
             else:
                 print(response.reason)
@@ -46,6 +47,7 @@ def get_archived_urls(original_url):
     return archived_urls
 
 def scrape_person_info(url):
+    print(f"Scraping {url}")
     response = make_request_with_retry(url)
     if response:
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -83,6 +85,10 @@ def handler(inputs):
 
             print("processing", person["name"])
             archived_urls = get_archived_urls(person['link'])
+            if len(archived_urls) == 0:
+                print(f"No archived urls found for {person['name']}")
+                continue
+            print(f"Found {len(archived_urls)} archived urls for {person['name']}")
             for url in archived_urls[::-1]:  # Iterate from the oldest to newest
                 person_info = scrape_person_info(url)
                 if person_info and person_info['description']:
