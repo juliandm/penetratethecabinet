@@ -37,17 +37,26 @@ proxy_pool = cycle(proxies)
 # Define the timeout for requests with proxies
 request_timeout = 5  # Adjust this value as needed
 
-def make_request_with_retry(url, skip_proxy=False):
+# Maintain a list of successfully used proxies
+used_proxies = []
+
+def get_random_proxy():
+    if used_proxies:
+        return random.choice(used_proxies)
+    return next(proxy_pool)
+
+def make_request_with_retry(url):
     max_retries = 100
     for attempt in range(max_retries):
         try:
-            # Get a random proxy from the cyclic iterator
-            proxy = None if skip_proxy else random.choice(proxies)
+            # Get a random proxy (either from the list of used proxies or a new one)
+            proxy = get_random_proxy()
             response = requests.get(url, proxies={'http': proxy}, timeout=request_timeout)
             
             if response.status_code == 200:
                 if (response.content.decode('utf-8').find("<!DOCTYPE html>\n<html>") != -1):
                     continue
+                used_proxies.append(proxy)
                 return response
             if response.status_code >= 400:
                 print("Permission error: ", response.reason)
@@ -63,12 +72,14 @@ def make_request_with_retry(url, skip_proxy=False):
             print("All proxies used up. Retrying in 20 seconds...")
         except (ProxyError, ConnectTimeoutError) as e:
             print(f"Proxy error. Taking different proxy.")
+            used_proxies.remove(proxy)
         except requests.Timeout:
             print(f"Request timed out after {request_timeout} seconds. Retrying...")
             continue
         except requests.RequestException as e:
             if "ProxyError" in str(e) or "Connection aborted." in str(e) or isinstance(e, ConnectTimeoutError):
                 print(f"Proxy connection error: {e}. Retrying immediately...")
+                used_proxies.remove(proxy)
                 continue  # Retry immediately on proxy error
             print(f"An error occurred: {e}. Retrying in 20 seconds...")
         time.sleep(20)
