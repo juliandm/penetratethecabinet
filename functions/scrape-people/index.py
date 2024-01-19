@@ -65,7 +65,7 @@ def make_request_with_retry(url, skip_proxy=False):
             print(f"Request timed out after {request_timeout} seconds. Retrying...")
             continue
         except requests.RequestException as e:
-            if "ProxyError" in str(e) or isinstance(e, ConnectTimeoutError):
+            if "ProxyError" in str(e) or "Connection aborted." in str(e) or isinstance(e, ConnectTimeoutError):
                 print(f"Proxy connection error: {e}. Retrying immediately...")
                 continue  # Retry immediately on proxy error
             print(f"An error occurred: {e}. Retrying in 20 seconds...")
