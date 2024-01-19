@@ -56,7 +56,8 @@ def make_request_with_retry(url):
             if response.status_code == 200:
                 if (response.content.decode('utf-8').find("<!DOCTYPE html>\n<html>") != -1):
                     continue
-                used_proxies.append(proxy)
+                if proxy not in used_proxies:
+                    used_proxies.append(proxy)
                 return response
             if response.status_code >= 400:
                 print("Permission error: ", response.reason)
@@ -72,16 +73,18 @@ def make_request_with_retry(url):
             print("All proxies used up. Retrying in 20 seconds...")
         except (ProxyError, ConnectTimeoutError) as e:
             print(f"Proxy error. Taking different proxy.")
-            used_proxies.remove(proxy)
         except requests.Timeout:
             print(f"Request timed out after {request_timeout} seconds. Retrying...")
             continue
         except requests.RequestException as e:
             if "ProxyError" in str(e) or "Connection aborted." in str(e) or isinstance(e, ConnectTimeoutError):
                 print(f"Proxy connection error: {e}. Retrying immediately...")
-                used_proxies.remove(proxy)
                 continue  # Retry immediately on proxy error
             print(f"An error occurred: {e}. Retrying in 20 seconds...")
+        except Exception as e:
+            print(f"An error occurred: {e}. Retrying in 20 seconds...")
+            if proxy in used_proxies:
+                used_proxies.remove(proxy)
         time.sleep(20)
     time.sleep(5)
     raise Exception("Max retries reached.")
