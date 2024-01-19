@@ -9,7 +9,7 @@ interface:
         type: string
         title: cursor
         description: if to start from a specific element in the array
-        default: 1731
+        default: 0
 steps:
   get-config:
     source:
@@ -31,7 +31,7 @@ steps:
       file: ${get-config.files[0].path}
       cursor: ${inputs.cursor}
       OXYLABS_PASSWORD: ${secrets.OXYLABS_PASSWORD}
-      limit: 5
+      limit: 100
   upload-people:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
