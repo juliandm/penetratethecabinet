@@ -4,7 +4,6 @@ import json
 import time
 import random
 import os
-from fake_useragent import UserAgent
 
 # Define the maximum number of retry attempts
 max_retries = 3
@@ -28,8 +27,6 @@ def make_request(url, use_proxy=True):
     return None
 
 def simple_request(url):
-    # ua = UserAgent()
-    # headers = {'User-Agent': ua.random}
     response = requests.get(url, timeout=request_timeout)
 
     if response.status_code != 200:
