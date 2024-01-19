@@ -64,27 +64,18 @@ def make_request_with_retry(url):
                 return None
             else:
                 print(response.reason)
-                print(f"Request failed with status code {response.status_code}. Retrying in 20 seconds...")
-        except JSONDecodeError as e:
-            print(response.content)
-            print(f"Json parse failed")
-            return None
-        except StopIteration:
-            print("All proxies used up. Retrying in 20 seconds...")
-        except (ProxyError, ConnectTimeoutError) as e:
-            print(f"Proxy error. Taking different proxy.")
-        except requests.Timeout:
-            print(f"Request timed out after {request_timeout} seconds. Retrying...")
-            continue
-        except requests.RequestException as e:
-            if "ProxyError" in str(e) or "Connection aborted." in str(e) or isinstance(e, ConnectTimeoutError):
-                print(f"Proxy connection error: {e}. Retrying immediately...")
-                continue  # Retry immediately on proxy error
-            print(f"An error occurred: {e}. Retrying in 20 seconds...")
+                continue
         except Exception as e:
-            print(f"An error occurred: {e}. Retrying in 20 seconds...")
+            print(f"Error occurred: {e}")
             if proxy in used_proxies:
                 used_proxies.remove(proxy)
+        # except (ProxyError, ConnectTimeoutError, requests.Timeout, StopIteration) as e:
+        #     print(f"Proxy error. Taking different proxy.")
+        # except requests.RequestException as e:
+        #     if "ProxyError" in str(e) or "Connection aborted." in str(e) or isinstance(e, ConnectTimeoutError):
+        #         print(f"Proxy connection error: {e}. Retrying immediately...")
+        #         continue  # Retry immediately on proxy error
+
         time.sleep(20)
     time.sleep(5)
     raise Exception("Max retries reached.")
