@@ -35,7 +35,7 @@ with open("proxy_list.txt", "r") as file:
 proxy_pool = cycle(proxies)
 
 # Define the timeout for requests with proxies
-request_timeout = 10  # Adjust this value as needed
+request_timeout = 5  # Adjust this value as needed
 
 def make_request_with_retry(url, skip_proxy=False):
     max_retries = 100
