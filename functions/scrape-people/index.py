@@ -7,13 +7,43 @@ import requests
 from bs4 import BeautifulSoup
 import time
 from json.decoder import JSONDecodeError
+from itertools import cycle
 
+# Define the URL for proxy list
+proxy_list_url = "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt"
 
-def make_request_with_retry(url):
+# Download the proxy list and save it to a file
+try:
+    response = requests.get(proxy_list_url)
+    if response.status_code == 200:
+        with open("proxy_list.txt", "wb") as file:
+            file.write(response.content)
+        print("Proxy list downloaded successfully.")
+    else:
+        print(f"Failed to download proxy list. Status code: {response.status_code}")
+        exit(1)
+except Exception as e:
+    print(f"Failed to download proxy list. Error: {str(e)}")
+    exit(1)
+
+# Read the proxy list from the file
+with open("proxy_list.txt", "r") as file:
+    proxies = [line.strip() for line in file]
+
+# Create a cyclic iterator for the proxies
+proxy_pool = cycle(proxies)
+
+# Define the timeout for requests with proxies
+request_timeout = 10  # Adjust this value as needed
+
+def make_request_with_retry(url, skip_proxy=False):
     max_retries = 10
     for attempt in range(max_retries):
         try:
-            response = requests.get(url)
+            # Get a random proxy from the cyclic iterator
+            proxy = None if skip_proxy else next(proxy_pool)
+            response = requests.get(url, proxies={'http': proxy}, timeout=request_timeout)
+            
             if response.status_code == 200:
                 return response
             if response.status_code >= 400:
@@ -27,16 +57,23 @@ def make_request_with_retry(url):
             print(response.content)
             print(f"Json parse failed")
             return None
+        except StopIteration:
+            print("All proxies used up. Retrying in 20 seconds...")
+            time.sleep(20)
+        except (requests.error.ProxyError, requests.error.ConnectTimeoutError) as e:
+            print(f"Proxy error. Taking different proxy.")
+        except requests.Timeout:
+            print(f"Request timed out after {request_timeout} seconds. Retrying...")
         except requests.RequestException as e:
             print(f"An error occurred: {e}. Retrying in 20 seconds...")
-        time.sleep(30)
+            time.sleep(20)
     time.sleep(5)
     raise Exception("Max retries reached.")
 
 def get_archived_urls(original_url):
     api_url = f"http://web.archive.org/cdx/search/cdx?url={original_url}&output=json&collapse=timestamp:6&fl=timestamp,original"
     response = make_request_with_retry(api_url)
-    archived_urls = []
+    archived_urls = [original_url]
     if response:
         data = response.json()
         if len(data) == 0:
@@ -71,6 +108,7 @@ def handler(inputs):
 
     processed_count = 0
     processed_count_total = 0
+    print(f"Processing {len(people)} people")
     try:
         for index, person in enumerate(people, start=1):
             if person.get('description'):
@@ -92,6 +130,7 @@ def handler(inputs):
             for url in archived_urls[::-1]:  # Iterate from the oldest to newest
                 person_info = scrape_person_info(url)
                 if person_info and person_info['description']:
+                    print("found description", person_info['description'])
                     person['description'] = person_info['description']
                     person['source'] = url  # Adding the Wayback Machine URL as the source
                     if not person['title']:  # Update the title if it's empty
