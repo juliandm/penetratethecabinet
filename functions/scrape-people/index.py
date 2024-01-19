@@ -78,9 +78,13 @@ def get_archived_urls(original_url):
     response = make_request_with_retry(api_url)
     archived_urls = [original_url]
     if response:
-        data = response.json()
-        if len(data) == 0:
-            return []
+        try:
+            data = response.json()
+            if len(data) == 0:
+                return archived_urls
+        except JSONDecodeError as e:
+            print(response.content)
+            print(f"Json parse failed")
         for item in data[1:]:  # Skip the first row as it's headers
             timestamp, archived_url = item[0], item[1]
             archived_urls.append(f'https://web.archive.org/web/{timestamp}/{archived_url}')
