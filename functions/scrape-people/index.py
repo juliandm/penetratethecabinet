@@ -38,11 +38,11 @@ proxy_pool = cycle(proxies)
 request_timeout = 10  # Adjust this value as needed
 
 def make_request_with_retry(url, skip_proxy=False):
-    max_retries = 10
+    max_retries = 100
     for attempt in range(max_retries):
         try:
             # Get a random proxy from the cyclic iterator
-            proxy = None if skip_proxy else random.choice(proxy_pool)
+            proxy = None if skip_proxy else random.choice(proxies)
             response = requests.get(url, proxies={'http': proxy}, timeout=request_timeout)
             
             if response.status_code == 200:
