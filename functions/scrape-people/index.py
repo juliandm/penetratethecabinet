@@ -8,7 +8,7 @@ import time
 from json.decoder import JSONDecodeError
 from itertools import cycle
 from urllib3.exceptions import ProxyError, ConnectTimeoutError
-# Define the URL for proxy list..
+# Define the URL for proxy list...
 proxy_list_url = "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt"
 
 # Download the proxy list and save it to a file
