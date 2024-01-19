@@ -82,12 +82,13 @@ def get_archived_urls(original_url):
             data = response.json()
             if len(data) == 0:
                 return archived_urls
+            for item in data[1:]:  # Skip the first row as it's headers
+                timestamp, archived_url = item[0], item[1]
+                archived_urls.append(f'https://web.archive.org/web/{timestamp}/{archived_url}')
         except JSONDecodeError as e:
             print(response.content)
             print(f"Json parse failed")
-        for item in data[1:]:  # Skip the first row as it's headers
-            timestamp, archived_url = item[0], item[1]
-            archived_urls.append(f'https://web.archive.org/web/{timestamp}/{archived_url}')
+
     return archived_urls
 
 def scrape_person_info(url):
