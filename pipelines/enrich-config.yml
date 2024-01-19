@@ -30,7 +30,7 @@ steps:
     dependencies:
       file: ${get-config.files[0].path}
       cursor: ${inputs.cursor}
-      limit: 10
+      limit: 5
   upload-people:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git

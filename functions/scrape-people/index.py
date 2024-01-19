@@ -46,6 +46,8 @@ def make_request_with_retry(url, skip_proxy=False):
             response = requests.get(url, proxies={'http': proxy}, timeout=request_timeout)
             
             if response.status_code == 200:
+                if (response.content.decode('utf-8').find("<!DOCTYPE html>\n<html>") != -1):
+                    continue
                 return response
             if response.status_code >= 400:
                 print("Permission error: ", response.reason)
