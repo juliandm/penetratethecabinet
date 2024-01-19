@@ -66,7 +66,7 @@ def get_archived_urls(original_url):
     api_url = f"http://web.archive.org/cdx/search/cdx?url={original_url}&output=json&collapse=timestamp:6&fl=timestamp,original"
     print(f"Getting archived urls for {original_url}")
     response = make_request(api_url, True)
-    archived_urls = [original_url]
+    archived_urls = []
     if response:
         try:
             data = json.loads(response)
@@ -78,7 +78,8 @@ def get_archived_urls(original_url):
         except Exception as e:
             print(response)
             print(f"Json parse failed")
-
+    archived_urls.append(original_url)
+    archived_urls.reverse()
     return archived_urls
 
 def scrape_person_info(url):
