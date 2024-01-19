@@ -2,107 +2,93 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import time
-
-from bs4 import BeautifulSoup
-import time
-from json.decoder import JSONDecodeError
-from itertools import cycle
-from urllib3.exceptions import ProxyError, ConnectTimeoutError
 import random
+import os
+from fake_useragent import UserAgent
 
-# Define the URL for proxy list..
-proxy_list_url = "https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt"
+# Define the maximum number of retry attempts
+max_retries = 3
+retry_delay_seconds = 20
 
-# Download the proxy list and save it to a file
-try:
-    response = requests.get(proxy_list_url)
-    if response.status_code == 200:
-        with open("proxy_list.txt", "wb") as file:
-            file.write(response.content)
-        print("Proxy list downloaded successfully.")
-    else:
-        print(f"Failed to download proxy list. Status code: {response.status_code}")
-        exit(1)
-except Exception as e:
-    print(f"Failed to download proxy list. Error: {str(e)}")
-    exit(1)
-
-# Read the proxy list from the file
-with open("proxy_list.txt", "r") as file:
-    proxies = [line.strip() for line in file]
-
-# Create a cyclic iterator for the proxies
-proxy_pool = cycle(proxies)
-
-# Define the timeout for requests with proxies
-request_timeout = 5  # Adjust this value as needed
-
-# Maintain a list of successfully used proxies
-used_proxies = []
-
-def get_random_proxy():
-    if used_proxies:
-        return random.choice(used_proxies)
-    return next(proxy_pool)
-
-def make_request_with_retry(url):
-    max_retries = 100
-    for attempt in range(max_retries):
+def make_request(url, use_proxy=True):
+    for retry_count in range(max_retries + 1):
         try:
-            # Get a random proxy (either from the list of used proxies or a new one)
-            proxy = get_random_proxy()
-            response = requests.get(url, proxies={'http': proxy}, timeout=request_timeout)
-            
-            if response.status_code == 200:
-                if (response.content.decode('utf-8').find("<!DOCTYPE html>\n<html>") != -1):
-                    continue
-                if proxy not in used_proxies:
-                    used_proxies.append(proxy)
+            response = call_proxy(url) if use_proxy else simple_request(url)
+            if response:
                 return response
-            if response.status_code >= 400:
-                print("Permission error: ", response.reason)
-                return None
-            else:
-                print(response.reason)
-                continue
         except Exception as e:
-            print(f"Error occurred: {e}")
-            if proxy in used_proxies:
-                used_proxies.remove(proxy)
-        # except (ProxyError, ConnectTimeoutError, requests.Timeout, StopIteration) as e:
-        #     print(f"Proxy error. Taking different proxy.")
-        # except requests.RequestException as e:
-        #     if "ProxyError" in str(e) or "Connection aborted." in str(e) or isinstance(e, ConnectTimeoutError):
-        #         print(f"Proxy connection error: {e}. Retrying immediately...")
-        #         continue  # Retry immediately on proxy error
+            print(f"Error occurred (Attempt {retry_count + 1}): {e}")
+        
+        if retry_count < max_retries:
+            # Wait for some time before the next retry (you can adjust the delay as needed)
+            print(f"Retrying in {retry_delay_seconds} seconds...")
+            time.sleep(retry_delay_seconds)
+    
+    print(f"Maximum retry attempts reached ({max_retries}), giving up.")
+    return None
 
-        time.sleep(20)
-    time.sleep(5)
-    raise Exception("Max retries reached.")
+def simple_request(url):
+    # ua = UserAgent()
+    # headers = {'User-Agent': ua.random}
+    response = requests.get(url, timeout=request_timeout)
+
+    if response.status_code != 200:
+        print(f"Request failed with status code {response.status_code}")
+        return None
+    return response.content
+
+def call_proxy(url):
+    oxy_url = 'https://realtime.oxylabs.io/v1/queries'
+
+    # Define the authentication credentials
+    username = 'juliandm'
+    password = os.environ.get('OXYLABS_PASSWORD')
+
+    # Define the headers
+    headers = {
+        'Content-Type': 'application/json',
+    }
+
+    # Define the payload data
+    payload = {
+        'source': 'universal',
+        'url': url,
+        # 'geo_location': 'United States',
+    }
+    response = requests.post(oxy_url, auth=(username, password), headers=headers, json=payload)
+    if response.status_code != 200:
+        print(f"Request failed with status code {response.status_code}")
+        print(response.reason)
+        return None
+    response_json = response.json()
+    return response_json["results"][0]["content"]
+    # Implement your logic to get a proxy from the 'https://realtime.oxylabs.io/v1/queries' endpoint here
+    # Use the provided parameters for authentication and other details
 
 def get_archived_urls(original_url):
     api_url = f"http://web.archive.org/cdx/search/cdx?url={original_url}&output=json&collapse=timestamp:6&fl=timestamp,original"
-    response = make_request_with_retry(api_url)
+    print(f"Getting archived urls for {original_url}")
+    response = make_request(api_url, True)
     archived_urls = [original_url]
     if response:
         try:
-            data = response.json()
+            data = json.loads(response)
             if len(data) == 0:
                 return archived_urls
             for item in data[1:]:  # Skip the first row as it's headers
                 timestamp, archived_url = item[0], item[1]
                 archived_urls.append(f'https://web.archive.org/web/{timestamp}/{archived_url}')
         except JSONDecodeError as e:
-            print(response.content)
+            print(response)
             print(f"Json parse failed")
 
     return archived_urls
 
 def scrape_person_info(url):
     print(f"Scraping {url}")
-    response = make_request_with_retry(url)
+    response = make_request(url, True)
     if response:
-        soup = BeautifulSoup(response.content, 'html.parser')
+        soup = BeautifulSoup(response, 'html.parser')
         title = soup.find('p', class_='person__meta').get_text(strip=True) if soup.find('p', class_='person__meta') else ''
         description = soup.find('div', class_='page__content').get_text(strip=True) if soup.find('div', class_='page__content') else ''
 
@@ -144,7 +130,7 @@ def handler(inputs):
             print(f"Found {len(archived_urls)} archived urls for {person['name']}")
             for url in archived_urls[::-1]:  # Iterate from the oldest to newest
                 person_info = scrape_person_info(url)
-                if person_info and person_info['description']:
+                if person_info and person_info['title']:
                     print("found description", person_info['description'])
                     person['description'] = person_info['description']
                     person['source'] = url  # Adding the Wayback Machine URL as the source
@@ -176,5 +162,6 @@ def handler(inputs):
 
 if __name__ == '__main__':
     handler({
-        "file": "../tests/test.json"
+        "file": "../tests/full.json",
+        "cursor": 1000,
     })

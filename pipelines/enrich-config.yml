@@ -30,6 +30,7 @@ steps:
     dependencies:
       file: ${get-config.files[0].path}
       cursor: ${inputs.cursor}
+      OXYLABS_PASSWORD: ${secrets.OXYLABS_PASSWORD}
       limit: 5
   upload-people:
     source:

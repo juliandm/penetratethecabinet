@@ -15,6 +15,10 @@ interface:
         title: cursor
         description: if to start from a specific element in the array
         default: 0
+      OXYLABS_PASSWORD:
+        type: env
+        title: OXYLABS_PASSWORD
+        description: password for oxylabs
   outputs:
     properties:
       file:
