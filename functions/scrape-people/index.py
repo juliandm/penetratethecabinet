@@ -75,7 +75,7 @@ def get_archived_urls(original_url):
             for item in data[1:]:  # Skip the first row as it's headers
                 timestamp, archived_url = item[0], item[1]
                 archived_urls.append(f'https://web.archive.org/web/{timestamp}/{archived_url}')
-        except JSONDecodeError as e:
+        except Exception as e:
             print(response)
             print(f"Json parse failed")
 
@@ -125,7 +125,7 @@ def handler(inputs):
                 print(f"No archived urls found for {person['name']}")
                 continue
             print(f"Found {len(archived_urls)} archived urls for {person['name']}")
-            for url in archived_urls[::-1]:  # Iterate from the oldest to newest
+            for url in archived_urls:  # Iterate from the oldest to newest
                 person_info = scrape_person_info(url)
                 if person_info and person_info['title']:
                     print("found description", person_info['description'])
