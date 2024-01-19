@@ -46,7 +46,7 @@ def make_request_with_retry(url, skip_proxy=False):
             if response.status_code == 200:
                 return response
             if response.status_code >= 400:
-                print(f"Permission error: {}", response.reason)
+                print(f"Permission error: {}", response.reason or "")
                 return None
             else:
                 print(response.reason)
