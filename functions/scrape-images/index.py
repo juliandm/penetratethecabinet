@@ -52,7 +52,7 @@ def handler(inputs):
     try:
         # Iterate through each person in the JSON file
         for per_index, person in enumerate(people):
-            if per_index >= limit:
+            if len(new_processed) >= limit:
                 print(f"Processed limit {limit} people, exiting...")
                 break
             person_id = person['id']
