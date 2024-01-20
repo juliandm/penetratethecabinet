@@ -43,4 +43,4 @@ steps:
       AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
       bucket_name: wef-images
       files:
-        - ${get-images.processed}
+        - ${scrape-images.processed}
