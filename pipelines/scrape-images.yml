@@ -10,6 +10,11 @@ interface:
         title: cursor
         description: if to start from a specific element in the array
         default: 0
+      limit:
+        type: number
+        title: limit
+        description: if to break after a specific number of elements processed
+        default: 100
 steps:
   get-config:
     source:
@@ -28,6 +33,7 @@ steps:
       path: functions/scrape-people
       ref: master
     dependencies:
+      limit: ${inputs.limit}
       file: ${get-config.files[0].path}
       processed: ${get-config.files[1].path}
       GOOGLE_API_KEY: ${secrets.GOOGLE_API_KEY}
