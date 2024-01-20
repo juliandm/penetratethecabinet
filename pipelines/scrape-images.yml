@@ -21,19 +21,6 @@ steps:
       bucket_name: wef-images
       s3_file_key: people.json
       is_json: true
-  filter-people:
-    source:
-      repoUrl: https://github.com/Edurata/edurata-functions.git
-      path: general/eval-nodejs
-    dependencies:
-      code: |
-        const { cursor } = inputs;
-        const { people } = dependencies;
-        const filtered = people.slice(cursor);
-        return { filtered };
-      inputs:
-        cursor: ${inputs.cursor}
-        people: ${get-people.content}
   get-images:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git

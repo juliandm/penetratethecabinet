@@ -10,6 +10,11 @@ interface:
         title: cursor
         description: if to start from a specific element in the array
         default: 0
+      limit:
+        type: number
+        title: limit
+        description: if to break after a specific number of elements processed
+        default: 100
 steps:
   get-config:
     source:
@@ -31,7 +36,7 @@ steps:
       file: ${get-config.files[0].path}
       cursor: ${inputs.cursor}
       OXYLABS_PASSWORD: ${secrets.OXYLABS_PASSWORD}
-      limit: 100
+      limit: ${inputs.limit}
   upload-people:
     source:
       repoUrl: https://github.com/Edurata/edurata-functions.git
