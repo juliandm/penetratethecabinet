@@ -30,7 +30,7 @@ steps:
   scrape-images:
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
-      path: functions/scrape-people
+      path: functions/scrape-images
       ref: master
     dependencies:
       limit: ${inputs.limit}
