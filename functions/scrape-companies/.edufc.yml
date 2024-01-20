@@ -1,0 +1,12 @@
+apiRevision: edurata.io/v1
+runtime: python3_8
+interface:
+  inputs:
+    properties:
+      file_path:
+        type: file
+      start_from:
+        type: string
+        title: start from
+        description: if to start from a specific element in the array
+        default: 0

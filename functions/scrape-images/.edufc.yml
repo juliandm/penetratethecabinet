@@ -1,0 +1,39 @@
+apiRevision: edurata.io/v1
+runtime: python3_8
+description: Scraping images using GoogleImagesSearch for a list of people and uploading them to the s3 bucket under their unique id
+interface:
+  inputs:
+    properties:
+      people:
+        type: file
+        description: A json file containing an array of objects of the people to scrape
+      processed:
+        type: file
+        description: A json file containing an array of the ids of the items that have already been processed
+        default: 0
+      limit:
+        type: number
+        title: limit
+        description: if to break after a specific number of elements processed
+        default: 100
+      bucket_name:
+        type: string
+        description: The name of the bucket to upload the images to
+        default: wef-images
+      AWS_ACCESS_KEY_ID:
+        type: env
+        description: The aws access key id
+      AWS_SECRET_ACCESS_KEY:
+        type: env
+        description: The aws secret access key
+      GOOGLE_API_KEY:
+        type: env
+        description: The google api key
+      GOOGLE_PROJECT_CX:
+        type: env
+        description: The google project cx
+  outputs:
+    properties:
+      processed:
+        type: file
+        description: A json file containing an array of the ids of the items that have already been processed
