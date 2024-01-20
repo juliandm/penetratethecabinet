@@ -70,8 +70,6 @@ def get_archived_urls(original_url):
     if response:
         try:
             data = json.loads(response)
-            if len(data) == 0:
-                return archived_urls
             for item in data[1:]:  # Skip the first row as it's headers
                 timestamp, archived_url = item[0], item[1]
                 archived_urls.append(f'https://web.archive.org/web/{timestamp}/{archived_url}')
