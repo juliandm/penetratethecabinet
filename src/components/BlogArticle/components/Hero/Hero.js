@@ -50,8 +50,7 @@ const Hero = ({ data }) => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center center",
-          backgroundImage:
-            "url(https://wef-images.s3.eu-central-1.amazonaws.com/images/a-s-madhukumar.jpg)",
+          backgroundImage: `url(https://wef-images.s3.eu-central-1.amazonaws.com/images/${data.id}.jpg)`,
         }}
       />
       <Box
@@ -86,7 +85,18 @@ const Hero = ({ data }) => {
             /> */}
             <ListItemText
               sx={{ margin: 0 }}
-              primary={"Jhon Anderson"}
+              primary={
+                <a
+                  href={data.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    color: "white",
+                  }}
+                >
+                  Source
+                </a>
+              }
               secondary={"May 19, 2021"}
               primaryTypographyProps={{
                 variant: "h6",

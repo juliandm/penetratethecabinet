@@ -57,7 +57,7 @@ def handler(inputs):
                 break
             person_id = person['id']
             if person_id in processed:
-                print(f"Skipping {person['name']} as it has already been processed")
+                # print(f"Skipping {person['name']} as it has already been processed")
                 continue
             process_person(person)
             new_processed.append(person_id)

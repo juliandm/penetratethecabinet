@@ -179,14 +179,12 @@ const Result = () => {
                       sx={{ backgroundImage: "none" }}
                     >
                       <CardMedia
-                        image={
-                          item.image ||
-                          "https://assets.maccarianagency.com/backgrounds/img2.jpg"
-                        }
+                        image={item.image}
                         title={item.name}
                         sx={{
                           height: { xs: 300, md: 360 },
                           position: "relative",
+                          backgroundImage: `url(https://wef-images.s3.eu-central-1.amazonaws.com/images/${item.id}.jpg)`,
                         }}
                       >
                         <Box
@@ -217,7 +215,7 @@ const Result = () => {
                           {item.name}
                         </Typography>
                         <Typography color="text.secondary">
-                          {item.description}
+                          {item.title}
                         </Typography>
                       </Box>
                       <Box flexGrow={1} />
