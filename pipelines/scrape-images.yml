@@ -28,6 +28,7 @@ steps:
         - key: people.json
         - key: processed-images.json
   scrape-images:
+    timeout: 7200
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
       path: functions/scrape-images
@@ -49,4 +50,5 @@ steps:
       AWS_SECRET_ACCESS_KEY: ${secrets.AWS_SECRET_ACCESS_KEY}
       bucket_name: wef-images
       files:
-        - ${scrape-images.processed}
+        - path: ${scrape-images.processed}
+          key: processed-images.json
