@@ -1,5 +1,5 @@
 apiRevision: edurata.io/v1
-runtime: python3_8
+runtime: python3_10
 interface:
   inputs:
     properties:
