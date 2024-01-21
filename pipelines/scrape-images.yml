@@ -34,7 +34,7 @@ steps:
       ref: master
     dependencies:
       limit: ${inputs.limit}
-      file: ${get-config.files[0].path}
+      people: ${get-config.files[0].path}
       processed: ${get-config.files[1].path}
       GOOGLE_API_KEY: ${secrets.GOOGLE_API_KEY}
       GOOGLE_PROJECT_CX: ${variables.GOOGLE_PROJECT_CX}
