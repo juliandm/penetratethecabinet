@@ -108,7 +108,7 @@ def handler(inputs):
     print(f"Processing {len(people)} people")
     try:
         for index, person in enumerate(people, start=1):
-            if person.get('description'):
+            if "description" in person:
                 continue
 
             if index < cursor:
