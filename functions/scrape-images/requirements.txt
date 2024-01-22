@@ -1,3 +1,3 @@
 boto3
 Google-Images-Search
-Pillow
+Pillow=10.2.0
