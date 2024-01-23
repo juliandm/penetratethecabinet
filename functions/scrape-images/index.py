@@ -11,6 +11,7 @@ bucket_name = os.environ.get('BUCKET_NAME') or 'wef-images'
 gis = GoogleImagesSearch(your_dev_api_key, your_project_cx)
 s3_client = boto3.client('s3')
 
+
 def process_person(person):
     print(f"Downloading image for {person['name']}...")
     search_query = f"{person['name']}"  # Construct search query
