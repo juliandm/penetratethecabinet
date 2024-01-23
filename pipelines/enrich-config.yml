@@ -27,7 +27,7 @@ steps:
       files:
         - key: people.json
   enrich-people:
-    timeout: 7200
+    timeout: 10000
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
       path: functions/scrape-people
