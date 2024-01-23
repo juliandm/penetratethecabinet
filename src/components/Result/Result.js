@@ -57,7 +57,16 @@ const Result = () => {
             "You'll own nothing
             <br />
             And you'll be happy."
-            <br />- Klaus Schwab -
+            <br />
+          </Typography>
+          <Typography
+            variant="h6"
+            component="p"
+            color="text.secondary"
+            sx={{ fontWeight: 400, marginTop: 5, padding: "0 100px" }}
+            align={"center"}
+          >
+            - Klaus Schwab -
           </Typography>
           <Typography
             variant="h6"
@@ -67,10 +76,10 @@ const Result = () => {
             align={"center"}
           >
             Welcome! This is a searchable open-source database of companies and
-            people that are involved with the WEF or were in the past. The WEF
-            is a lobby organisation that connects the interests of oligarchs
-            with career-politicians and influential entrepeneurs, with the goal
-            of building a world government.
+            people that are or were in some way involved with the WEF. The WEF
+            is a global lobby organisation that seeks to connect the interests
+            of big corporation with politicians and influential entrepeneurs,
+            seeking to build a world government.
             <br />
             If you find any misrepresentation or an entry missing write us at
             hello@penetratethecabinet.com

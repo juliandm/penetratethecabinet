@@ -51,25 +51,8 @@ const Content = ({ data }) => {
     <Box>
       <Box paddingX={{ xs: 0, sm: 4, md: 6 }}>
         <Typography variant={"subtitle1"}>{data.description}</Typography>
-        <Box width={1} height={1} marginY={4}>
-          <img
-            height={"100%"}
-            width={"100%"}
-            src={"https://assets.maccarianagency.com/backgrounds/img4.jpg"}
-            alt="Remote working"
-            loading="lazy"
-            style={{
-              filter:
-                theme.palette.mode === "dark" ? "brightness(0.7)" : "none",
-              objectFit: "cover",
-              borderRadius: 8,
-              width: "100%",
-              height: "100%",
-              maxHeight: 400,
-            }}
-          />
-        </Box>
-        <Typography
+        <Box width={1} height={1} marginY={4}></Box>
+        {/* <Typography
           variant={"h4"}
           color={"primary"}
           align={"center"}
@@ -78,7 +61,7 @@ const Content = ({ data }) => {
           “So many teams struggle to make their onboarding experience anywhere
           near as good as their core product, so the results of this is poor
           retention”
-        </Typography>
+        </Typography> */}
         <Box marginY={4}>
           <Typography variant={"h5"} gutterBottom>
             Big heading for a new topic
@@ -109,7 +92,7 @@ const Content = ({ data }) => {
           </Box>
         </Box>
       </Box>
-      <Box marginY={4}>
+      {/* <Box marginY={4}>
         <ImageList
           variant="quilted"
           cols={3}
@@ -261,7 +244,7 @@ const Content = ({ data }) => {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </Typography>
-      </Box>
+      </Box> */}
       <Box paddingY={4}>
         <Divider />
       </Box>

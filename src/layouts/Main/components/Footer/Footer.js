@@ -93,8 +93,8 @@ const Footer = () => {
           color="text.secondary"
           component={"p"}
         >
-          Not financed by Putin. If you want us to keep the servers running,
-          consider buying me a coffee.
+          If you want us to keep the servers running, consider buying us a
+          coffee. Thanks!
         </Typography>
       </Grid>
     </Grid>
