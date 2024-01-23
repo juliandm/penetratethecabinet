@@ -2,6 +2,7 @@ import json
 import os
 import boto3
 from google_images_search import GoogleImagesSearch
+import time
 
 # Replace these with your Google Custom Search API key and CX.
 your_dev_api_key = os.environ.get('GOOGLE_API_KEY')
@@ -60,9 +61,14 @@ def handler(inputs):
             if person_id in processed:
                 # print(f"Skipping {person['name']} as it has already been processed")
                 continue
-            process_person(person)
-            new_processed.append(person_id)
+            try:
+                process_person(person)
+                new_processed.append(person_id)
+            except Exception as e:
+                print(e)
     except Exception as e:
+        # sleep
+        time.sleep(10)
         print(e)
     
     all_processed = processed + new_processed
