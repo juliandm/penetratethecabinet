@@ -1,5 +1,5 @@
 apiRevision: edurata.io/v1
-runtime: python3_11
+runtime: python3_111
 description: Scraping images using GoogleImagesSearch for a list of people and uploading them to the s3 bucket under their unique id.
 interface:
   inputs:
