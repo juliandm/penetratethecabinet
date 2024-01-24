@@ -39,7 +39,7 @@ const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
 
   return (
     <Box>
-      <Box bgcolor={bgcolor} position={"relative"} zIndex={theme.zIndex.appBar}>
+      <Box position={"relative"} zIndex={theme.zIndex.appBar}>
         <Container paddingTop={"8px !important"} paddingBottom={"0 !important"}>
           {/* <TopNav colorInvert={colorInvert} /> */}
         </Container>
@@ -48,7 +48,9 @@ const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
         position={"sticky"}
         sx={{
           top: 0,
-          backgroundColor: trigger ? theme.palette.background.paper : bgcolor,
+          backgroundColor: trigger
+            ? theme.palette.background.paper
+            : "transparent",
         }}
         elevation={trigger ? 1 : 0}
       >
@@ -67,19 +69,16 @@ const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
         pages={[]}
       />
       <main
-        style={
-          {
-            // overflow: "hidden",
-            // width: "100%",
-          }
-        }
+        style={{
+          // overflow: "hidden",
+          // width: "100%",
+          backgroundColor: bgcolor,
+        }}
       >
         {children}
         <Divider />
       </main>
-      <Container paddingY={4}>
-        <Footer />
-      </Container>
+      <Footer />
     </Box>
   );
 };

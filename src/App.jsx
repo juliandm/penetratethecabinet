@@ -30,7 +30,9 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{
+      // background: "black",
+    }}>
       <CssBaseline />
       <RouterProvider router={router} />
     </div>

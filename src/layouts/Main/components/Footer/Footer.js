@@ -5,13 +5,20 @@ import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@mui/material/styles";
+import Container from "../../../../components/Container";
 
 const Footer = () => {
   const theme = useTheme();
   const { mode } = theme.palette;
 
   return (
-    <Grid container spacing={2}>
+    <Grid
+      container
+      sx={{
+        padding: "0 30px",
+        background: "black",
+      }}
+    >
       <Grid item xs={12}>
         <Box
           display={"flex"}
@@ -33,7 +40,7 @@ const Footer = () => {
           >
             <Typography
               style={{
-                color: "black",
+                color: "white",
               }}
             >
               World economic freedom
@@ -45,7 +52,7 @@ const Footer = () => {
                 underline="none"
                 component="a"
                 href="/"
-                color="text.primary"
+                color="white"
                 variant={"subtitle2"}
               >
                 Home
@@ -57,7 +64,7 @@ const Footer = () => {
                 component="a"
                 href="https://thefront.maccarianagency.com/docs/introduction"
                 target={"blank"}
-                color="text.primary"
+                color="white"
                 variant={"subtitle2"}
               >
                 Documentation
@@ -82,7 +89,7 @@ const Footer = () => {
         <Typography
           align={"center"}
           variant={"subtitle2"}
-          color="text.secondary"
+          color="white"
           gutterBottom
         >
           Created with ❤ in Germany
@@ -90,7 +97,7 @@ const Footer = () => {
         <Typography
           align={"center"}
           variant={"caption"}
-          color="text.secondary"
+          color="white"
           component={"p"}
         >
           If you want us to keep the servers running, consider buying us a
