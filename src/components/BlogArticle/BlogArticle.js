@@ -30,6 +30,14 @@ const BlogArticle = () => {
   const id = pathname.split("/").pop();
   const baseFile = type === "company" ? companies : people;
   const data = baseFile.find((item) => item.id === id);
+  const chunks = data.name.toLowerCase().split(" ");
+  const similar = baseFile
+    .filter(
+      (item) =>
+        item.name &&
+        chunks.every((chunk) => item.name.toLowerCase().includes(chunk))
+    )
+    .slice(0, 3);
   return (
     <Main colorInvert={true}>
       <Box>
@@ -62,14 +70,14 @@ const BlogArticle = () => {
           }}
         >
           <path
-            fill={"blue"}
+            fill={"black"}
             d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"
           ></path>
         </Box>
       </Box>
       <Box bgcolor={"alternate.main"}>
         <Container>
-          <SimilarStories />
+          <SimilarStories similar={similar} />
         </Container>
         {/* <Container>
           <FooterNewsletter />
@@ -87,7 +95,7 @@ const BlogArticle = () => {
           }}
         >
           <path
-            fill={theme.palette.background.paper}
+            fill={"black"}
             d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"
           ></path>
         </Box>

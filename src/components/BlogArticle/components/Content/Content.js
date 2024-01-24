@@ -51,7 +51,7 @@ const Content = ({ data }) => {
     <Box>
       <Box paddingX={{ xs: 0, sm: 4, md: 6 }}>
         <Typography variant={"subtitle1"}>{data.description}</Typography>
-        <Box width={1} height={1} marginY={4}></Box>
+        {/* <Box width={1} height={1} marginY={4}></Box> */}
         {/* <Typography
           variant={"h4"}
           color={"primary"}
@@ -62,7 +62,7 @@ const Content = ({ data }) => {
           near as good as their core product, so the results of this is poor
           retention”
         </Typography> */}
-        <Box marginY={4}>
+        {/* <Box marginY={4}>
           <Typography variant={"h5"} gutterBottom>
             Big heading for a new topic
           </Typography>
@@ -90,9 +90,9 @@ const Content = ({ data }) => {
               </li>
             </ul>
           </Box>
-        </Box>
-      </Box>
-      {/* <Box marginY={4}>
+        </Box> */}
+        {/* </Box> */}
+        {/* <Box marginY={4}>
         <ImageList
           variant="quilted"
           cols={3}
@@ -245,7 +245,7 @@ const Content = ({ data }) => {
           pariatur.
         </Typography>
       </Box> */}
-      <Box paddingY={4}>
+        {/* <Box paddingY={4}>
         <Divider />
       </Box>
       <Box
@@ -277,7 +277,7 @@ const Content = ({ data }) => {
               <TwitterIcon />
             </IconButton>
           </Box>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );

@@ -10,13 +10,10 @@ import Button from "@mui/material/Button";
 
 const mock = [
   {
-    image: "https://assets.maccarianagency.com/backgrounds/img13.jpg",
+    image: "https://wef-images.s3.eu-central-1.amazonaws.com/images/WEF.png",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "The World Economic Forum, committed to improving the state of the world, is the International Organization for Public-Private Cooperation.",
     title: "WEF",
-    author: {
-      name: "Clara Bertoletti",
-    },
     date: "04 Aug",
   },
   // {
@@ -91,7 +88,7 @@ const SidebarArticles = () => {
                   src={item.image}
                   alt="..."
                   sx={{
-                    objectFit: "cover",
+                    objectFit: "contain",
                     maxHeight: 120,
                     borderRadius: 2,
                     filter:
@@ -111,7 +108,7 @@ const SidebarArticles = () => {
                     color={"text.secondary"}
                     component={"i"}
                   >
-                    {item.author.name} - {item.date}
+                    {item.description}
                   </Typography>
                 </Box>
                 <Button size={"small"}>Read More</Button>

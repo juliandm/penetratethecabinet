@@ -85,25 +85,25 @@ const Hero = ({ data }) => {
             /> */}
             <ListItemText
               sx={{ margin: 0 }}
-              primary={
+              primary={data.title}
+              secondary={
                 <a
                   href={data.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
-                    color: "white",
+                    color: "#dcdcdc",
                   }}
                 >
                   Source
                 </a>
               }
-              secondary={"May 19, 2021"}
               primaryTypographyProps={{
                 variant: "h6",
                 sx: { color: "common.white" },
               }}
               secondaryTypographyProps={{
-                sx: { color: alpha("#ffffff", 0.8) },
+                sx: { color: alpha("#ffffff", 0.8), marginTop: 2 },
               }}
             />
           </Box>
