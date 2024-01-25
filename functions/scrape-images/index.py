@@ -55,7 +55,7 @@ def handler(inputs):
     try:
         # Iterate through each person in the JSON file
         for per_index, person in enumerate(people):
-            if err_count > 6:
+            if err_count > 7:
                 print(f"Too many errors, exiting...")
                 break
             if len(new_processed) >= limit:
