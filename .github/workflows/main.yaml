@@ -25,4 +25,5 @@ jobs:
 
       - name: Sync files to S3 bucket
         run: |
+          npm run build
           aws s3 sync ./build s3://${{ env.S3_BUCKET_NAME }}
