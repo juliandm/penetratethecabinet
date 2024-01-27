@@ -17,13 +17,29 @@ import { useNavigate } from "react-router-dom";
 import Main from "../../layouts/Main";
 import Container from "../Container";
 import harold from "../../pictures/harold.webp";
+import { Skeleton } from "@mui/material";
 
+let timeoutId = null;
 const Result = () => {
   const theme = useTheme();
   const [search, setSearch] = React.useState("");
-  const renderSearch = search.length > 3;
-  const chunks = search.toLowerCase().split(" ");
+  const [renderSearch, setRenderSearch] = React.useState(false);
   const navigate = useNavigate();
+
+  React.useEffect(() => {
+    console.log("test", search, renderSearch);
+    clearTimeout(timeoutId);
+    // Set a timeout to delay rendering the search results
+    setRenderSearch(false);
+
+    timeoutId = setTimeout(() => {
+      setRenderSearch(true);
+    }, 500); // Adjust the timeout duration (in milliseconds) as needed
+
+    // Clear the timeout if the search string changes before the timeout completes
+    return () => clearTimeout(timeoutId);
+  }, [search]);
+  const chunks = search.toLowerCase().split(" ");
   const companies = companiesAll
     .filter(
       (item) =>
@@ -43,6 +59,8 @@ const Result = () => {
     )
     .map((item) => ({ ...item, type: "person" }));
   const all = [...companies, ...people];
+  const outOfBounds =
+    all.length > 30 || search.length === 0 || !renderSearch || all.length === 0;
   return (
     <Main bgcolor="black">
       <Container backgroundColor="black">
@@ -123,8 +141,17 @@ const Result = () => {
               big corporation with politicians and influential entrepeneurs,
               with the goal to build a world government.
               <br />
-              If you find any misrepresentation or an entry missing write us at
-              hello@penetratethecabinet.com
+            </Typography>
+            <Typography variant="h8" component="p" color="white">
+              Some pictures might be off, if you find any misrepresentation or
+              entries, feel free to create a Pull request on{" "}
+              <a
+                href="https://github.com/juliandm/penetratethecabinet"
+                style={{ color: "white" }}
+              >
+                Github
+              </a>
+              .
             </Typography>
           </Box>
           <Box p={5}>
@@ -202,7 +229,19 @@ const Result = () => {
               </form>
             </Box>
             <Grid container spacing={4}>
-              {renderSearch &&
+              {outOfBounds ? (
+                <Grid item xs={12} key={0} minHeight="300px">
+                  <Typography color="white">
+                    {!renderSearch
+                      ? "Searching.."
+                      : all.length === 0
+                      ? "No results found."
+                      : search.length === 0
+                      ? "Search for a company or person."
+                      : "Too many results. Please refine your search."}
+                  </Typography>
+                </Grid>
+              ) : (
                 all.map((item, i) => (
                   <Grid item xs={12} sm={6} md={4} key={i}>
                     <Box
@@ -300,7 +339,8 @@ const Result = () => {
                       </Box>
                     </Box>
                   </Grid>
-                ))}
+                ))
+              )}
               {/* <Grid item container justifyContent={"center"} xs={12}>
               <Button
                 fullWidth

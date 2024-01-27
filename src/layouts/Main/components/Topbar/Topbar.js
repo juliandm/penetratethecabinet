@@ -7,6 +7,8 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import { NavItem } from "./components";
 import { Typography } from "@mui/material";
+import { GitHub } from "@mui/icons-material";
+import { grey } from "@mui/material/colors";
 
 const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   const theme = useTheme();
@@ -64,18 +66,25 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             colorInvert={colorInvert}
           />
         </Box>
-        {/* <Box marginLeft={4}>
+        <Box marginLeft={4}>
           <Button
+            startIcon={<GitHub />}
             variant="contained"
-            color="primary"
             component="a"
             target="blank"
-            href="https://mui.com/store/items/the-front-landing-page/"
-            size="large"
+            href="https://github.com/juliandm/penetratethecabinet"
+            size="medium"
+            sx={{
+              color: "white",
+              backgroundColor: "black",
+              "&:hover": {
+                backgroundColor: grey[800],
+              },
+            }}
           >
-            Buy now
-          </Button> */}
-        {/* </Box> */}
+            Get involved
+          </Button>
+        </Box>
       </Box>
       <Box sx={{ display: { xs: "block", md: "none" } }} alignItems={"center"}>
         <Button

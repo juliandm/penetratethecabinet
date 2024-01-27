@@ -6,6 +6,7 @@ import Link from "@mui/material/Link";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@mui/material/styles";
 import Container from "../../../../components/Container";
+import { Coffee } from "@mui/icons-material";
 
 const Footer = () => {
   const theme = useTheme();
@@ -72,6 +73,7 @@ const Footer = () => {
             </Box>
             <Box marginTop={1}>
               <Button
+                startIcon={<Coffee />}
                 variant="outlined"
                 color="primary"
                 component="a"
@@ -100,8 +102,16 @@ const Footer = () => {
           color="white"
           component={"p"}
         >
-          If you want us to keep the servers running, consider buying us a
-          coffee. Thanks!
+          If you want to help finance the server costs, consider buying me a
+          coffee. Also it would be great if you could help out with data
+          collection on{" "}
+          <a
+            href="https://github.com/juliandm/penetratethecabinet"
+            style={{ color: "white" }}
+          >
+            github
+          </a>{" "}
+          so it's not just on me. Thanks!
         </Typography>
       </Grid>
     </Grid>

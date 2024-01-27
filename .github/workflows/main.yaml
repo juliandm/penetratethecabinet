@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      S3_BUCKET_NAME: your-s3-bucket-name
-      AWS_DEFAULT_REGION: us-east-1
+      S3_BUCKET_NAME: penetratethecabinet.com
+      AWS_DEFAULT_REGION: eu-central-1
 
     steps:
       - name: Checkout code
