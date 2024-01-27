@@ -28,5 +28,5 @@ jobs:
           npm install
           npm run build
           # print the identity
-          aws get-caller-identity
+          aws sts get-caller-identity
           aws s3 sync ./build s3://${{ env.S3_BUCKET_NAME }}
