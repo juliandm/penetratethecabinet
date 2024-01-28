@@ -29,7 +29,7 @@ steps:
         - key: people.json
         - key: processed-images.json
   scrape-images:
-    timeout: 10001
+    timeout: -1
     source:
       repoUrl: https://github.com/juliandm/penetratethecabinet.git
       path: functions/scrape-images
