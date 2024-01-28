@@ -4,7 +4,7 @@ import boto3
 from google_images_search import GoogleImagesSearch
 import time
 
-# Replace these with your Google Custom Search API key and CX.
+# Replace these with your Google Custom Search API key and CX..
 your_dev_api_key = os.environ.get('GOOGLE_API_KEY')
 your_project_cx = "006863545528577858039:0nolajxzv2m"
 bucket_name = os.environ.get('BUCKET_NAME') or 'wef-images'
