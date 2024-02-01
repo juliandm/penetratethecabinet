@@ -1,10 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import { useTheme } from '@mui/material/styles';
+import React from "react";
+import PropTypes from "prop-types";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import { useTheme } from "@mui/material/styles";
 
-import NavItem from './components/NavItem';
+import NavItem from "./components/NavItem";
+import { grey } from "@mui/material/colors";
+import { GitHub } from "@mui/icons-material";
+import { Typography } from "@mui/material";
 
 const SidebarNav = ({ pages }) => {
   const theme = useTheme();
@@ -18,71 +21,72 @@ const SidebarNav = ({ pages }) => {
     portfolio: portfolioPages,
     blog: blogPages,
   } = pages;
-
+  const colorInvert = mode === "light";
   return (
     <Box>
       <Box width={1} paddingX={2} paddingY={1}>
         <Box
-          display={'flex'}
+          display={"flex"}
           component="a"
           href="/"
           title="theFront"
           width={{ xs: 100, md: 120 }}
+          style={{
+            textDecoration: "none",
+            color: "white",
+          }}
         >
-          <Box
-            component={'img'}
-            src={
-              mode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
-            }
-            height={1}
-            width={1}
-          />
+          <Typography
+            style={{
+              color: colorInvert ? "white" : "black",
+            }}
+          >
+            World economic freedom
+          </Typography>
         </Box>
       </Box>
       <Box paddingX={2} paddingY={2}>
-        <Box>
-          <NavItem title={'Landings'} items={landingPages} />
+        <Box marginLeft={4}>
+          <NavItem
+            title={"Energy"}
+            id={"climate-pages"}
+            // items={climate}
+            // colorInvert={colorInvert}
+          />
         </Box>
-        <Box>
-          <NavItem title={'Company'} items={companyPages} />
+        <Box marginLeft={4}>
+          <NavItem
+            title={"Health"}
+            id={"health-pages"}
+            // items={health}
+            // colorInvert={colorInvert}
+          />
         </Box>
-        <Box>
-          <NavItem title={'Pages'} items={secondaryPages} />
+        <Box marginLeft={4}>
+          <NavItem
+            title={"Peace"}
+            id={"war-pages"}
+            // items={war}
+            // colorInvert={colorInvert}
+          />
         </Box>
-        <Box>
-          <NavItem title={'Account'} items={accountPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Blog'} items={blogPages} />
-        </Box>
-        <Box>
-          <NavItem title={'Portfolio'} items={portfolioPages} />
-        </Box>
-        <Box marginTop={2}>
+        <Box marginLeft={4}>
           <Button
-            size={'large'}
-            variant="outlined"
-            fullWidth
-            component="a"
-            href="https://thefront.maccarianagency.com/docs/introduction"
-            target={'blank'}
-          >
-            Documentation
-          </Button>
-        </Box>
-        <Box marginTop={1}>
-          <Button
-            size={'large'}
+            startIcon={<GitHub />}
             variant="contained"
-            color="primary"
-            fullWidth
             component="a"
             target="blank"
-            href="https://mui.com/store/items/the-front-landing-page/"
+            href="https://github.com/juliandm/penetratethecabinet"
+            size="medium"
+            sx={{
+              color: "white",
+              backgroundColor: "black",
+              "&:hover": {
+                backgroundColor: grey[800],
+              },
+            }}
           >
-            Purchase now
+            Get involved
           </Button>
         </Box>
       </Box>

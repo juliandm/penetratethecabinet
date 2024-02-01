@@ -95,7 +95,8 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             borderRadius: 2,
             minWidth: "auto",
             padding: 1,
-            borderColor: alpha(theme.palette.divider, 0.2),
+            borderColor: "black !important",
+            color: "black !important",
           }}
         >
           <MenuIcon />
