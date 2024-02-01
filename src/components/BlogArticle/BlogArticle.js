@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import useMediaQuery from "@mui/material/useMediaQuery";
-
+import SimpleBackdrop from "../LoadingPage";
 import Main from "../../layouts/Main";
 import Container from "../Container";
 import {
@@ -15,22 +15,39 @@ import {
   SimilarStories,
 } from "./components";
 import { useLocation } from "react-router-dom";
-import companies from "../../data/companies.json";
-import people from "../../data/people.json";
 
 const BlogArticle = () => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up("md"), {
     defaultMatches: true,
   });
+
+  // load data from json
+  // fetch data
+  const [companiesAll, setCompaniesAll] = React.useState([]);
+  const [peopleAll, setPeopleAll] = React.useState([]);
+
+  React.useEffect(() => {
+    console.log("loading data..");
+    const companies = require("../../data/companies.json");
+    const people = require("../../data/people.json");
+    setCompaniesAll(companies);
+    setPeopleAll(people);
+    console.log("data loaded");
+  }, []);
+
   // get path from router
   const { pathname } = useLocation();
   // extract id from path
   const type = pathname.split("/")[1];
   const id = pathname.split("/").pop();
-  const baseFile = type === "company" ? companies : people;
-  const data = baseFile.find((item) => item.id === id);
-  const chunks = data.name.toLowerCase().split(" ");
+  const baseFile = type === "company" ? companiesAll : peopleAll;
+  const data = baseFile.find((item) => item.id === id) || {
+    name: "Loading...",
+    description: "Loading...",
+    id: "loading",
+  };
+  const chunks = data ? data.name.toLowerCase().split(" ") : [];
   const similar = baseFile
     .filter(
       (item) =>
@@ -40,6 +57,7 @@ const BlogArticle = () => {
     .slice(0, 3);
   return (
     <Main colorInvert={true}>
+      <SimpleBackdrop open={!data.id} />
       <Box>
         <Hero data={data} />
         <Container>

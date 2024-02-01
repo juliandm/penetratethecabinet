@@ -7,7 +7,8 @@ import Avatar from "@mui/material/Avatar";
 
 import Container from "../../../Container";
 
-const Hero = ({ data }) => {
+const Hero = (props) => {
+  const { data } = props;
   useEffect(() => {
     const jarallaxInit = async () => {
       const jarallaxElems = document.querySelectorAll(".jarallax");
