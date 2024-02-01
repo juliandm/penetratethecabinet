@@ -11,8 +11,6 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Avatar from "@mui/material/Avatar";
 import InputAdornment from "@mui/material/InputAdornment";
-import companiesAll from "../../data/companies.json";
-import peopleAll from "../../data/people.json";
 import { useNavigate } from "react-router-dom";
 import Main from "../../layouts/Main";
 import Container from "../Container";
@@ -26,8 +24,20 @@ const Result = () => {
   const [renderSearch, setRenderSearch] = React.useState(false);
   const navigate = useNavigate();
 
+  // fetch data
+  const [companiesAll, setCompaniesAll] = React.useState([]);
+  const [peopleAll, setPeopleAll] = React.useState([]);
+
   React.useEffect(() => {
-    console.log("test", search, renderSearch);
+    console.log("loading data..");
+    const companies = require("../../data/companies.json");
+    const people = require("../../data/people.json");
+    setCompaniesAll(companies);
+    setPeopleAll(people);
+    console.log("data loaded");
+  }, []);
+
+  React.useEffect(() => {
     clearTimeout(timeoutId);
     // Set a timeout to delay rendering the search results
     setRenderSearch(false);
